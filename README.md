@@ -60,3 +60,5 @@ While a workflow could be made in almost any way imaginable, there are some tips
 - Never use `.baseName` to remove file extension, instead use (e.g.) `.name.replaceAll('.fastq.gz', '')`
 
 --------------------
+
+## Workflow Overview 
