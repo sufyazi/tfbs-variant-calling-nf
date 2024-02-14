@@ -16,7 +16,7 @@ def helpMessage() {
     log.info"""
 Usage:
 
-nextflow run FredHutch/workflow-template-nextflow <ARGUMENTS>
+nextflow run main.nf <ARGUMENTS>
 
 Required Arguments:
 
