@@ -21,22 +21,19 @@ nextflow run main.nf <ARGUMENTS>
 Required Arguments:
 
   Input Data:
-  --fastq_folder        Folder containing paired-end FASTQ files ending with .fastq.gz,
-                        containing either "_R1" or "_R2" in the filename.
-  or
-  --manifest            Single file with the location of all input data. Must be formatted
-                        as a CSV with columns: sample,R1,R2
+  --bam_folder        Folder containing directories of datasets containing BAM files ending with .bam, alongside a corresponding .bam.bai file
+
+  --dataset_id_list   List of dataset IDs to process, one per line
 
   Reference Data:
   --genome_fasta        Reference genome to use for alignment, in FASTA format
 
   Output Location:
   --output_folder       Folder for output files
-
-Optional Arguments:
-  --min_qvalue          Minimum quality score used to trim data (default: ${params.min_qvalue})
-  --min_align_score     Minimum alignment score (default: ${params.min_align_score})
     """.stripIndent()
+// Optional Arguments:
+//   --min_qvalue          Minimum quality score used to trim data (default: ${params.min_qvalue})
+//   --min_align_score     Minimum alignment score (default: ${params.min_align_score})
 }
 
 
@@ -52,21 +49,27 @@ workflow {
         exit 1
     }
 
-    // The user should specify --fastq_folder OR --manifest, but not both
-    if ( params.fastq_folder && params.manifest ){
+    // The user should specify --bam_folder AND --dataset_id_list
+    if ( ! params.bam_folder || ! params.dataset_id_list ){
         log.info"""
-        User may specify --fastq_folder OR --manifest, but not both
+        User must specify --bam_folder AND --dataset_id_list
         """.stripIndent()
         // Exit out and do not run anything else
         exit 1
     }
-    if ( ! params.fastq_folder && ! params.manifest ){
+    if ( params.bam_folder && params.dataset_id_list){
         log.info"""
-        User must specify --fastq_folder or --manifest.
-        Run with --help for more details.
+        User has specified --bam_folder AND --dataset_id_list. Proceeding with workflow.
         """.stripIndent()
-        // Exit out and do not run anything else
-        exit 1
+        // Make a channel with the input FASTQ read pairs from the --fastq_folder
+        // After calling `fromFilePairs`, the structure must be changed from
+        // [specimen, [R1, R2]]
+        // to
+        // [specimen, R1, R2]
+        // with the map{} expression
+
+        // Define the pattern which will be used to find the FASTQ files
+        fastq_pattern = "${params.fastq_folder}/*_R{1,2}*fastq.gz"
     }
 
     // If the --fastq_folder input option was provided
