@@ -1,6 +1,10 @@
+#!/usr/bin/env nextflow
 
-// Process that find bam file paths and store them in a channel
-process findpaths {
+// Using DSL-2
+nextflow.enable.dsl=2
+
+// Process the bam file paths and store them in a channel
+process findPaths {
     
     input:
     tuple val(specimen), path(R1), path(R2)

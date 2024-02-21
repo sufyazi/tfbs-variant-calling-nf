@@ -6,9 +6,7 @@ nextflow.enable.dsl=2
 // All of the default parameters are being set in `nextflow.config`
 
 // Import sub-workflows
-include { validate_manifest } from './modules/manifest'
-include { quality_wf } from './modules/quality'
-include { align_wf } from './modules/align'
+include { findPaths } from './modules/findPaths'
 
 
 // Function which prints help message text
@@ -57,30 +55,17 @@ workflow {
         // Exit out and do not run anything else
         exit 1
     }
+
     if ( params.bam_folder && params.dataset_id_list){
         log.info"""
-        User has specified --bam_folder AND --dataset_id_list. Proceeding with workflow.
+        User has specified --bam_folder AND --dataset_id_list. Proceeding with workflow...
         """.stripIndent()
-        // Make a channel with the input FASTQ read pairs from the --fastq_folder
-        // After calling `fromFilePairs`, the structure must be changed from
-        // [specimen, [R1, R2]]
-        // to
-        // [specimen, R1, R2]
-        // with the map{} expression
-
-        // Define the pattern which will be used to find the FASTQ files
-        fastq_pattern = "${params.fastq_folder}/*_R{1,2}*fastq.gz"
-    }
-
-    // If the --fastq_folder input option was provided
-    if ( params.fastq_folder ){
-
-        // Make a channel with the input FASTQ read pairs from the --fastq_folder
-        // After calling `fromFilePairs`, the structure must be changed from
-        // [specimen, [R1, R2]]
-        // to
-        // [specimen, R1, R2]
-        // with the map{} expression
+        
+        // create a channel of dataset IDs from the dataset_id_list file
+        dataset_id_ch  = Channel
+                                .fromPath(params.dataset_id_list)
+                                .splitText()
+                                .map{ it.trim() }
 
         // Define the pattern which will be used to find the FASTQ files
         fastq_pattern = "${params.fastq_folder}/*_R{1,2}*fastq.gz"
@@ -92,6 +77,7 @@ workflow {
             .map{
                 [it[0], it[1][0], it[1][1]]
             }
+    }
 
     // Otherwise, they must have provided --manifest
     } else {
