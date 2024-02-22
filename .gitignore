@@ -2,3 +2,5 @@
 .nextflow/
 work/
 .vscode/
+temp_dir/
+test_data/output/

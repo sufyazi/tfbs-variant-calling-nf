@@ -7,7 +7,7 @@ nextflow.enable.dsl=2
 process findPaths {
     
     input:
-    tuple val(specimen), path(R1), path(R2)
+    tuple path(bam_file), val(tf_prefix)
 
     output:
     path "fastqc/*.zip", emit: zip

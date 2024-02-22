@@ -1,0 +1,76 @@
+Feb-22 18:50:03.626 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf
+Feb-22 18:50:03.662 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.10.1
+Feb-22 18:50:03.674 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/Users/sufyazi/.nextflow/plugins; core-plugins: nf-amazon@2.1.4,nf-azure@1.3.3,nf-cloudcache@0.3.0,nf-codecommit@0.1.5,nf-console@1.0.6,nf-ga4gh@1.1.0,nf-google@1.8.3,nf-tower@1.6.3,nf-wave@1.0.1
+Feb-22 18:50:03.680 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Feb-22 18:50:03.680 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Feb-22 18:50:03.681 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Feb-22 18:50:03.687 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Feb-22 18:50:03.697 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /Users/sufyazi/Documents/local-storage/bioinf/repos/tfbs-variant-calling/nextflow.config
+Feb-22 18:50:03.698 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/sufyazi/Documents/local-storage/bioinf/repos/tfbs-variant-calling/nextflow.config
+Feb-22 18:50:03.714 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Feb-22 18:50:03.956 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Feb-22 18:50:03.964 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [deadly_franklin] DSL2 - revision: f0f025580d
+Feb-22 18:50:03.965 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Feb-22 18:50:03.965 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Feb-22 18:50:03.969 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /Users/sufyazi/.nextflow/secrets/store.json
+Feb-22 18:50:03.971 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@50fb33a] - activable => nextflow.secret.LocalSecretsProvider@50fb33a
+Feb-22 18:50:04.000 [main] DEBUG nextflow.Session - Session UUID: 6951b95d-d3c9-4429-aadd-e1ab3ae23bbb
+Feb-22 18:50:04.000 [main] DEBUG nextflow.Session - Run name: deadly_franklin
+Feb-22 18:50:04.000 [main] DEBUG nextflow.Session - Executor pool size: 10
+Feb-22 18:50:04.004 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Feb-22 18:50:04.165 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 23.10.1 build 5891
+  Created: 12-01-2024 22:01 UTC (13-01-2024 06:01 SGST)
+  System: Mac OS X 14.2.1
+  Runtime: Groovy 3.0.19 on OpenJDK 64-Bit Server VM 21.0.1
+  Encoding: UTF-8 (UTF-8)
+  Process: 32217@Suffians-MacBook-Pro-2.local [10.87.31.216]
+  CPUs: 10 - Mem: 16 GB (71.1 MB) - Swap: 2 GB (812.3 MB) - Virtual threads ON
+Feb-22 18:50:04.181 [main] DEBUG nextflow.Session - Work-dir: /Users/sufyazi/Documents/local-storage/bioinf/repos/tfbs-variant-calling/work [Mac OS X]
+Feb-22 18:50:04.195 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Feb-22 18:50:04.202 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Feb-22 18:50:04.214 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Feb-22 18:50:04.219 [main] DEBUG nextflow.util.CustomPoolFactory - Creating virtual thread pool
+Feb-22 18:50:04.253 [main] DEBUG nextflow.Session - Session start
+Feb-22 18:50:04.374 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Feb-22 18:50:04.445 [main] INFO  nextflow.Nextflow - Preparing the input data...
+Feb-22 18:50:04.503 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-22 18:50:04.503 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-22 18:50:04.505 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Feb-22 18:50:04.508 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=10; memory=16 GB; capacity=10; pollInterval=100ms; dumpInterval=5m
+Feb-22 18:50:04.509 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Feb-22 18:50:04.535 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: prepareTFBS
+Feb-22 18:50:04.535 [main] DEBUG nextflow.Session - Igniting dataflow network (2)
+Feb-22 18:50:04.538 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > prepareTFBS
+Feb-22 18:50:04.538 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_e7ff45867acbc191: /Users/sufyazi/Documents/local-storage/bioinf/repos/tfbs-variant-calling/./modules/prepareTFBS.nf
+  Script_beb865da250308c7: /Users/sufyazi/Documents/local-storage/bioinf/repos/tfbs-variant-calling/main.nf
+Feb-22 18:50:04.538 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Feb-22 18:50:04.538 [main] DEBUG nextflow.Session - Session await
+Feb-22 18:50:04.538 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: /Users/sufyazi/Documents/local-storage/bioinf/repos/tfbs-variant-calling/temp_dir/; pattern: *.parquet; options: [:]
+Feb-22 18:50:04.637 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-22 18:50:04.638 [Task submitter] INFO  nextflow.Session - [b5/a6c6cb] Submitted process > prepareTFBS (1)
+Feb-22 18:50:04.642 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-22 18:50:04.642 [Task submitter] INFO  nextflow.Session - [a6/ecb1e8] Submitted process > prepareTFBS (6)
+Feb-22 18:50:04.646 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-22 18:50:04.646 [Task submitter] INFO  nextflow.Session - [9c/f3466e] Submitted process > prepareTFBS (2)
+Feb-22 18:50:04.655 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-22 18:50:04.655 [Task submitter] INFO  nextflow.Session - [74/99e3d4] Submitted process > prepareTFBS (3)
+Feb-22 18:50:04.658 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-22 18:50:04.658 [Task submitter] INFO  nextflow.Session - [07/41ca34] Submitted process > prepareTFBS (4)
+Feb-22 18:50:04.661 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-22 18:50:04.661 [Task submitter] INFO  nextflow.Session - [d9/3e6165] Submitted process > prepareTFBS (5)
+Feb-22 18:50:07.853 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 6; name: prepareTFBS (6); status: COMPLETED; exit: 0; error: -; workDir: /Users/sufyazi/Documents/local-storage/bioinf/repos/tfbs-variant-calling/work/a6/ecb1e8c0db903cc44378cc414565b6]
+Feb-22 18:50:08.509 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: prepareTFBS (4); status: COMPLETED; exit: 0; error: -; workDir: /Users/sufyazi/Documents/local-storage/bioinf/repos/tfbs-variant-calling/work/07/41ca341884a7271fbe7d099fd0a2ca]
+Feb-22 18:50:09.480 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: prepareTFBS (2); status: COMPLETED; exit: 0; error: -; workDir: /Users/sufyazi/Documents/local-storage/bioinf/repos/tfbs-variant-calling/work/9c/f3466e055956173d0725f81473f247]
+Feb-22 18:50:09.983 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: prepareTFBS (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/sufyazi/Documents/local-storage/bioinf/repos/tfbs-variant-calling/work/b5/a6c6cbcbacad8607fb31cbbd595d41]
+Feb-22 18:50:10.574 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: prepareTFBS (3); status: COMPLETED; exit: 0; error: -; workDir: /Users/sufyazi/Documents/local-storage/bioinf/repos/tfbs-variant-calling/work/74/99e3d4d1dcca8cd1544fdd7c6b286f]
+Feb-22 18:50:11.068 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: prepareTFBS (5); status: COMPLETED; exit: 0; error: -; workDir: /Users/sufyazi/Documents/local-storage/bioinf/repos/tfbs-variant-calling/work/d9/3e61656841349ad9c8363d85b4e02b]
+Feb-22 18:50:11.071 [main] DEBUG nextflow.Session - Session await > all processes finished
+Feb-22 18:50:11.172 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Feb-22 18:50:11.172 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Feb-22 18:50:11.176 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+Feb-22 18:50:11.183 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=6; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=29.1s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=6; peakCpus=6; peakMemory=0; ]
+Feb-22 18:50:11.248 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Feb-22 18:50:11.257 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Feb-22 18:50:11.258 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

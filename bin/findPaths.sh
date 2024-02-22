@@ -5,10 +5,9 @@ set -euo pipefail
 
 echo "Finding input file paths..."
 
-
 # check arguments
 if [ "$#" -ne 2 ]; then
-    echo "Usage: find-paths.sh <input_folder> <dataset_id_list_one_col>"
+    echo "Usage: findPaths.sh <input_folder> <dataset_id_list_one_col>"
     exit 1
 fi
 
@@ -39,10 +38,4 @@ for data_id in "${data_ids[@]}"; do
 done
 
 
-
-
-
-echo "Running FASTQC"
-fastqc -o fastqc "$R1" "$R2"
-
-echo "DONE"
+echo "DONE!"
