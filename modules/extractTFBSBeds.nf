@@ -1,11 +1,11 @@
 #!/usr/bin/env nextflow
 
-process prepareTFBS {
-    // Run inside a container with Python/Pandas installed
+// Extract TFBS from TOBIAS footprint motif matrices
+process extractTFBSBeds {
+
     container "${params.container__bcftools}"
 
     publishDir "${params.output_dir}/sorted_beds/", mode: 'copy', overwrite: true
-
 
     input:
         tuple path(matrix), val(motifid)

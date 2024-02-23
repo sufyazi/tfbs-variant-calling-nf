@@ -61,3 +61,8 @@ While a workflow could be made in almost any way imaginable, there are some tips
 --------------------
 
 ## Workflow Overview 
+
+1. Gather all the FPS matrix files and then extract the footprint regions from the matrix files into sorted BED files.
+2. Find all the BAM files corresponding to dataset ID input list and then extract the file paths into a file.
+3. Call variants using `mpileup` on the BAM files and the footprint regions.
+    - Need to parallelize for each motif ID (1360) per dataset ID (70).
