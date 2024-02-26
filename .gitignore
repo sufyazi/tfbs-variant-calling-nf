@@ -2,5 +2,7 @@
 .nextflow/
 work/
 .vscode/
+nextflow.log
 temp_dir/
 test_data/output/
+temp_dir-cluster/

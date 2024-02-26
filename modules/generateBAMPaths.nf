@@ -3,7 +3,7 @@
 // Extract the BAM file paths from the input folder
 process generateBAMPaths {
     
-    container "${params.container__bcftools}"
+    // container "${params.container__bcftools}"
     
     input:
     tuple val(datasetID), val(bams)

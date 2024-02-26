@@ -3,7 +3,7 @@
 // Extract TFBS from TOBIAS footprint motif matrices
 process extractTFBSBeds {
 
-    container "${params.container__bcftools}"
+    // container "${params.container__bcftools}"
 
     publishDir "${params.output_dir}/sorted_beds/", mode: 'copy', overwrite: true
 
