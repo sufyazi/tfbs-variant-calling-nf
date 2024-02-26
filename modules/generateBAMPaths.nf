@@ -16,5 +16,4 @@ process generateBAMPaths {
     """
     echo "${bams_formatted}" > ${datasetID}.bamlist.txt
     """
-
 }

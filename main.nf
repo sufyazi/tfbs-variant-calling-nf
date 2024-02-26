@@ -93,6 +93,12 @@ workflow {
 
         // Generate a list of all the bam files for all the dataset IDs 
         generateBAMPaths(datasetIDBams_ch)
+
+        // now we can run the variant-calling process
+        /* variantCallmpileup(
+            generateBAMPaths.out.bam
+        )*/
+        
     }
 
     // // Perform quality trimming on the input 
