@@ -4,6 +4,7 @@
 // Import sub-workflows
 include { extractTFBSBeds } from './modules/extractTFBSBeds'
 include { generateBAMPaths } from './modules/generateBAMPaths'
+include { callVariants } from './modules/callVariants'
 
 // Function which prints help message text
 def helpMessage() {
@@ -13,18 +14,16 @@ Usage:
 nextflow run main.nf <--OPTION NAME> <ARGUMENT>
 
 Required Arguments:
-    -profile                      Nextflow profile to use for the subworkflows. Specify `bedfile_extraction` to run the TFBS bed file generation subworkflow. Omit this Nextflow option if default profile (run main workflow only) is desired. 
-    --run_mode                    Set the run mode for the workflow. Options are `all` for all available dataset IDs in the base directory [--bam_dir] or `subset` for just the IDs specified in the list provided with [--dataset_id_list]. Default is `subset`
+    --run_mode                    Set the run mode for the workflow. Options are `all` for all available dataset IDs in the base directory [--bam_dir] or `subset` for just the IDs specified in the list provided with [--dataset_id_list]. Default is `all` if not explicitly set
     --help                        Print this help message and exit
 
   Input paths:
     --bam_dir                     Path to base directory where directories of datasets containing BAM files and their respective bai index files are located [MANDATORY]
     --genome_fasta                Path to the reference genome fasta file [MANDATORY]
-    --fpscore_matrix              Path to base directory where the merged footprint score matrix files of all studied motifs are located. Required if `-profile bedfile_extraction` is set
+    --fpscore_matrix              Globbed path to base directory (path/to/dir/*.ext) where the merged footprint score matrix files of all studied motifs are located (saved as parquet files) [MANDATORY]
 
-  Input manifests:
-    --tfbs_prefix_list            Path to a list of motif ID prefixes for the TFBS matrices. Required if [-profile bedfile_extraction] is set
-    --dataset_id_list             Path to a list of dataset IDs to work on. [MANDATORY as --run_mode is set to `subset` by default]
+  Input manifest:
+    --dataset_id_list             Path to a list of dataset IDs to work on. Required if [--run_mode] is set to `subset`
 
   Output path:
     --output_dir                  Directory path for output VCF files [MANDATORY]
@@ -36,7 +35,7 @@ Required Arguments:
 workflow {
     // Show help message if the user specifies the --help flag at runtime
     // or if any required params are not provided
-    if ( params.help || params.bam_dir == false || params.output_dir == false || params.genome_fasta == false ){
+    if ( params.help || params.bam_dir == false || params.output_dir == false || params.genome_fasta == false || params.fpscore_matrix == false ){
         // Invoke the function above which prints the help message
         helpMessage()
         // Exit out and do not run anything else
@@ -47,38 +46,40 @@ workflow {
         // Preparing the input data
         log.info "Preparing the input data..."
 
-        // Check if the bedfile_extraction profile is set
-        if ( params.subworkflow ){
-            log.info "The <bedfile_extraction> profile has been set. Running the TFBS bed file generation subworkflow..."
-            // Check if fpscore_matrix is provided
-            if (params.fpscore_matrix == false){
-                log.error "The [--fpscore_matrix] parameter is required to run TFBS bed file generation."
-                exit 1
-            }
-            // Set up a channel to grab all the matrix files in the input folder
-            in_matrix = Channel.fromPath(params.fpscore_matrix)//.view()
-            // Extract the prefix from the input files and return a tuple of the file and the prefix
-            motifMatrix_ch = in_matrix.map{ file -> [file, file.baseName.replaceAll("_tfbs_merged_matrix-full", "")] }//.view()
-            // Also create a channel just of the prefixes
-            motifPrefix_ch = motifMatrix_ch.map{ it[1] }//.view()
+        def matrixFiles = []
         
-            // Run the sub-workflow to extract the TFBS as sorted bed files
-            // Extract the TF footprint regions (TFBS) from the input fps matrix files
-            extractTFBSBeds(motifMatrix_ch)
+        log.info "Checking whether the directory of footprint score matrices is valid..."
 
-        } else {
-            log.info "Skipping the extraction of TFBS as bed files..."
-
-            // Check if tfbs_prefix_list is provided
-            if (params.tfbs_prefix_list == false){
-                log.error "The [--tfbs_prefix_list] parameter is required to run the main workflow if TFBS bed file generation is skipped."
+        // Check if fpscore_matrix is not valid dir or does not exist
+        if ( file(params.fpscore_matrix).isDirectory() == false || file(params.fpscore_matrix).exists() == false ) {
+            log.error "The footprint matrix directory is not a valid directory or does not exist. Please provide a valid directory path."
+            exit 1
+        }
+        else {
+            log.info "The footprint matrix provided is valid. Getting a list of the matrix files..."
+            file(params.fpscore_matrix).eachFileMatch(~/.*\.parquet$/) { file ->
+                                                                        matrixFiles << file
+                                                                        }
+            log.info "Total number of matrix files found: ${matrixFiles.size}"
+            if (matrixFiles.size() == 0){
+                log.error "No matrix files were found in the provided directory. Please provide a valid directory path containing matrix files with the .parquet extension."
                 exit 1
             } else {
-                // Set up a channel to grab all the motif ID prefixes provided in the input list
-                motifPrefix_ch = Channel.fromPath(params.tfbs_prefix_list).splitText().map { it.trim() }//.view()
+                log.info "Printing matrix file no. 1: ${matrixFiles[0]}"
             }
         }
+    
+        // Set up a channel to grab all the matrix files in the input folder
+        in_matrix = Channel.fromPath(matrixFiles)//.view()
+        // Extract the prefix from the input files and return a tuple of the file and the prefix
+        motifMatrix_ch = in_matrix.map{ file -> [file.baseName.replaceAll("_tfbs_merged_matrix-full", ""), file] }//.view()
         
+        // Run the sub-workflow to extract the TFBS as sorted bed files
+        // Extract the TF footprint regions (TFBS) from the input fps matrix files
+        bedFiles_ch = extractTFBSBeds(motifMatrix_ch)
+        
+        bedFiles_ch//.view()
+
         // Check if run_mode is set
         if (params.run_mode == "subset"){
             log.info "The <subset> parameter for [--run_mode] has been set. Checking if input dataset ID list is provided..."
@@ -89,14 +90,16 @@ workflow {
             } else {
                 log.info "A dataset ID list has been provided. Extracting BAM directory paths only for the specified IDs..."
                 // Extract bam directory paths
-                datasetIDs = Channel.fromPath(params.dataset_id_list).splitText().map { it.trim() }
-                datasetIDPaths_ch = datasetIDs.map { id -> [id, file("${params.bam_dir}/${id}")] }//.view()
+                datasetIDs_ch = Channel.fromPath(params.dataset_id_list).splitText().map { it.trim() }//.view()
+                datasetIDPaths_ch = datasetIDs_ch.map { id -> [id, file("${params.bam_dir}/${id}")] }//.view()
             }
         }
-        if (params.run_mode == "all"){
+        else if ( params.run_mode == "all" ) {
             log.info "The <all> parameter for [--run_mode] has been set. Extracting all available dataset IDs within the input BAM directory..."
             // Extract all unique dataset IDs in the input bam folder and the path to the dataset ID
             datasetIDPaths_ch = Channel.fromPath("${params.bam_dir}/*", type: 'dir').map { dir -> [dir.name, dir] }//.view()
+            // Extract the dataset IDs
+            //datasetIDs_ch = datasetIDPaths_ch.map { id, path -> id }//.view()
         }
 
         // Set up a channel to grab all the bam files for each dataset ID
@@ -106,12 +109,19 @@ workflow {
                                             }//.view()
 
         // Generate a list of all the bam files for all the dataset IDs 
-        generateBAMPaths(datasetIDBams_ch)
+        bamPaths_ch = generateBAMPaths(datasetIDBams_ch)
         
+        bamPaths_ch//.view()
+        
+        log.info "Setting up combined channels for the variant calling process..."
+
+        // Set up a cross product of the bed files and the bam files
+        variantCalling_ch = bedFiles_ch.combine(bamPaths_ch)//.view()//.map { bed, bam -> [bed, bam] }.view()
+
+        log.info "Channels have been set up. Starting the variant calling process..."
+
         // now we can run the variant-calling process
-        /* variantCallmpileup(
-            generateBAMPaths.out.bam
-        )*/
+        callVariants(variantCalling_ch)
 
     }
 }
