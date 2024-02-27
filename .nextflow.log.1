@@ -1,0 +1,452 @@
+Feb-27 19:22:21.918 [main] DEBUG nextflow.cli.Launcher - $> nextflow run -resume main.nf --run_mode subset --dataset_id_list input-dir-cluster/manifests/dataset-manifest-heme-cancers.txt --genome_fasta input-dir-cluster/refs/GRCh38_no_alt_GCA_000001405.15.fasta.gz --output_dir output-dir-cluster -c nextflow_cluster.config -with-dag workflow-reports/dag-20240227-19.22.html -with-report workflow-reports/report-20240227-19.22.html -with-timeline workflow-reports/timeline-20240227-19.22.html
+Feb-27 19:22:22.043 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.10.1
+Feb-27 19:22:22.538 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/users/ntu/suffiazi/.nextflow/plugins; core-plugins: nf-amazon@2.1.4,nf-azure@1.3.3,nf-cloudcache@0.3.0,nf-codecommit@0.1.5,nf-console@1.0.6,nf-ga4gh@1.1.0,nf-google@1.8.3,nf-tower@1.6.3,nf-wave@1.0.1
+Feb-27 19:22:22.614 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Feb-27 19:22:22.616 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Feb-27 19:22:22.626 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Feb-27 19:22:22.669 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Feb-27 19:22:22.701 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/nextflow_cluster.config
+Feb-27 19:22:22.702 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/nextflow_cluster.config
+Feb-27 19:22:22.765 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Feb-27 19:22:23.551 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Feb-27 19:22:23.574 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [distracted_liskov] DSL2 - revision: 4af21cf2ab
+Feb-27 19:22:23.575 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Feb-27 19:22:23.575 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Feb-27 19:22:23.587 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/users/ntu/suffiazi/.nextflow/secrets/store.json
+Feb-27 19:22:23.590 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@10f7918f] - activable => nextflow.secret.LocalSecretsProvider@10f7918f
+Feb-27 19:22:23.649 [main] DEBUG nextflow.Session - Session UUID: bf65e9b9-0b1e-4b5f-a2bf-d73fc8466fb0
+Feb-27 19:22:23.650 [main] DEBUG nextflow.Session - Run name: distracted_liskov
+Feb-27 19:22:23.650 [main] DEBUG nextflow.Session - Executor pool size: 8
+Feb-27 19:22:23.658 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Feb-27 19:22:23.665 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Feb-27 19:22:24.386 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 23.10.1 build 5891
+  Created: 12-01-2024 22:01 UTC (13-01-2024 06:01 SGST)
+  System: Linux 4.18.0-305.25.1.el8_4.x86_64
+  Runtime: Groovy 3.0.19 on Java HotSpot(TM) 64-Bit Server VM 19.0.2+7-44
+  Encoding: UTF-8 (UTF-8)
+  Process: 1036035@x1001c0s0b0n0 [10.168.4.116]
+  CPUs: 8 - Mem: 16 GB (15.8 GB) - Swap: 0 (0)
+Feb-27 19:22:24.547 [main] DEBUG nextflow.Session - Work-dir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work [lustre]
+Feb-27 19:22:24.597 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Feb-27 19:22:24.608 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Feb-27 19:22:24.646 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Feb-27 19:22:24.659 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+Feb-27 19:22:25.227 [main] DEBUG nextflow.Session - Session start
+Feb-27 19:22:26.078 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Feb-27 19:22:26.333 [main] INFO  nextflow.Nextflow - Proceeding with workflow...
+Feb-27 19:22:26.336 [main] INFO  nextflow.Nextflow - Preparing the input data...
+Feb-27 19:22:26.337 [main] INFO  nextflow.Nextflow - Checking whether the directory of footprint score matrices is valid...
+Feb-27 19:22:26.343 [main] INFO  nextflow.Nextflow - The footprint matrix provided is valid. Getting a list of the matrix files...
+Feb-27 19:22:26.548 [main] INFO  nextflow.Nextflow - Total number of matrix files found: 1360
+Feb-27 19:22:26.548 [main] INFO  nextflow.Nextflow - Execution of workflow will proceed...
+Feb-27 19:22:26.936 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: pbspro
+Feb-27 19:22:26.948 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'pbspro'
+Feb-27 19:22:26.985 [main] DEBUG nextflow.executor.Executor - [warm up] executor > pbspro
+Feb-27 19:22:27.003 [main] DEBUG n.processor.TaskPollingMonitor - Creating task monitor for executor 'pbspro' > capacity: 95; pollInterval: 5s; dumpInterval: 5m 
+Feb-27 19:22:27.005 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: pbspro)
+Feb-27 19:22:27.013 [main] DEBUG n.executor.AbstractGridExecutor - Creating executor 'pbspro' > queue-stat-interval: 1m
+Feb-27 19:22:27.151 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: pbspro
+Feb-27 19:22:27.151 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'pbspro'
+Feb-27 19:22:27.170 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: pbspro
+Feb-27 19:22:27.170 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'pbspro'
+Feb-27 19:22:27.172 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: generateBAMPaths, callVariants, extractTFBSBeds
+Feb-27 19:22:27.173 [main] DEBUG nextflow.Session - Igniting dataflow network (5)
+Feb-27 19:22:27.195 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > extractTFBSBeds
+Feb-27 19:22:27.196 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > generateBAMPaths
+Feb-27 19:22:27.196 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > callVariants
+Feb-27 19:22:27.197 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_a37c37533757544a: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/./modules/callVariants.nf
+  Script_aef026287ee5e887: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/./modules/generateBAMPaths.nf
+  Script_1ee6c2ad013d25ea: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/./modules/extractTFBSBeds.nf
+  Script_080b96795f60bcb7: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/main.nf
+Feb-27 19:22:27.197 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Feb-27 19:22:27.197 [main] DEBUG nextflow.Session - Session await
+Feb-27 19:22:27.620 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (4) > jobId: 6282611.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/09/81028489680fce5218de9fc34c4f9e
+Feb-27 19:22:27.621 [Task submitter] INFO  nextflow.Session - [09/810284] Submitted process > extractTFBSBeds (4)
+Feb-27 19:22:27.716 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (7) > jobId: 6282612.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ac/497248a971df2f9a2cf686ddf38480
+Feb-27 19:22:27.716 [Task submitter] INFO  nextflow.Session - [ac/497248] Submitted process > extractTFBSBeds (7)
+Feb-27 19:22:27.804 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (5) > jobId: 6282613.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fb/87e6dc1e285b61cf545389b399f8ff
+Feb-27 19:22:27.804 [Task submitter] INFO  nextflow.Session - [fb/87e6dc] Submitted process > extractTFBSBeds (5)
+Feb-27 19:22:27.861 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (6) > jobId: 6282614.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/64/9d93011d22298f6dfbabdde5e30544
+Feb-27 19:22:27.861 [Task submitter] INFO  nextflow.Session - [64/9d9301] Submitted process > extractTFBSBeds (6)
+Feb-27 19:22:27.925 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (3) > jobId: 6282615.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ea/d1fb728ebfe7cd5c87aff73d954b9b
+Feb-27 19:22:27.925 [Task submitter] INFO  nextflow.Session - [ea/d1fb72] Submitted process > extractTFBSBeds (3)
+Feb-27 19:22:28.074 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (8) > jobId: 6282616.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d9/46de9bbd7e19ca673f35db53c02572
+Feb-27 19:22:28.074 [Task submitter] INFO  nextflow.Session - [d9/46de9b] Submitted process > extractTFBSBeds (8)
+Feb-27 19:22:28.208 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (2) > jobId: 6282617.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8c/bfc95f2ccffee42e311c3b15290eb1
+Feb-27 19:22:28.209 [Task submitter] INFO  nextflow.Session - [8c/bfc95f] Submitted process > extractTFBSBeds (2)
+Feb-27 19:22:28.280 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (1) > jobId: 6282618.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/eb/114c4a5e231e5511ae4162076ba12b
+Feb-27 19:22:28.281 [Task submitter] INFO  nextflow.Session - [eb/114c4a] Submitted process > extractTFBSBeds (1)
+Feb-27 19:22:28.648 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (9) > jobId: 6282619.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c8/7b632bfef2171fcbd99d6f553516a4
+Feb-27 19:22:28.696 [Task submitter] INFO  nextflow.Session - [c8/7b632b] Submitted process > extractTFBSBeds (9)
+Feb-27 19:22:28.790 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (13) > jobId: 6282620.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c5/8221ed7d5d6e9f55ebb42cea0ecc8e
+Feb-27 19:22:28.790 [Task submitter] INFO  nextflow.Session - [c5/8221ed] Submitted process > extractTFBSBeds (13)
+Feb-27 19:22:28.852 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (15) > jobId: 6282621.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6e/0d7e3472737c869cc64f898a591291
+Feb-27 19:22:28.853 [Task submitter] INFO  nextflow.Session - [6e/0d7e34] Submitted process > extractTFBSBeds (15)
+Feb-27 19:22:28.981 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (11) > jobId: 6282622.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/76/24dc1749ac069a0a3723a3e3755cde
+Feb-27 19:22:28.981 [Task submitter] INFO  nextflow.Session - [76/24dc17] Submitted process > extractTFBSBeds (11)
+Feb-27 19:22:29.055 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (10) > jobId: 6282623.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7d/5a80a5460e92448a20bc0a80ebe7d3
+Feb-27 19:22:29.055 [Task submitter] INFO  nextflow.Session - [7d/5a80a5] Submitted process > extractTFBSBeds (10)
+Feb-27 19:22:29.138 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (16) > jobId: 6282624.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/48/a3384148dbee1c3ecb329e9149779a
+Feb-27 19:22:29.138 [Task submitter] INFO  nextflow.Session - [48/a33841] Submitted process > extractTFBSBeds (16)
+Feb-27 19:22:29.193 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (14) > jobId: 6282625.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/5f/98c5f5ffed09e3f1f0a744a04b9eb8
+Feb-27 19:22:29.193 [Task submitter] INFO  nextflow.Session - [5f/98c5f5] Submitted process > extractTFBSBeds (14)
+Feb-27 19:22:29.260 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (12) > jobId: 6282626.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/99/9a874862450bea701b8acca66cd157
+Feb-27 19:22:29.260 [Task submitter] INFO  nextflow.Session - [99/9a8748] Submitted process > extractTFBSBeds (12)
+Feb-27 19:22:29.330 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (18) > jobId: 6282627.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/15/4f81c81bf62f9e01f5fb795d9cc288
+Feb-27 19:22:29.331 [Task submitter] INFO  nextflow.Session - [15/4f81c8] Submitted process > extractTFBSBeds (18)
+Feb-27 19:22:29.388 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (17) > jobId: 6282628.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0b/50773ba6b9b9adb9d1404c84adceff
+Feb-27 19:22:29.388 [Task submitter] INFO  nextflow.Session - [0b/50773b] Submitted process > extractTFBSBeds (17)
+Feb-27 19:22:29.444 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (23) > jobId: 6282629.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/21/b26a46dc3eefe770c0eae91130d9ba
+Feb-27 19:22:29.445 [Task submitter] INFO  nextflow.Session - [21/b26a46] Submitted process > extractTFBSBeds (23)
+Feb-27 19:22:29.500 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (21) > jobId: 6282630.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/14/5be09ebc6217c60fc5aac6c9649678
+Feb-27 19:22:29.500 [Task submitter] INFO  nextflow.Session - [14/5be09e] Submitted process > extractTFBSBeds (21)
+Feb-27 19:22:29.556 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (27) > jobId: 6282631.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7d/21eafde2321da1952261183187d8de
+Feb-27 19:22:29.556 [Task submitter] INFO  nextflow.Session - [7d/21eafd] Submitted process > extractTFBSBeds (27)
+Feb-27 19:22:29.611 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (22) > jobId: 6282632.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/9a/e3f00107dfd0c2225788ae65f95ca2
+Feb-27 19:22:29.611 [Task submitter] INFO  nextflow.Session - [9a/e3f001] Submitted process > extractTFBSBeds (22)
+Feb-27 19:22:29.668 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (19) > jobId: 6282633.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/26/bf12a5b008815f7ab38f4cc55f5e20
+Feb-27 19:22:29.668 [Task submitter] INFO  nextflow.Session - [26/bf12a5] Submitted process > extractTFBSBeds (19)
+Feb-27 19:22:29.725 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (25) > jobId: 6282634.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/19/70dc59dc130f41558c1b37da7586f4
+Feb-27 19:22:29.726 [Task submitter] INFO  nextflow.Session - [19/70dc59] Submitted process > extractTFBSBeds (25)
+Feb-27 19:22:29.785 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (20) > jobId: 6282635.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/16/62905766561282c189b231b330d2b6
+Feb-27 19:22:29.785 [Task submitter] INFO  nextflow.Session - [16/629057] Submitted process > extractTFBSBeds (20)
+Feb-27 19:22:29.919 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (26) > jobId: 6282636.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b1/f821cff2258cbe43e502e861536824
+Feb-27 19:22:29.919 [Task submitter] INFO  nextflow.Session - [b1/f821cf] Submitted process > extractTFBSBeds (26)
+Feb-27 19:22:29.986 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (24) > jobId: 6282637.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b4/37c804c9a82d9c3f6896a06d5f8d1b
+Feb-27 19:22:29.986 [Task submitter] INFO  nextflow.Session - [b4/37c804] Submitted process > extractTFBSBeds (24)
+Feb-27 19:22:30.045 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (32) > jobId: 6282638.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d9/b2348716033d6cac1aff9da926d621
+Feb-27 19:22:30.046 [Task submitter] INFO  nextflow.Session - [d9/b23487] Submitted process > extractTFBSBeds (32)
+Feb-27 19:22:30.102 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (31) > jobId: 6282639.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/bd/84251ba62ebddabf87305f94cb0d6c
+Feb-27 19:22:30.102 [Task submitter] INFO  nextflow.Session - [bd/84251b] Submitted process > extractTFBSBeds (31)
+Feb-27 19:22:30.159 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (29) > jobId: 6282640.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/45/b158ddaca0b6e58dd97a3291530180
+Feb-27 19:22:30.159 [Task submitter] INFO  nextflow.Session - [45/b158dd] Submitted process > extractTFBSBeds (29)
+Feb-27 19:22:30.220 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (28) > jobId: 6282641.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2f/32b9d15c9c15071ad51beb0b558241
+Feb-27 19:22:30.220 [Task submitter] INFO  nextflow.Session - [2f/32b9d1] Submitted process > extractTFBSBeds (28)
+Feb-27 19:22:30.274 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (37) > jobId: 6282642.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c1/071c0c4bbec4389e9cccf2ebe0c001
+Feb-27 19:22:30.274 [Task submitter] INFO  nextflow.Session - [c1/071c0c] Submitted process > extractTFBSBeds (37)
+Feb-27 19:22:30.343 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (36) > jobId: 6282643.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8c/1a8c7b43fe9cbdd6f701875fa41cbc
+Feb-27 19:22:30.343 [Task submitter] INFO  nextflow.Session - [8c/1a8c7b] Submitted process > extractTFBSBeds (36)
+Feb-27 19:22:30.399 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (40) > jobId: 6282644.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6f/22fc61b29b9d2d6f622d59e3826475
+Feb-27 19:22:30.400 [Task submitter] INFO  nextflow.Session - [6f/22fc61] Submitted process > extractTFBSBeds (40)
+Feb-27 19:22:30.462 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (39) > jobId: 6282645.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a9/269c3cf0239450069fa8ae31755a76
+Feb-27 19:22:30.462 [Task submitter] INFO  nextflow.Session - [a9/269c3c] Submitted process > extractTFBSBeds (39)
+Feb-27 19:22:30.523 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (41) > jobId: 6282646.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d6/8b7ab54859f7a6a722f47f152d11f3
+Feb-27 19:22:30.523 [Task submitter] INFO  nextflow.Session - [d6/8b7ab5] Submitted process > extractTFBSBeds (41)
+Feb-27 19:22:30.605 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (30) > jobId: 6282647.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fd/4a0b5ac61eedf63a3c6f7c58884e45
+Feb-27 19:22:30.605 [Task submitter] INFO  nextflow.Session - [fd/4a0b5a] Submitted process > extractTFBSBeds (30)
+Feb-27 19:22:30.659 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (35) > jobId: 6282648.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/34/15314dee66ccab6b652ec08abf8ba8
+Feb-27 19:22:30.659 [Task submitter] INFO  nextflow.Session - [34/15314d] Submitted process > extractTFBSBeds (35)
+Feb-27 19:22:30.711 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (33) > jobId: 6282649.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a9/0854ada46045760996c40ba0acc701
+Feb-27 19:22:30.712 [Task submitter] INFO  nextflow.Session - [a9/0854ad] Submitted process > extractTFBSBeds (33)
+Feb-27 19:22:30.808 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (34) > jobId: 6282650.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6f/f953f2bb4af6f3a1ee008ea1165b0a
+Feb-27 19:22:30.836 [Task submitter] INFO  nextflow.Session - [6f/f953f2] Submitted process > extractTFBSBeds (34)
+Feb-27 19:22:31.306 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (38) > jobId: 6282651.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f5/e987d8dd920c32b4b2f986cc1eb37d
+Feb-27 19:22:31.307 [Task submitter] INFO  nextflow.Session - [f5/e987d8] Submitted process > extractTFBSBeds (38)
+Feb-27 19:22:31.980 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (45) > jobId: 6282652.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2a/4bc088fb7859824e586a7b34d8fdab
+Feb-27 19:22:31.980 [Task submitter] INFO  nextflow.Session - [2a/4bc088] Submitted process > extractTFBSBeds (45)
+Feb-27 19:22:32.246 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (43) > jobId: 6282653.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fe/229ece3cc58b90f3bda333cec0018f
+Feb-27 19:22:32.270 [Task submitter] INFO  nextflow.Session - [fe/229ece] Submitted process > extractTFBSBeds (43)
+Feb-27 19:22:32.449 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (47) > jobId: 6282654.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/28/accc745868851aa13ff873a145da27
+Feb-27 19:22:32.449 [Task submitter] INFO  nextflow.Session - [28/accc74] Submitted process > extractTFBSBeds (47)
+Feb-27 19:22:32.522 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (51) > jobId: 6282655.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/09/996518b2f2b30b55519e9a146e0a96
+Feb-27 19:22:32.522 [Task submitter] INFO  nextflow.Session - [09/996518] Submitted process > extractTFBSBeds (51)
+Feb-27 19:22:32.576 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (49) > jobId: 6282656.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a0/a142541239ae8466384a0c8b115426
+Feb-27 19:22:32.577 [Task submitter] INFO  nextflow.Session - [a0/a14254] Submitted process > extractTFBSBeds (49)
+Feb-27 19:22:32.630 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (44) > jobId: 6282657.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0f/f747ed0f2c5e97e02289823b98cbc7
+Feb-27 19:22:32.630 [Task submitter] INFO  nextflow.Session - [0f/f747ed] Submitted process > extractTFBSBeds (44)
+Feb-27 19:22:32.689 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (42) > jobId: 6282658.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e7/9575a9d424322868401846954d6c88
+Feb-27 19:22:32.689 [Task submitter] INFO  nextflow.Session - [e7/9575a9] Submitted process > extractTFBSBeds (42)
+Feb-27 19:22:32.742 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (48) > jobId: 6282659.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/89/9ee6884cd006d182b9d4bd58eb101c
+Feb-27 19:22:32.742 [Task submitter] INFO  nextflow.Session - [89/9ee688] Submitted process > extractTFBSBeds (48)
+Feb-27 19:22:32.858 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process generateBAMPaths (2) > jobId: 6282660.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2e/e961591cb59ba6035b3c4208ac87e9
+Feb-27 19:22:32.858 [Task submitter] INFO  nextflow.Session - [2e/e96159] Submitted process > generateBAMPaths (2)
+Feb-27 19:22:32.919 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (54) > jobId: 6282661.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6f/afe29753df55f77981336ba65b497b
+Feb-27 19:22:32.919 [Task submitter] INFO  nextflow.Session - [6f/afe297] Submitted process > extractTFBSBeds (54)
+Feb-27 19:22:32.979 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (50) > jobId: 6282662.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7f/f002cb0dbda877a32003bcc6e24933
+Feb-27 19:22:32.979 [Task submitter] INFO  nextflow.Session - [7f/f002cb] Submitted process > extractTFBSBeds (50)
+Feb-27 19:22:33.037 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (46) > jobId: 6282663.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/da/834fcbc64040954ba67f902c95cc3e
+Feb-27 19:22:33.037 [Task submitter] INFO  nextflow.Session - [da/834fcb] Submitted process > extractTFBSBeds (46)
+Feb-27 19:22:33.091 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (52) > jobId: 6282664.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ff/22afad160118469a1b8e6aca237414
+Feb-27 19:22:33.091 [Task submitter] INFO  nextflow.Session - [ff/22afad] Submitted process > extractTFBSBeds (52)
+Feb-27 19:22:33.146 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (55) > jobId: 6282665.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/10/2cd3e45a9cbfe7463a0da405c68503
+Feb-27 19:22:33.146 [Task submitter] INFO  nextflow.Session - [10/2cd3e4] Submitted process > extractTFBSBeds (55)
+Feb-27 19:22:33.201 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (53) > jobId: 6282666.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/69/7243c4136331d6ef26627107748360
+Feb-27 19:22:33.201 [Task submitter] INFO  nextflow.Session - [69/7243c4] Submitted process > extractTFBSBeds (53)
+Feb-27 19:22:33.261 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (56) > jobId: 6282667.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/86/6b7c88e3da3b19053a325f2b16dd0c
+Feb-27 19:22:33.261 [Task submitter] INFO  nextflow.Session - [86/6b7c88] Submitted process > extractTFBSBeds (56)
+Feb-27 19:22:33.322 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (58) > jobId: 6282668.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/55/89dc3407e9d7165b6699b38eba6c09
+Feb-27 19:22:33.322 [Task submitter] INFO  nextflow.Session - [55/89dc34] Submitted process > extractTFBSBeds (58)
+Feb-27 19:22:33.382 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (57) > jobId: 6282669.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8f/5afc07f5ff33d6fdf5ccce80b06272
+Feb-27 19:22:33.382 [Task submitter] INFO  nextflow.Session - [8f/5afc07] Submitted process > extractTFBSBeds (57)
+Feb-27 19:22:33.568 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (60) > jobId: 6282670.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/72/4020cd2ee04815e1f38952ab18e3b7
+Feb-27 19:22:33.578 [Task submitter] INFO  nextflow.Session - [72/4020cd] Submitted process > extractTFBSBeds (60)
+Feb-27 19:22:33.686 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (59) > jobId: 6282671.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/71/d3c196a93890510dc7e01c87d792d0
+Feb-27 19:22:33.686 [Task submitter] INFO  nextflow.Session - [71/d3c196] Submitted process > extractTFBSBeds (59)
+Feb-27 19:22:33.745 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (61) > jobId: 6282672.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8a/04c28066b6de579273041a558d1c93
+Feb-27 19:22:33.745 [Task submitter] INFO  nextflow.Session - [8a/04c280] Submitted process > extractTFBSBeds (61)
+Feb-27 19:22:33.842 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process generateBAMPaths (1) > jobId: 6282673.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e2/c7a784dbfd0e0571467072dc1417e5
+Feb-27 19:22:33.842 [Task submitter] INFO  nextflow.Session - [e2/c7a784] Submitted process > generateBAMPaths (1)
+Feb-27 19:22:33.906 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (63) > jobId: 6282674.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7c/dcede668975767936519bf0c111f29
+Feb-27 19:22:33.906 [Task submitter] INFO  nextflow.Session - [7c/dcede6] Submitted process > extractTFBSBeds (63)
+Feb-27 19:22:34.023 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (64) > jobId: 6282675.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/62/3548e8dd13c221a7992749b864f27b
+Feb-27 19:22:34.023 [Task submitter] INFO  nextflow.Session - [62/3548e8] Submitted process > extractTFBSBeds (64)
+Feb-27 19:22:34.588 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (67) > jobId: 6282676.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/72/eb09548a0b997ad218f091c8ed6484
+Feb-27 19:22:34.589 [Task submitter] INFO  nextflow.Session - [72/eb0954] Submitted process > extractTFBSBeds (67)
+Feb-27 19:22:34.825 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (62) > jobId: 6282677.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/90/9107aa08b27015d395dcacd1159d0f
+Feb-27 19:22:34.825 [Task submitter] INFO  nextflow.Session - [90/9107aa] Submitted process > extractTFBSBeds (62)
+Feb-27 19:22:34.988 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (69) > jobId: 6282678.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/25/189823879be8db5e4a1e982ca73aff
+Feb-27 19:22:34.989 [Task submitter] INFO  nextflow.Session - [25/189823] Submitted process > extractTFBSBeds (69)
+Feb-27 19:22:35.053 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (65) > jobId: 6282679.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d2/0223e35d265876ce74e4b529a517ca
+Feb-27 19:22:35.053 [Task submitter] INFO  nextflow.Session - [d2/0223e3] Submitted process > extractTFBSBeds (65)
+Feb-27 19:22:35.108 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (66) > jobId: 6282680.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ed/93b5f23a1c20e125bbc1532d1b6de4
+Feb-27 19:22:35.108 [Task submitter] INFO  nextflow.Session - [ed/93b5f2] Submitted process > extractTFBSBeds (66)
+Feb-27 19:22:35.234 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (68) > jobId: 6282681.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/43/30869a96e4909fde32cb7e8bcc9463
+Feb-27 19:22:35.234 [Task submitter] INFO  nextflow.Session - [43/30869a] Submitted process > extractTFBSBeds (68)
+Feb-27 19:22:35.297 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (72) > jobId: 6282682.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7b/dd225668ff25c500a6192d16dfe4b7
+Feb-27 19:22:35.297 [Task submitter] INFO  nextflow.Session - [7b/dd2256] Submitted process > extractTFBSBeds (72)
+Feb-27 19:22:35.355 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (73) > jobId: 6282683.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e6/c5db53aa8486f08bb9a40a78d06b0e
+Feb-27 19:22:35.355 [Task submitter] INFO  nextflow.Session - [e6/c5db53] Submitted process > extractTFBSBeds (73)
+Feb-27 19:22:35.428 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (70) > jobId: 6282684.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/18/b3e0534d41c01f1f055ffceed34bfa
+Feb-27 19:22:35.428 [Task submitter] INFO  nextflow.Session - [18/b3e053] Submitted process > extractTFBSBeds (70)
+Feb-27 19:22:35.490 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (74) > jobId: 6282685.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/40/5b9564213925432a4b7cadb724232f
+Feb-27 19:22:35.490 [Task submitter] INFO  nextflow.Session - [40/5b9564] Submitted process > extractTFBSBeds (74)
+Feb-27 19:22:35.562 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (71) > jobId: 6282686.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e3/4b322c5e8f8d0efb9af2ba7e97b09e
+Feb-27 19:22:35.562 [Task submitter] INFO  nextflow.Session - [e3/4b322c] Submitted process > extractTFBSBeds (71)
+Feb-27 19:22:35.621 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (78) > jobId: 6282687.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/17/81e75176c0cb8dd79cae5c28704b66
+Feb-27 19:22:35.621 [Task submitter] INFO  nextflow.Session - [17/81e751] Submitted process > extractTFBSBeds (78)
+Feb-27 19:22:35.681 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (81) > jobId: 6282688.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/89/bf25aa5befa0e0b244ecdd9c0377cd
+Feb-27 19:22:35.681 [Task submitter] INFO  nextflow.Session - [89/bf25aa] Submitted process > extractTFBSBeds (81)
+Feb-27 19:22:35.763 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (76) > jobId: 6282689.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/53/dd1bc83e8253802e40a352f8b49ac3
+Feb-27 19:22:36.266 [Task submitter] INFO  nextflow.Session - [53/dd1bc8] Submitted process > extractTFBSBeds (76)
+Feb-27 19:22:36.343 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (80) > jobId: 6282690.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ad/edfa9b1fb27d60de0a58303198c97f
+Feb-27 19:22:36.343 [Task submitter] INFO  nextflow.Session - [ad/edfa9b] Submitted process > extractTFBSBeds (80)
+Feb-27 19:22:36.391 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (75) > jobId: 6282691.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/de/70dd730cb5227691bae0ac61b33524
+Feb-27 19:22:36.391 [Task submitter] INFO  nextflow.Session - [de/70dd73] Submitted process > extractTFBSBeds (75)
+Feb-27 19:22:36.442 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (77) > jobId: 6282692.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/97/25ea0941b7c1bf2835f25b38130574
+Feb-27 19:22:36.442 [Task submitter] INFO  nextflow.Session - [97/25ea09] Submitted process > extractTFBSBeds (77)
+Feb-27 19:22:36.489 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (85) > jobId: 6282693.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7f/37d6d9cb33138d46cbfa8988b9438f
+Feb-27 19:22:36.489 [Task submitter] INFO  nextflow.Session - [7f/37d6d9] Submitted process > extractTFBSBeds (85)
+Feb-27 19:22:36.653 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (84) > jobId: 6282694.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2f/d43796556bf1d45060def4eb4cc786
+Feb-27 19:22:36.654 [Task submitter] INFO  nextflow.Session - [2f/d43796] Submitted process > extractTFBSBeds (84)
+Feb-27 19:22:36.702 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (79) > jobId: 6282695.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/aa/00ff9ef4a8c1fc32a9c95491aaffbf
+Feb-27 19:22:36.702 [Task submitter] INFO  nextflow.Session - [aa/00ff9e] Submitted process > extractTFBSBeds (79)
+Feb-27 19:22:36.749 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (86) > jobId: 6282696.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/02/aca09f00a511810585a306c2739245
+Feb-27 19:22:36.749 [Task submitter] INFO  nextflow.Session - [02/aca09f] Submitted process > extractTFBSBeds (86)
+Feb-27 19:22:36.797 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (88) > jobId: 6282697.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2f/e775e29e9914716a182bbe6855f262
+Feb-27 19:22:36.797 [Task submitter] INFO  nextflow.Session - [2f/e775e2] Submitted process > extractTFBSBeds (88)
+Feb-27 19:22:36.847 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process generateBAMPaths (4) > jobId: 6282698.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a2/151b8d9f61010a2cd7f6807525b583
+Feb-27 19:22:36.847 [Task submitter] INFO  nextflow.Session - [a2/151b8d] Submitted process > generateBAMPaths (4)
+Feb-27 19:22:36.910 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process generateBAMPaths (3) > jobId: 6282699.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a8/057439c7819ed0930294056f5240de
+Feb-27 19:22:36.910 [Task submitter] INFO  nextflow.Session - [a8/057439] Submitted process > generateBAMPaths (3)
+Feb-27 19:22:36.969 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process generateBAMPaths (5) > jobId: 6282700.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d3/d566b0c8984930eaba5e416d4f0fcc
+Feb-27 19:22:36.969 [Task submitter] INFO  nextflow.Session - [d3/d566b0] Submitted process > generateBAMPaths (5)
+Feb-27 19:22:37.019 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process generateBAMPaths (6) > jobId: 6282701.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/bb/65f05e0b98f7cce066acb12ab14cf8
+Feb-27 19:22:37.019 [Task submitter] INFO  nextflow.Session - [bb/65f05e] Submitted process > generateBAMPaths (6)
+Feb-27 19:22:42.961 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282616.pbs101; id: 8; name: extractTFBSBeds (8); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d9/46de9bbd7e19ca673f35db53c02572 started: 1709032952701; exited: 2024-02-27T11:22:39Z; ]
+Feb-27 19:22:43.145 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (89) > jobId: 6282703.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/80/f36c680a293f321b15e4af51ee2670
+Feb-27 19:22:43.146 [Task submitter] INFO  nextflow.Session - [80/f36c68] Submitted process > extractTFBSBeds (89)
+Feb-27 19:22:43.315 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282617.pbs101; id: 2; name: extractTFBSBeds (2); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8c/bfc95f2ccffee42e311c3b15290eb1 started: 1709032952702; exited: 2024-02-27T11:22:38Z; ]
+Feb-27 19:22:43.371 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282618.pbs101; id: 1; name: extractTFBSBeds (1); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/eb/114c4a5e231e5511ae4162076ba12b started: 1709032952702; exited: 2024-02-27T11:22:40Z; ]
+Feb-27 19:22:43.380 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282619.pbs101; id: 9; name: extractTFBSBeds (9); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c8/7b632bfef2171fcbd99d6f553516a4 started: 1709032952703; exited: 2024-02-27T11:22:40Z; ]
+Feb-27 19:22:43.387 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282620.pbs101; id: 13; name: extractTFBSBeds (13); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c5/8221ed7d5d6e9f55ebb42cea0ecc8e started: 1709032952703; exited: 2024-02-27T11:22:40Z; ]
+Feb-27 19:22:43.397 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282623.pbs101; id: 10; name: extractTFBSBeds (10); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7d/5a80a5460e92448a20bc0a80ebe7d3 started: 1709032963394; exited: 2024-02-27T11:22:43Z; ]
+Feb-27 19:22:43.407 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282626.pbs101; id: 12; name: extractTFBSBeds (12); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/99/9a874862450bea701b8acca66cd157 started: 1709032963405; exited: 2024-02-27T11:22:40Z; ]
+Feb-27 19:22:43.415 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282627.pbs101; id: 18; name: extractTFBSBeds (18); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/15/4f81c81bf62f9e01f5fb795d9cc288 started: 1709032963414; exited: 2024-02-27T11:22:41Z; ]
+Feb-27 19:22:43.435 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (83) > jobId: 6282704.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/9b/aee4ede093d8dd0efff59b1a58297d
+Feb-27 19:22:43.435 [Task submitter] INFO  nextflow.Session - [9b/aee4ed] Submitted process > extractTFBSBeds (83)
+Feb-27 19:22:43.496 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (91) > jobId: 6282705.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8e/b7d0e123cb3886422b339adc4eea20
+Feb-27 19:22:43.496 [Task submitter] INFO  nextflow.Session - [8e/b7d0e1] Submitted process > extractTFBSBeds (91)
+Feb-27 19:22:43.578 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (90) > jobId: 6282706.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/04/f0bc8dfd74c3d18ca3fe45e063d551
+Feb-27 19:22:43.578 [Task submitter] INFO  nextflow.Session - [04/f0bc8d] Submitted process > extractTFBSBeds (90)
+Feb-27 19:22:43.643 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (92) > jobId: 6282707.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2b/e0db69381e6763d6593408c452911f
+Feb-27 19:22:43.643 [Task submitter] INFO  nextflow.Session - [2b/e0db69] Submitted process > extractTFBSBeds (92)
+Feb-27 19:22:43.698 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (95) > jobId: 6282708.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8f/9b89fe2bcd442625c8eebf09deba46
+Feb-27 19:22:43.698 [Task submitter] INFO  nextflow.Session - [8f/9b89fe] Submitted process > extractTFBSBeds (95)
+Feb-27 19:22:43.811 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (87) > jobId: 6282709.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/4a/cde95310688320765411c819cebd5b
+Feb-27 19:22:43.836 [Task submitter] INFO  nextflow.Session - [4a/cde953] Submitted process > extractTFBSBeds (87)
+Feb-27 19:22:43.951 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (82) > jobId: 6282710.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/30/68508fc3f37e33ee7ad81486ef99cc
+Feb-27 19:22:43.952 [Task submitter] INFO  nextflow.Session - [30/68508f] Submitted process > extractTFBSBeds (82)
+Feb-27 19:22:47.327 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282611.pbs101; id: 4; name: extractTFBSBeds (4); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/09/81028489680fce5218de9fc34c4f9e started: 1709032952695; exited: 2024-02-27T11:22:43Z; ]
+Feb-27 19:22:47.355 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282612.pbs101; id: 7; name: extractTFBSBeds (7); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ac/497248a971df2f9a2cf686ddf38480 started: 1709032952699; exited: 2024-02-27T11:22:43Z; ]
+Feb-27 19:22:47.365 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282613.pbs101; id: 5; name: extractTFBSBeds (5); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fb/87e6dc1e285b61cf545389b399f8ff started: 1709032952700; exited: 2024-02-27T11:22:43Z; ]
+Feb-27 19:22:47.426 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (98) > jobId: 6282711.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fd/e3792682d6757aa53511f53e4a5f63
+Feb-27 19:22:47.427 [Task submitter] INFO  nextflow.Session - [fd/e37926] Submitted process > extractTFBSBeds (98)
+Feb-27 19:22:47.498 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (99) > jobId: 6282712.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d6/721c6bbe0f3604f6987a2597676202
+Feb-27 19:22:47.498 [Task submitter] INFO  nextflow.Session - [d6/721c6b] Submitted process > extractTFBSBeds (99)
+Feb-27 19:22:47.554 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (97) > jobId: 6282713.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/9d/5e646edd8b14d3a4973c6fbaee3d9e
+Feb-27 19:22:47.554 [Task submitter] INFO  nextflow.Session - [9d/5e646e] Submitted process > extractTFBSBeds (97)
+Feb-27 19:22:48.030 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282614.pbs101; id: 6; name: extractTFBSBeds (6); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/64/9d93011d22298f6dfbabdde5e30544 started: 1709032952700; exited: 2024-02-27T11:22:43Z; ]
+Feb-27 19:22:48.137 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282615.pbs101; id: 3; name: extractTFBSBeds (3); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ea/d1fb728ebfe7cd5c87aff73d954b9b started: 1709032952701; exited: 2024-02-27T11:22:43Z; ]
+Feb-27 19:22:48.145 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282621.pbs101; id: 15; name: extractTFBSBeds (15); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6e/0d7e3472737c869cc64f898a591291 started: 1709032963392; exited: 2024-02-27T11:22:44Z; ]
+Feb-27 19:22:48.193 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282622.pbs101; id: 11; name: extractTFBSBeds (11); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/76/24dc1749ac069a0a3723a3e3755cde started: 1709032963393; exited: 2024-02-27T11:22:44Z; ]
+Feb-27 19:22:48.203 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282624.pbs101; id: 16; name: extractTFBSBeds (16); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/48/a3384148dbee1c3ecb329e9149779a started: 1709032963404; exited: 2024-02-27T11:22:44Z; ]
+Feb-27 19:22:48.205 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (101) > jobId: 6282714.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fd/5f7e570fad69fd0d0669b8f1cc6d32
+Feb-27 19:22:48.206 [Task submitter] INFO  nextflow.Session - [fd/5f7e57] Submitted process > extractTFBSBeds (101)
+Feb-27 19:22:48.211 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282625.pbs101; id: 14; name: extractTFBSBeds (14); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/5f/98c5f5ffed09e3f1f0a744a04b9eb8 started: 1709032963405; exited: 2024-02-27T11:22:45Z; ]
+Feb-27 19:22:48.220 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282628.pbs101; id: 17; name: extractTFBSBeds (17); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0b/50773ba6b9b9adb9d1404c84adceff started: 1709032963437; exited: 2024-02-27T11:22:44Z; ]
+Feb-27 19:22:48.353 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (93) > jobId: 6282715.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/87/9abac392861778aa398fbe28025e64
+Feb-27 19:22:48.353 [Task submitter] INFO  nextflow.Session - [87/9abac3] Submitted process > extractTFBSBeds (93)
+Feb-27 19:22:48.917 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (100) > jobId: 6282716.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d1/378b6bf3e7c2f0c984e0337fef557e
+Feb-27 19:22:49.013 [Task submitter] INFO  nextflow.Session - [d1/378b6b] Submitted process > extractTFBSBeds (100)
+Feb-27 19:22:49.168 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (102) > jobId: 6282717.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/89/c30f0c5125271a78e5e2c9f5fb7fec
+Feb-27 19:22:49.168 [Task submitter] INFO  nextflow.Session - [89/c30f0c] Submitted process > extractTFBSBeds (102)
+Feb-27 19:22:49.276 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (103) > jobId: 6282718.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/29/86e3757ffa525b3a8a84bead39ee48
+Feb-27 19:22:49.276 [Task submitter] INFO  nextflow.Session - [29/86e375] Submitted process > extractTFBSBeds (103)
+Feb-27 19:22:49.327 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (106) > jobId: 6282719.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/97/ccffc6844a0206511402384232ebc7
+Feb-27 19:22:49.327 [Task submitter] INFO  nextflow.Session - [97/ccffc6] Submitted process > extractTFBSBeds (106)
+Feb-27 19:22:49.428 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (105) > jobId: 6282720.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2a/c6d5a1d08652ea2b9a28b705a687d8
+Feb-27 19:22:49.428 [Task submitter] INFO  nextflow.Session - [2a/c6d5a1] Submitted process > extractTFBSBeds (105)
+Feb-27 19:22:49.542 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282629.pbs101; id: 23; name: extractTFBSBeds (23); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/21/b26a46dc3eefe770c0eae91130d9ba started: 1709032963438; exited: 2024-02-27T11:22:45Z; ]
+Feb-27 19:22:49.598 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (111) > jobId: 6282721.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a9/5cc4b435b5dd21b1ea376559f11f8d
+Feb-27 19:22:49.598 [Task submitter] INFO  nextflow.Session - [a9/5cc4b4] Submitted process > extractTFBSBeds (111)
+Feb-27 19:22:52.420 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282630.pbs101; id: 21; name: extractTFBSBeds (21); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/14/5be09ebc6217c60fc5aac6c9649678 started: 1709032963439; exited: 2024-02-27T11:22:45Z; ]
+Feb-27 19:22:52.473 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282631.pbs101; id: 27; name: extractTFBSBeds (27); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7d/21eafde2321da1952261183187d8de started: 1709032972470; exited: 2024-02-27T11:22:49Z; ]
+Feb-27 19:22:52.486 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282634.pbs101; id: 25; name: extractTFBSBeds (25); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/19/70dc59dc130f41558c1b37da7586f4 started: 1709032972484; exited: 2024-02-27T11:22:51Z; ]
+Feb-27 19:22:52.549 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (104) > jobId: 6282722.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/92/c1f575fd2c206127322de3608ef132
+Feb-27 19:22:52.549 [Task submitter] INFO  nextflow.Session - [92/c1f575] Submitted process > extractTFBSBeds (104)
+Feb-27 19:22:52.645 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (112) > jobId: 6282723.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0f/610304073f87683f49bba9c23b5f5a
+Feb-27 19:22:52.645 [Task submitter] INFO  nextflow.Session - [0f/610304] Submitted process > extractTFBSBeds (112)
+Feb-27 19:22:52.693 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (109) > jobId: 6282724.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/11/aa31d878bf4771ce2ba73eaa25339e
+Feb-27 19:22:52.693 [Task submitter] INFO  nextflow.Session - [11/aa31d8] Submitted process > extractTFBSBeds (109)
+Feb-27 19:22:57.550 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282632.pbs101; id: 22; name: extractTFBSBeds (22); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/9a/e3f00107dfd0c2225788ae65f95ca2 started: 1709032972478; exited: 2024-02-27T11:22:52Z; ]
+Feb-27 19:22:57.621 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282633.pbs101; id: 19; name: extractTFBSBeds (19); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/26/bf12a5b008815f7ab38f4cc55f5e20 started: 1709032972483; exited: 2024-02-27T11:22:54Z; ]
+Feb-27 19:22:57.667 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282635.pbs101; id: 20; name: extractTFBSBeds (20); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/16/62905766561282c189b231b330d2b6 started: 1709032972493; exited: 2024-02-27T11:22:53Z; ]
+Feb-27 19:22:57.685 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282636.pbs101; id: 26; name: extractTFBSBeds (26); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b1/f821cff2258cbe43e502e861536824 started: 1709032972494; exited: 2024-02-27T11:22:52Z; ]
+Feb-27 19:22:57.692 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282637.pbs101; id: 24; name: extractTFBSBeds (24); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b4/37c804c9a82d9c3f6896a06d5f8d1b started: 1709032972495; exited: 2024-02-27T11:22:52Z; ]
+Feb-27 19:22:57.711 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282642.pbs101; id: 37; name: extractTFBSBeds (37); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c1/071c0c4bbec4389e9cccf2ebe0c001 started: 1709032972496; exited: 2024-02-27T11:22:54Z; ]
+Feb-27 19:22:57.744 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282643.pbs101; id: 36; name: extractTFBSBeds (36); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8c/1a8c7b43fe9cbdd6f701875fa41cbc started: 1709032972496; exited: 2024-02-27T11:22:55Z; ]
+Feb-27 19:22:57.875 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (94) > jobId: 6282725.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/cb/291593a98702e350db595d8d3bb102
+Feb-27 19:22:57.876 [Task submitter] INFO  nextflow.Session - [cb/291593] Submitted process > extractTFBSBeds (94)
+Feb-27 19:22:57.940 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (96) > jobId: 6282726.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6c/ef3cde6b32354005e391dfab7ba809
+Feb-27 19:22:57.940 [Task submitter] INFO  nextflow.Session - [6c/ef3cde] Submitted process > extractTFBSBeds (96)
+Feb-27 19:22:57.968 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282644.pbs101; id: 40; name: extractTFBSBeds (40); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6f/22fc61b29b9d2d6f622d59e3826475 started: 1709032972497; exited: 2024-02-27T11:22:55Z; ]
+Feb-27 19:22:57.983 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282645.pbs101; id: 39; name: extractTFBSBeds (39); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a9/269c3cf0239450069fa8ae31755a76 started: 1709032972498; exited: 2024-02-27T11:22:54Z; ]
+Feb-27 19:22:57.998 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (107) > jobId: 6282727.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/66/541b93b4be6ac2438f9d887c96f129
+Feb-27 19:22:57.998 [Task submitter] INFO  nextflow.Session - [66/541b93] Submitted process > extractTFBSBeds (107)
+Feb-27 19:22:58.019 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282646.pbs101; id: 41; name: extractTFBSBeds (41); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d6/8b7ab54859f7a6a722f47f152d11f3 started: 1709032978016; exited: 2024-02-27T11:22:56Z; ]
+Feb-27 19:22:58.028 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282647.pbs101; id: 30; name: extractTFBSBeds (30); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fd/4a0b5ac61eedf63a3c6f7c58884e45 started: 1709032972498; exited: 2024-02-27T11:22:54Z; ]
+Feb-27 19:22:58.061 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (110) > jobId: 6282728.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f7/c53d85f1307069fb75090aa850e808
+Feb-27 19:22:58.062 [Task submitter] INFO  nextflow.Session - [f7/c53d85] Submitted process > extractTFBSBeds (110)
+Feb-27 19:22:58.207 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (113) > jobId: 6282729.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/08/34fa3b127546654c9e3d2e8c3b4a45
+Feb-27 19:22:58.207 [Task submitter] INFO  nextflow.Session - [08/34fa3b] Submitted process > extractTFBSBeds (113)
+Feb-27 19:22:58.274 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (118) > jobId: 6282730.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8f/f9ed360686d2386a2fd10db9be0c33
+Feb-27 19:22:58.274 [Task submitter] INFO  nextflow.Session - [8f/f9ed36] Submitted process > extractTFBSBeds (118)
+Feb-27 19:22:58.358 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (114) > jobId: 6282731.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d6/be8b47f3d961bd3876ecc51a49309c
+Feb-27 19:22:58.359 [Task submitter] INFO  nextflow.Session - [d6/be8b47] Submitted process > extractTFBSBeds (114)
+Feb-27 19:22:58.420 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (108) > jobId: 6282732.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e8/90763c6d71b52d465d361efbcc6adf
+Feb-27 19:22:58.420 [Task submitter] INFO  nextflow.Session - [e8/90763c] Submitted process > extractTFBSBeds (108)
+Feb-27 19:22:58.491 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (122) > jobId: 6282733.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/4a/bd92adfc9b0cdd64b19d6a5fc41bec
+Feb-27 19:22:58.491 [Task submitter] INFO  nextflow.Session - [4a/bd92ad] Submitted process > extractTFBSBeds (122)
+Feb-27 19:22:58.573 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (120) > jobId: 6282734.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d6/bdce092b11d6bbec7ce7dab2107a1c
+Feb-27 19:22:58.573 [Task submitter] INFO  nextflow.Session - [d6/bdce09] Submitted process > extractTFBSBeds (120)
+Feb-27 19:22:58.627 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (117) > jobId: 6282735.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/5c/3b8e21fadaec23924521163b96fc71
+Feb-27 19:22:58.627 [Task submitter] INFO  nextflow.Session - [5c/3b8e21] Submitted process > extractTFBSBeds (117)
+Feb-27 19:23:02.623 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282638.pbs101; id: 32; name: extractTFBSBeds (32); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d9/b2348716033d6cac1aff9da926d621 started: 1709032977696; exited: 2024-02-27T11:22:59Z; ]
+Feb-27 19:23:02.668 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282639.pbs101; id: 31; name: extractTFBSBeds (31); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/bd/84251ba62ebddabf87305f94cb0d6c started: 1709032977701; exited: 2024-02-27T11:22:58Z; ]
+Feb-27 19:23:02.726 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282640.pbs101; id: 29; name: extractTFBSBeds (29); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/45/b158ddaca0b6e58dd97a3291530180 started: 1709032977701; exited: 2024-02-27T11:23:00Z; ]
+Feb-27 19:23:02.745 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (116) > jobId: 6282736.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ce/d221c57d775c3be9a78656b9a33e6f
+Feb-27 19:23:02.746 [Task submitter] INFO  nextflow.Session - [ce/d221c5] Submitted process > extractTFBSBeds (116)
+Feb-27 19:23:02.746 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282641.pbs101; id: 28; name: extractTFBSBeds (28); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2f/32b9d15c9c15071ad51beb0b558241 started: 1709032977702; exited: 2024-02-27T11:22:59Z; ]
+Feb-27 19:23:02.768 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282648.pbs101; id: 35; name: extractTFBSBeds (35); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/34/15314dee66ccab6b652ec08abf8ba8 started: 1709032978033; exited: 2024-02-27T11:23:00Z; ]
+Feb-27 19:23:02.776 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282649.pbs101; id: 33; name: extractTFBSBeds (33); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a9/0854ada46045760996c40ba0acc701 started: 1709032978033; exited: 2024-02-27T11:22:59Z; ]
+Feb-27 19:23:02.782 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282650.pbs101; id: 34; name: extractTFBSBeds (34); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6f/f953f2bb4af6f3a1ee008ea1165b0a started: 1709032978034; exited: 2024-02-27T11:22:58Z; ]
+Feb-27 19:23:02.790 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282651.pbs101; id: 38; name: extractTFBSBeds (38); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f5/e987d8dd920c32b4b2f986cc1eb37d started: 1709032978035; exited: 2024-02-27T11:23:00Z; ]
+Feb-27 19:23:02.796 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (115) > jobId: 6282737.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a1/b1daa06296eb5c3010b0107665a43c
+Feb-27 19:23:02.796 [Task submitter] INFO  nextflow.Session - [a1/b1daa0] Submitted process > extractTFBSBeds (115)
+Feb-27 19:23:02.846 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (125) > jobId: 6282738.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/97/eaf54b5e35ec3960da1eda2d5577ba
+Feb-27 19:23:02.846 [Task submitter] INFO  nextflow.Session - [97/eaf54b] Submitted process > extractTFBSBeds (125)
+Feb-27 19:23:02.973 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (124) > jobId: 6282739.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/02/53feb12f2af4d95d72b46100a2b084
+Feb-27 19:23:02.974 [Task submitter] INFO  nextflow.Session - [02/53feb1] Submitted process > extractTFBSBeds (124)
+Feb-27 19:23:03.324 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (121) > jobId: 6282740.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e0/247c1abc5b7028971efeb84ba5e4f2
+Feb-27 19:23:03.324 [Task submitter] INFO  nextflow.Session - [e0/247c1a] Submitted process > extractTFBSBeds (121)
+Feb-27 19:23:03.393 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (119) > jobId: 6282741.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/49/de04ca59fffe1b4e760e492ddd5776
+Feb-27 19:23:03.394 [Task submitter] INFO  nextflow.Session - [49/de04ca] Submitted process > extractTFBSBeds (119)
+Feb-27 19:23:03.450 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (123) > jobId: 6282742.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/24/04bcde03f570c23d00e0aeed83d8e5
+Feb-27 19:23:03.450 [Task submitter] INFO  nextflow.Session - [24/04bcde] Submitted process > extractTFBSBeds (123)
+Feb-27 19:23:03.569 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (126) > jobId: 6282743.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/eb/5c7a6f01c76f358c7ff2fdbc186593
+Feb-27 19:23:03.569 [Task submitter] INFO  nextflow.Session - [eb/5c7a6f] Submitted process > extractTFBSBeds (126)
+Feb-27 19:23:07.565 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282652.pbs101; id: 45; name: extractTFBSBeds (45); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2a/4bc088fb7859824e586a7b34d8fdab started: 1709032982801; exited: 2024-02-27T11:23:04Z; ]
+Feb-27 19:23:07.622 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282653.pbs101; id: 43; name: extractTFBSBeds (43); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fe/229ece3cc58b90f3bda333cec0018f started: 1709032982806; exited: 2024-02-27T11:23:03Z; ]
+Feb-27 19:23:07.628 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282654.pbs101; id: 48; name: extractTFBSBeds (47); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/28/accc745868851aa13ff873a145da27 started: 1709032987627; exited: 2024-02-27T11:23:06Z; ]
+Feb-27 19:23:07.637 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282655.pbs101; id: 53; name: extractTFBSBeds (51); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/09/996518b2f2b30b55519e9a146e0a96 started: 1709032987634; exited: 2024-02-27T11:23:07Z; ]
+Feb-27 19:23:07.671 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282656.pbs101; id: 50; name: extractTFBSBeds (49); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a0/a142541239ae8466384a0c8b115426 started: 1709032982807; exited: 2024-02-27T11:23:04Z; ]
+Feb-27 19:23:07.676 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (128) > jobId: 6282744.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/05/8cbb9363176f92e33378119a40c0f0
+Feb-27 19:23:07.676 [Task submitter] INFO  nextflow.Session - [05/8cbb93] Submitted process > extractTFBSBeds (128)
+Feb-27 19:23:07.712 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282659.pbs101; id: 49; name: extractTFBSBeds (48); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/89/9ee6884cd006d182b9d4bd58eb101c started: 1709032987681; exited: 2024-02-27T11:23:06Z; ]
+Feb-27 19:23:07.720 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282660.pbs101; id: 52; name: generateBAMPaths (2); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2e/e961591cb59ba6035b3c4208ac87e9 started: 1709032987718; exited: 2024-02-27T11:23:04Z; ]
+Feb-27 19:23:07.731 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (130) > jobId: 6282745.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e6/3d542a7afbbb2a173c9d304948fd3b
+Feb-27 19:23:07.731 [Task submitter] INFO  nextflow.Session - [e6/3d542a] Submitted process > extractTFBSBeds (130)
+Feb-27 19:23:07.744 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282662.pbs101; id: 51; name: extractTFBSBeds (50); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7f/f002cb0dbda877a32003bcc6e24933 started: 1709032987729; exited: 2024-02-27T11:23:07Z; ]
+Feb-27 19:23:08.208 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (131) > jobId: 6282746.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/71/c40edc9b3503ec69b4ab0f3875ea0f
+Feb-27 19:23:08.208 [Task submitter] INFO  nextflow.Session - [71/c40edc] Submitted process > extractTFBSBeds (131)
+Feb-27 19:23:08.294 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (127) > jobId: 6282747.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/85/19e15f2e4a944fc42d925df2a87555
+Feb-27 19:23:08.294 [Task submitter] INFO  nextflow.Session - [85/19e15f] Submitted process > extractTFBSBeds (127)
+Feb-27 19:23:08.346 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 6282663.pbs101; id: 46; name: extractTFBSBeds (46); status: COMPLETED; exit: 0; error: -; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/da/834fcbc64040954ba67f902c95cc3e started: 1709032987760; exited: 2024-02-27T11:23:07Z; ]
+Feb-27 19:23:08.360 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (132) > jobId: 6282748.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/cb/dbafedc2354f490b379d2379325dbc
+Feb-27 19:23:08.360 [Task submitter] INFO  nextflow.Session - [cb/dbafed] Submitted process > extractTFBSBeds (132)
+Feb-27 19:23:08.482 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (129) > jobId: 6282749.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/94/d77c2b62ea290e7802708aff3d0d2a
+Feb-27 19:23:08.493 [Task submitter] INFO  nextflow.Session - [94/d77c2b] Submitted process > extractTFBSBeds (129)
+Feb-27 19:23:08.608 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (135) > jobId: 6282750.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/75/8b6af67dcc4fa466fd13431bc7646d
+Feb-27 19:23:08.608 [Task submitter] INFO  nextflow.Session - [75/8b6af6] Submitted process > extractTFBSBeds (135)
+Feb-27 19:23:08.687 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process extractTFBSBeds (138) > jobId: 6282751.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/af/084af6b8350f787b5ef57df2ac7128
+Feb-27 19:23:08.688 [Task submitter] INFO  nextflow.Session - [af/084af6] Submitted process > extractTFBSBeds (138)
+Feb-27 19:23:08.753 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process callVariants (7) > jobId: 6282752.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ba/38af3cb822679ee39a9d91902c10cb
+Feb-27 19:23:08.754 [Task submitter] INFO  nextflow.Session - [ba/38af3c] Submitted process > callVariants (7)
+Feb-27 19:23:08.806 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process callVariants (6) > jobId: 6282753.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/73/61fe9ddf4ba9031e7c200c6245a4ab
+Feb-27 19:23:08.806 [Task submitter] INFO  nextflow.Session - [73/61fe9d] Submitted process > callVariants (6)
+Feb-27 19:23:08.856 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process callVariants (8) > jobId: 6282754.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/18/24df0820d816584b93d2e9e7353616
+Feb-27 19:23:08.856 [Task submitter] INFO  nextflow.Session - [18/24df08] Submitted process > callVariants (8)
+Feb-27 19:23:08.907 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [PBSPRO] submitted process callVariants (2) > jobId: 6282755.pbs101; workDir: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7a/77ebde0458eae071b1da51d1b56582
+Feb-27 19:23:08.907 [Task submitter] INFO  nextflow.Session - [7a/77ebde] Submitted process > callVariants (2)
+Feb-27 19:23:09.251 [Task submitter] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=callVariants (5); work-dir=/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0a/bb3151f1f77326dc863311f69ca562
+  error [nextflow.exception.ProcessFailedException]: Error submitting process 'callVariants (5)' for execution
+Feb-27 19:23:09.643 [Task submitter] DEBUG nextflow.processor.TaskRun - Unable to dump error of process 'null' -- Cause: java.nio.file.NoSuchFileException: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0a/bb3151f1f77326dc863311f69ca562/.command.log
+Feb-27 19:23:09.646 [Task submitter] ERROR nextflow.processor.TaskProcessor - Error executing process > 'callVariants (5)'
+
+Caused by:
+  Failed to submit process to grid scheduler for execution
+
+Command executed:
+
+  qsub -N nf-callVariants .command.run
+
+Command exit status:
+  38
+
+Command output:
+  qsub: would exceed complex's per-user limit
+
+Work dir:
+  /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0a/bb3151f1f77326dc863311f69ca562
+
+Tip: view the complete command output by changing to the process work dir and entering the command `cat .command.out`
+Feb-27 19:23:09.650 [Task submitter] DEBUG nextflow.Session - Session aborted -- Cause: Error submitting process 'callVariants (5)' for execution
+Feb-27 19:23:09.963 [Task submitter] DEBUG nextflow.Session - The following nodes are still active:
+[process] callVariants
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+Feb-27 19:23:09.977 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: pbspro) - terminating tasks monitor poll loop
+Feb-27 19:23:09.981 [main] DEBUG nextflow.Session - Session await > all processes finished
+Feb-27 19:23:09.981 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Feb-27 19:23:09.991 [main] INFO  nextflow.script.BaseScript - Pipeline completed at: 2024-02-27T19:23:09.983674798+08:00
+Feb-27 19:23:09.993 [main] INFO  nextflow.script.BaseScript - Execution status: failed
+Feb-27 19:23:10.015 [main] WARN  n.processor.TaskPollingMonitor - Killing running tasks (94)
+Feb-27 19:23:13.083 [main] DEBUG n.executor.AbstractGridExecutor - Unable to kill pending jobs
+- cmd executed: qdel 6282657.pbs101 6282658.pbs101 6282661.pbs101 6282664.pbs101 6282665.pbs101 6282666.pbs101 6282667.pbs101 6282668.pbs101 6282669.pbs101 6282670.pbs101 6282671.pbs101 6282672.pbs101 6282673.pbs101 6282674.pbs101 6282675.pbs101 6282676.pbs101 6282677.pbs101 6282678.pbs101 6282679.pbs101 6282680.pbs101 6282681.pbs101 6282682.pbs101 6282683.pbs101 6282684.pbs101 6282685.pbs101 6282686.pbs101 6282687.pbs101 6282688.pbs101 6282689.pbs101 6282690.pbs101 6282691.pbs101 6282692.pbs101 6282693.pbs101 6282694.pbs101 6282695.pbs101 6282696.pbs101 6282697.pbs101 6282698.pbs101 6282699.pbs101 6282700.pbs101 6282701.pbs101 6282703.pbs101 6282704.pbs101 6282705.pbs101 6282706.pbs101 6282707.pbs101 6282708.pbs101 6282709.pbs101 6282710.pbs101 6282711.pbs101 6282712.pbs101 6282713.pbs101 6282714.pbs101 6282715.pbs101 6282716.pbs101 6282717.pbs101 6282718.pbs101 6282719.pbs101 6282720.pbs101 6282721.pbs101 6282722.pbs101 6282723.pbs101 6282724.pbs101 6282725.pbs101 6282726.pbs101 6282727.pbs101 6282728.pbs101 6282729.pbs101 6282730.pbs101 6282731.pbs101 6282732.pbs101 6282733.pbs101 6282734.pbs101 6282735.pbs101 6282736.pbs101 6282737.pbs101 6282738.pbs101 6282739.pbs101 6282740.pbs101 6282741.pbs101 6282742.pbs101 6282743.pbs101 6282744.pbs101 6282745.pbs101 6282746.pbs101 6282747.pbs101 6282748.pbs101 6282749.pbs101 6282750.pbs101 6282751.pbs101 6282752.pbs101 6282753.pbs101 6282754.pbs101 6282755.pbs101
+- exit status : 168
+- output      :
+  qdel: Request invalid for state of job 6282657.pbs101
+  qdel: Request invalid for state of job 6282658.pbs101
+  qdel: Request invalid for state of job 6282661.pbs101
+  qdel: Request invalid for state of job 6282664.pbs101
+
+Feb-27 19:23:13.115 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=50; failedCount=1; ignoredCount=0; cachedCount=0; pendingCount=1271; submittedCount=89; runningCount=-90; retriesCount=0; abortedCount=94; succeedDuration=2m 25s; failedDuration=0ms; cachedDuration=0ms;loadCpus=-90; loadMemory=0; peakRunning=12; peakCpus=12; peakMemory=0; ]
+Feb-27 19:23:13.115 [main] DEBUG nextflow.trace.ReportObserver - Workflow completed -- rendering execution report
+Feb-27 19:23:13.856 [main] DEBUG nextflow.trace.TimelineObserver - Workflow completed -- rendering execution timeline
+Feb-27 19:23:13.991 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Feb-27 19:23:14.029 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

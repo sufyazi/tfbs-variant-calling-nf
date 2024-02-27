@@ -5,7 +5,7 @@ process callVariants {
     
     clusterOptions '-l select=1:ncpus=1:mem=400GB -l walltime=18:00:00 -P 12003580 -q normal'
     
-    maxForks 70
+    maxForks 50
 
     //publishDir "${params.output_dir}/raw_vcfs/", mode: 'move'
 
