@@ -5,6 +5,10 @@
 #PBS -P 12003580
 #PBS -q normal
 
+module load singularity && module load java
+cd $PBS_O_WORKDIR
+
+
 timestamp=$(date +%Y%m%d-%H.%M)
 
 # Run the workflow on the test data, and write the output to output/
