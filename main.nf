@@ -65,7 +65,8 @@ workflow {
                 log.error "No matrix files were found in the provided directory. Please provide a valid directory path containing matrix files with the .parquet extension."
                 exit 1
             } else {
-                log.info "Printing matrix file no. 1: ${matrixFiles[0]}"
+                //log.info "Printing matrix file no. 1: ${matrixFiles[0]}"
+                log.info "Execution of workflow will proceed..."
             }
         }
     
@@ -76,9 +77,8 @@ workflow {
         
         // Run the sub-workflow to extract the TFBS as sorted bed files
         // Extract the TF footprint regions (TFBS) from the input fps matrix files
-        bedFiles_ch = extractTFBSBeds(motifMatrix_ch)
-        
-        bedFiles_ch//.view()
+        bedFiles_ch = extractTFBSBeds(motifMatrix_ch)//.view()
+
 
         // Check if run_mode is set
         if (params.run_mode == "subset"){
@@ -109,23 +109,22 @@ workflow {
                                             }//.view()
 
         // Generate a list of all the bam files for all the dataset IDs 
-        bamPaths_ch = generateBAMPaths(datasetIDBams_ch)
-        
-        bamPaths_ch//.view()
+        bamPaths_ch = generateBAMPaths(datasetIDBams_ch)//.view()
         
         log.info "Setting up combined channels for the variant calling process..."
 
         // Set up a cross product of the bed files and the bam files
-        variantCalling_ch = bedFiles_ch.combine(bamPaths_ch)//.view()//.map { bed, bam -> [bed, bam] }.view()
+        variantCalling_ch = bedFiles_ch.combine(bamPaths_ch)//.view()   //.map { bed, bam -> [bed, bam] }.view()
 
         log.info "Channels have been set up. Starting the variant calling process..."
 
         // now we can run the variant-calling process
         callVariants(variantCalling_ch)
 
+        log.info "Variant calling jobs on all compute nodes have been completed."
+
     }
 }
-
 workflow.onComplete {
     println "Pipeline completed at: $workflow.complete"
     println "Execution status: ${ workflow.success ? 'OK' : 'failed' }"
