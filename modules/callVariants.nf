@@ -3,9 +3,9 @@
 // Begin variant calling 
 process callVariants {
     
-    clusterOptions '-l select=1:ncpus=1:mem=400GB -l walltime=18:00:00 -P 12003580 -q normal'
+    clusterOptions '-l select=1:ncpus=4:mem=200GB -l walltime=8:00:00 -P 12003580 -q normal'
     
-    maxForks 50
+    maxForks 60
 
     //publishDir "${params.output_dir}/raw_vcfs/", mode: 'move'
 
