@@ -109,8 +109,8 @@ workflow {
                                             }//.view()
 
         // Generate a list of all the bam files for all the dataset IDs 
-        bamPaths_ch = generateBAMPaths(datasetIDBams_ch).view()
-        
+        bamPaths_ch = generateBAMPaths(datasetIDBams_ch)//.view()
+
         //log.info "Setting up combined channels for the variant calling process..."
 
         // Set up a cross product of the bed files and the bam files
