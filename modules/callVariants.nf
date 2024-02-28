@@ -18,11 +18,11 @@ process callVariants {
     script:
     """
     echo "Starting BCFTools from within the container for ${motifID} on dataset ${datasetID}..."
-    
+
     bcftools mpileup -Ou -f "${params.genome_fasta}" -T "${bedFile}" -b "${bamList}" --annotate FORMAT/AD,FORMAT/DP | bcftools call -Ou -mv | bcftools filter -i'QUAL>10' | bcftools +fill-tags - -- -t AF,VAF > "${motifID}_qualgt10.var.flt.VAF.allTFBS_${datasetID}.vcf"
     
     """
 }
 
-/* 
+/* # 
 */
