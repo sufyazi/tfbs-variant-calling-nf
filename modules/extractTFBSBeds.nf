@@ -7,7 +7,7 @@ process extractTFBSBeds {
 
     maxForks 20
 
-    //publishDir "${params.output_dir}/sorted_beds/", mode: 'copy', overwrite: true
+    publishDir "${params.output_dir}/sorted_beds/", mode: 'copy', overwrite: true
 
     input:
         tuple val(motifid), path(matrix)

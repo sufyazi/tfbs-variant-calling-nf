@@ -3,11 +3,11 @@
 // Begin variant calling 
 process callVariants {
     
-    clusterOptions '-l select=1:ncpus=4:mem=200GB -l walltime=8:00:00 -P 12003580 -q normal'
+    clusterOptions '-l select=1:ncpus=4:mem=64GB -l walltime=4:00:00 -P 12003580 -q normal'
     
     maxForks 60
 
-    //publishDir "${params.output_dir}/raw_vcfs/", mode: 'move'
+    publishDir "${params.output_dir}/raw_vcfs/${motifID}/", mode: 'copy'
 
     input:
     tuple val(motifID), path(bedFile), val(datasetID), path(bamList)
