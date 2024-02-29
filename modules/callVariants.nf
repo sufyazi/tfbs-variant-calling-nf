@@ -3,7 +3,7 @@
 // Begin variant calling 
 process callVariants {
     
-    clusterOptions '-l select=1:ncpus=4:mem=64GB -l walltime=4:00:00 -P 12003580 -q normal'
+    clusterOptions '-l select=1:ncpus=1:mem=64GB -l walltime=4:00:00 -P 12003580 -q normal'
     
     maxForks 60
 
