@@ -19,7 +19,7 @@ process callVariants {
     val(bedFiles)
 
     output:
-    path('*_qualgt10.var.flt.VAF.allTFBS_*.txt')
+    path("*_qualgt10.var.flt.VAF.allTFBS_${datasetID}.vcf")
 
     script:
     """
