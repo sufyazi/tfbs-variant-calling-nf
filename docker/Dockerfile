@@ -1,6 +1,6 @@
 FROM --platform=linux/x86_64 mambaorg/micromamba
 USER root
-RUN apt-get update && apt-get -y install sudo && apt-get install -y procps && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get -y install sudo && apt-get install -y procps && apt-get install -y parallel && rm -rf /var/lib/apt/lists/*
 
 LABEL maintainer="Suffian Azizan"
 
