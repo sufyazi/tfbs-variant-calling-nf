@@ -80,24 +80,23 @@ workflow {
 
         // Check if run_mode is set
         if (params.run_mode == "subset"){
-            //log.info "The <subset> parameter for [--run_mode] has been set. Checking if input dataset ID list is provided..."
+
             // Check if dataset_id_list is provided
             if (params.dataset_id_list == false){
                 log.error "The [--dataset_id_list] option is required to run the workflow if [--run_mode] is set to 'subset'."
                 exit 1
             } else {
-                //log.info "A dataset ID list has been provided. Extracting BAM directory paths only for the specified IDs..."
+
                 // Extract bam directory paths
                 datasetIDs_ch = Channel.fromPath(params.dataset_id_list).splitText().map { it.trim() }//.view()
                 datasetIDPaths_ch = datasetIDs_ch.map { id -> [id, file("${params.bam_dir}/${id}")] }//.view()
             }
         }
         else if ( params.run_mode == "all" ) {
-            //log.info "The <all> parameter for [--run_mode] has been set. Extracting all available dataset IDs within the input BAM directory..."
+
             // Extract all unique dataset IDs in the input bam folder and the path to the dataset ID
             datasetIDPaths_ch = Channel.fromPath("${params.bam_dir}/*", type: 'dir').map { dir -> [dir.name, dir] }//.view()
-            // Extract the dataset IDs
-            //datasetIDs_ch = datasetIDPaths_ch.map { id, path -> id }//.view()
+
         }
 
         // Set up a channel to grab all the bam files for each dataset ID
@@ -109,11 +108,8 @@ workflow {
         // Generate a channel for the bam list of a dataset ID
         bamPaths_ch = generateBAMPaths(datasetIDBams_ch)//.view()
 
-        // Set up a cross product of the bed files and the bam files
-        //variantCalling_ch = bedFiles_ch.combine(bamPaths_ch)//.view()   //.map { bed, bam -> [bed, bam] }.view()
-
         // now we can run the variant-calling process
-        callVariants(bamPaths_ch, bedFilesList)
+        rawVCFs_ch = callVariants(bamPaths_ch, bedFilesList)//.view()
 
     }
 }

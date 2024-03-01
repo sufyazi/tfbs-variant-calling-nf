@@ -1,0 +1,70 @@
+N E X T F L O W  ~  version 23.10.1
+Launching `main.nf` [astonishing_linnaeus] DSL2 - revision: 1cd52b537d
+Proceeding with workflow...
+Preparing the input data...
+Checking whether the directory of footprint score matrices is valid...
+The footprint matrix provided is valid. Getting a list of the matrix files...
+Total number of matrix files found: 2
+Execution of workflow will proceed...
+[-        ] process > extractTFBSBeds  -
+[-        ] process > generateBAMPaths -
+[-        ] process > callVariants     -
+
+[b5/78c221] process > extractTFBSBeds (1)  [100%] 2 of 2, cached: 2 ✔
+[ce/1e15da] process > generateBAMPaths (1) [100%] 3 of 3, cached: 3 ✔
+[-        ] process > callVariants         [  0%] 0 of 3
+
+executor >  pbspro (3)
+[b5/78c221] process > extractTFBSBeds (1)  [100%] 2 of 2, cached: 2 ✔
+[ce/1e15da] process > generateBAMPaths (1) [100%] 3 of 3, cached: 3 ✔
+[d8/c9b265] process > callVariants (1)     [  0%] 0 of 3
+
+executor >  pbspro (3)
+[b5/78c221] process > extractTFBSBeds (1)  [100%] 2 of 2, cached: 2 ✔
+[ce/1e15da] process > generateBAMPaths (1) [100%] 3 of 3, cached: 3 ✔
+[d8/c9b265] process > callVariants (1)     [  0%] 0 of 3
+
+executor >  pbspro (3)
+[b5/78c221] process > extractTFBSBeds (1)  [100%] 2 of 2, cached: 2 ✔
+[ce/1e15da] process > generateBAMPaths (1) [100%] 3 of 3, cached: 3 ✔
+[8e/6b6a9e] process > callVariants (2)     [ 66%] 2 of 3 ✔
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d2/076baf681afe3d2c4e1c82bfe8733b/AHR_AHR_HUMAN.H11MO.0.B_qualgt10.var.flt.VAF.allTFBS_MAQI84B.txt, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d2/076baf681afe3d2c4e1c82bfe8733b/AIRE_AIRE_HUMAN.H11MO.0.C_qualgt10.var.flt.VAF.allTFBS_MAQI84B.txt]
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8e/6b6a9eab580a27fce7e7ba0ccb6085/AHR_AHR_HUMAN.H11MO.0.B_qualgt10.var.flt.VAF.allTFBS_D50CS8B.txt, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8e/6b6a9eab580a27fce7e7ba0ccb6085/AIRE_AIRE_HUMAN.H11MO.0.C_qualgt10.var.flt.VAF.allTFBS_D50CS8B.txt]
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d8/c9b265857ef03092b0670aec435da5/AHR_AHR_HUMAN.H11MO.0.B_qualgt10.var.flt.VAF.allTFBS_Q8P35DS.txt, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d8/c9b265857ef03092b0670aec435da5/AIRE_AIRE_HUMAN.H11MO.0.C_qualgt10.var.flt.VAF.allTFBS_Q8P35DS.txt]
+
+executor >  pbspro (3)
+[b5/78c221] process > extractTFBSBeds (1)  [100%] 2 of 2, cached: 2 ✔
+[ce/1e15da] process > generateBAMPaths (1) [100%] 3 of 3, cached: 3 ✔
+[d8/c9b265] process > callVariants (1)     [100%] 3 of 3 ✔
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d2/076baf681afe3d2c4e1c82bfe8733b/AHR_AHR_HUMAN.H11MO.0.B_qualgt10.var.flt.VAF.allTFBS_MAQI84B.txt, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d2/076baf681afe3d2c4e1c82bfe8733b/AIRE_AIRE_HUMAN.H11MO.0.C_qualgt10.var.flt.VAF.allTFBS_MAQI84B.txt]
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8e/6b6a9eab580a27fce7e7ba0ccb6085/AHR_AHR_HUMAN.H11MO.0.B_qualgt10.var.flt.VAF.allTFBS_D50CS8B.txt, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8e/6b6a9eab580a27fce7e7ba0ccb6085/AIRE_AIRE_HUMAN.H11MO.0.C_qualgt10.var.flt.VAF.allTFBS_D50CS8B.txt]
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d8/c9b265857ef03092b0670aec435da5/AHR_AHR_HUMAN.H11MO.0.B_qualgt10.var.flt.VAF.allTFBS_Q8P35DS.txt, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d8/c9b265857ef03092b0670aec435da5/AIRE_AIRE_HUMAN.H11MO.0.C_qualgt10.var.flt.VAF.allTFBS_Q8P35DS.txt]
+Pipeline completed at: 2024-03-01T17:10:17.828727475+08:00
+Execution status: OK
+
+executor >  pbspro (3)
+[b5/78c221] process > extractTFBSBeds (1)  [100%] 2 of 2, cached: 2 ✔
+[ce/1e15da] process > generateBAMPaths (1) [100%] 3 of 3, cached: 3 ✔
+[d8/c9b265] process > callVariants (1)     [100%] 3 of 3 ✔
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d2/076baf681afe3d2c4e1c82bfe8733b/AHR_AHR_HUMAN.H11MO.0.B_qualgt10.var.flt.VAF.allTFBS_MAQI84B.txt, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d2/076baf681afe3d2c4e1c82bfe8733b/AIRE_AIRE_HUMAN.H11MO.0.C_qualgt10.var.flt.VAF.allTFBS_MAQI84B.txt]
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8e/6b6a9eab580a27fce7e7ba0ccb6085/AHR_AHR_HUMAN.H11MO.0.B_qualgt10.var.flt.VAF.allTFBS_D50CS8B.txt, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8e/6b6a9eab580a27fce7e7ba0ccb6085/AIRE_AIRE_HUMAN.H11MO.0.C_qualgt10.var.flt.VAF.allTFBS_D50CS8B.txt]
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d8/c9b265857ef03092b0670aec435da5/AHR_AHR_HUMAN.H11MO.0.B_qualgt10.var.flt.VAF.allTFBS_Q8P35DS.txt, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d8/c9b265857ef03092b0670aec435da5/AIRE_AIRE_HUMAN.H11MO.0.C_qualgt10.var.flt.VAF.allTFBS_Q8P35DS.txt]
+Pipeline completed at: 2024-03-01T17:10:17.828727475+08:00
+Execution status: OK
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2024-03-01 17:10:19.284364:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 6315219.pbs101
+	Project: 12003580
+	Exit Status: 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(4), Used(4)
+	CPU Time Used: 00:00:19
+	Memory: Requested(16gb), Used(376380kb)
+	Vmem Used: 9048992kb
+	Walltime: Requested(05:00:00), Used(00:00:18)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (x1001c0s0b0n0:ncpus=4:mem=16777216kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	No GPU-related information available for this job.
