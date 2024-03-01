@@ -2,32 +2,66 @@
 
 // Begin variant calling 
 process callVariants {
-    
-    cpus 8
-
+    /*
     // Set this for local run
     container "${params.container__bcftools}"
+    */
 
     // Set this for cluster run
-    /*
-    clusterOptions '-l select=1:ncpus=64:mem=120GB -l walltime=4:00:00 -P 12003580 -q normal'
+    
+    clusterOptions '-l select=1:ncpus=16:mem=12GB -l walltime=4:00:00 -P 12003580 -q normal'
     maxForks 20
-    publishDir "${params.output_dir}/raw_vcfs/${motifID}/", mode: 'copy'
-    */
+    //publishDir "${params.output_dir}/raw_vcfs/${motifID}/", mode: 'copy'
+    
 
     input:
     tuple val(datasetID), path(bamList)
-    each bedFile
+    val(bedFiles)
 
     output:
     stdout
-    //path "${motifID}_qualgt10.var.flt.VAF.allTFBS_${datasetID}.vcf"
+    //path('*_qualgt10.var.flt.VAF.allTFBS_${datasetID}.vcf')
 
     script:
     """
-    FILE=${bedFile}
-    motifID=\$(basename \${FILE})
-    echo hello world, ${datasetID}, \${motifID%%_TOBIAS_TF_binding_sites-sorted.bed}, ${bamList}
+    #!/usr/bin/env bash
+
+    echo \$(pwd)
+    echo "list of beds:" ${bedFiles}
+
+    # Convert the list into a string separated by spaces
+    bedString="${bedFiles.join(' ')}"
+
+    # Split the string into an array in bash
+    IFS=' ' read -r -a bedArray <<< "\${bedString}"
+
+    # Access the elements of the array
+    echo "First file: \${bedArray[0]}"
+    echo "Second file: \${bedArray[1]}"
+
+    parallel -h
+
+    mpileup_module() {
+    local BEDFILES="\$1"
+    local BAMLIST="\$2"
+    local DATAID="\$3"
+    
+    echo "Running parallel job on "\$DATAID" using all 1360 motif BED files..."
+    echo "\$BEDFILES" "\$BAMLIST"
+    bash /mnt/runParallelMpileup.sh "\$BEDFILES" "\$BAMLIST" "\$DATAID"
+    }
+
+    # export function to be used in parallel
+    export -f mpileup_module
+
+    bedFileArray="\${bedArray[@]}"
+    bamPathList="${bamList}"
+    dataID="${datasetID}"
+
+    # Determine the number of available CPU cores
+    num_cores=\$(nproc)
+    echo "Number of cores: "\$num_cores
+    mpileup_module "\${bedFileArray}" "\${bamPathList}" "\${dataID}"
 
     """
 }

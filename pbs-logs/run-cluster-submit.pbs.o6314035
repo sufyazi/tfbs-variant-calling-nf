@@ -1,0 +1,222 @@
+N E X T F L O W  ~  version 23.10.1
+Launching `main.nf` [angry_gauss] DSL2 - revision: 32f0bb85c4
+Proceeding with workflow...
+Preparing the input data...
+Checking whether the directory of footprint score matrices is valid...
+The footprint matrix provided is valid. Getting a list of the matrix files...
+Total number of matrix files found: 2
+Execution of workflow will proceed...
+[-        ] process > extractTFBSBeds  -
+[-        ] process > generateBAMPaths -
+[-        ] process > callVariants     -
+
+[-        ] process > extractTFBSBeds  [  0%] 0 of 2
+[-        ] process > generateBAMPaths [  0%] 0 of 3
+[-        ] process > callVariants     -
+
+executor >  pbspro (3)
+[a2/07096c] process > extractTFBSBeds (1)  [  0%] 0 of 2
+[37/9cfc46] process > generateBAMPaths (3) [  0%] 0 of 3
+[-        ] process > callVariants         -
+
+executor >  pbspro (5)
+[f0/22125e] process > extractTFBSBeds (2)  [  0%] 0 of 2
+[0c/917428] process > generateBAMPaths (1) [  0%] 0 of 3
+[-        ] process > callVariants         -
+
+executor >  pbspro (5)
+[f0/22125e] process > extractTFBSBeds (2)  [  0%] 0 of 2
+[0c/917428] process > generateBAMPaths (1) [  0%] 0 of 3
+[-        ] process > callVariants         -
+
+executor >  pbspro (5)
+[f0/22125e] process > extractTFBSBeds (2)  [  0%] 0 of 2
+[0c/917428] process > generateBAMPaths (1) [  0%] 0 of 3
+[-        ] process > callVariants         -
+[MAQI84B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0c/9174288cbd5804dca3ab5ffe584433/MAQI84B.bamlist.txt]
+
+executor >  pbspro (5)
+[f0/22125e] process > extractTFBSBeds (2)  [  0%] 0 of 2
+[0c/917428] process > generateBAMPaths (1) [ 33%] 1 of 3
+[-        ] process > callVariants         -
+[MAQI84B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0c/9174288cbd5804dca3ab5ffe584433/MAQI84B.bamlist.txt]
+
+executor >  pbspro (5)
+[f0/22125e] process > extractTFBSBeds (2)  [100%] 2 of 2 ✔
+[37/9cfc46] process > generateBAMPaths (3) [100%] 3 of 3 ✔
+[-        ] process > callVariants         [  0%] 0 of 1
+[MAQI84B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0c/9174288cbd5804dca3ab5ffe584433/MAQI84B.bamlist.txt]
+[Q8P35DS, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/db/293df5a96e2a2e34cb57d9e22b453c/Q8P35DS.bamlist.txt]
+[D50CS8B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/37/9cfc466cc2c62308811bb75ed7492b/D50CS8B.bamlist.txt]
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a2/07096c940f6b839f05824751596c61/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f0/22125e1ac76a72ed243f9c84d3e6a6/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed]
+
+executor >  pbspro (8)
+[f0/22125e] process > extractTFBSBeds (2)  [100%] 2 of 2 ✔
+[37/9cfc46] process > generateBAMPaths (3) [100%] 3 of 3 ✔
+[dc/25d8ce] process > callVariants (1)     [  0%] 0 of 3
+[MAQI84B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0c/9174288cbd5804dca3ab5ffe584433/MAQI84B.bamlist.txt]
+[Q8P35DS, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/db/293df5a96e2a2e34cb57d9e22b453c/Q8P35DS.bamlist.txt]
+[D50CS8B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/37/9cfc466cc2c62308811bb75ed7492b/D50CS8B.bamlist.txt]
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a2/07096c940f6b839f05824751596c61/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f0/22125e1ac76a72ed243f9c84d3e6a6/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed]
+
+executor >  pbspro (8)
+[f0/22125e] process > extractTFBSBeds (2)  [100%] 2 of 2 ✔
+[37/9cfc46] process > generateBAMPaths (3) [100%] 3 of 3 ✔
+[dc/25d8ce] process > callVariants (1)     [  0%] 0 of 3
+[MAQI84B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0c/9174288cbd5804dca3ab5ffe584433/MAQI84B.bamlist.txt]
+[Q8P35DS, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/db/293df5a96e2a2e34cb57d9e22b453c/Q8P35DS.bamlist.txt]
+[D50CS8B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/37/9cfc466cc2c62308811bb75ed7492b/D50CS8B.bamlist.txt]
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a2/07096c940f6b839f05824751596c61/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f0/22125e1ac76a72ed243f9c84d3e6a6/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed]
+ERROR ~ Error executing process > 'callVariants (3)'
+
+Caused by:
+  Process `callVariants (3)` terminated with an error exit status (2)
+
+Command executed:
+
+  #!/usr/bin/env bash
+  
+  echo ($pwd)
+  echo "list of beds:" [/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a2/07096c940f6b839f05824751596c61/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f0/22125e1ac76a72ed243f9c84d3e6a6/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed]
+  
+  # Convert the list into a string separated by spaces
+  bedString="/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a2/07096c940f6b839f05824751596c61/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f0/22125e1ac76a72ed243f9c84d3e6a6/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed"
+  
+  # Split the string into an array in bash
+  IFS=' ' read -r -a bedArray <<< "${bedString}"
+  
+  # Access the elements of the array
+  echo "First file: ${bedArray[0]}"
+  echo "Second file: ${bedArray[1]}"
+  
+  parallel -h
+  
+  mpileup_module() {
+  local BEDFILES="$1"
+  local BAMLIST="$2"
+  local DATAID="$3"
+  
+  echo "Running parallel job on "$DATAID" using all 1360 motif BED files..."
+  echo "$BEDFILES" "$BAMLIST"
+  # bash bin/runParallelMpileup.sh "$BEDFILES" "$BAMLIST" "$DATAID"
+  }
+  
+  # export function to be used in parallel
+  export -f mpileup_module
+  
+  bedFileArray="${bedArray[@]}"
+  bamPathList="D50CS8B.bamlist.txt"
+  datasetID="D50CS8B"
+  
+  # Determine the number of available CPU cores
+  num_cores=$(nproc)
+  echo "Number of cores: "$num_cores
+  mpileup_module "${bedFileArray}" "${bamPathList}" "${datasetID}"
+
+Command exit status:
+  2
+
+Command output:
+  (empty)
+
+Command error:
+  .command.sh: line 3: syntax error near unexpected token `$pwd'
+  .command.sh: line 3: `echo ($pwd)'
+
+Work dir:
+  /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ed/3cbf8929c8b6da1d24e4d0632c0fcc
+
+Tip: when you have fixed the problem you can continue the execution adding the option `-resume` to the run command line
+
+ -- Check 'test.log' file for details
+Pipeline completed at: 2024-03-01T15:59:36.058595316+08:00
+Execution status: failed
+WARN: Killing running tasks (2)
+
+executor >  pbspro (8)
+[f0/22125e] process > extractTFBSBeds (2)  [100%] 2 of 2 ✔
+[37/9cfc46] process > generateBAMPaths (3) [100%] 3 of 3 ✔
+[dc/25d8ce] process > callVariants (1)     [200%] 4 of 2, failed: 4 ✘
+[MAQI84B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0c/9174288cbd5804dca3ab5ffe584433/MAQI84B.bamlist.txt]
+[Q8P35DS, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/db/293df5a96e2a2e34cb57d9e22b453c/Q8P35DS.bamlist.txt]
+[D50CS8B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/37/9cfc466cc2c62308811bb75ed7492b/D50CS8B.bamlist.txt]
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a2/07096c940f6b839f05824751596c61/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f0/22125e1ac76a72ed243f9c84d3e6a6/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed]
+ERROR ~ Error executing process > 'callVariants (3)'
+
+Caused by:
+  Process `callVariants (3)` terminated with an error exit status (2)
+
+Command executed:
+
+  #!/usr/bin/env bash
+  
+  echo ($pwd)
+  echo "list of beds:" [/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a2/07096c940f6b839f05824751596c61/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f0/22125e1ac76a72ed243f9c84d3e6a6/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed]
+  
+  # Convert the list into a string separated by spaces
+  bedString="/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a2/07096c940f6b839f05824751596c61/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f0/22125e1ac76a72ed243f9c84d3e6a6/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed"
+  
+  # Split the string into an array in bash
+  IFS=' ' read -r -a bedArray <<< "${bedString}"
+  
+  # Access the elements of the array
+  echo "First file: ${bedArray[0]}"
+  echo "Second file: ${bedArray[1]}"
+  
+  parallel -h
+  
+  mpileup_module() {
+  local BEDFILES="$1"
+  local BAMLIST="$2"
+  local DATAID="$3"
+  
+  echo "Running parallel job on "$DATAID" using all 1360 motif BED files..."
+  echo "$BEDFILES" "$BAMLIST"
+  # bash bin/runParallelMpileup.sh "$BEDFILES" "$BAMLIST" "$DATAID"
+  }
+  
+  # export function to be used in parallel
+  export -f mpileup_module
+  
+  bedFileArray="${bedArray[@]}"
+  bamPathList="D50CS8B.bamlist.txt"
+  datasetID="D50CS8B"
+  
+  # Determine the number of available CPU cores
+  num_cores=$(nproc)
+  echo "Number of cores: "$num_cores
+  mpileup_module "${bedFileArray}" "${bamPathList}" "${datasetID}"
+
+Command exit status:
+  2
+
+Command output:
+  (empty)
+
+Command error:
+  .command.sh: line 3: syntax error near unexpected token `$pwd'
+  .command.sh: line 3: `echo ($pwd)'
+
+Work dir:
+  /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ed/3cbf8929c8b6da1d24e4d0632c0fcc
+
+Tip: when you have fixed the problem you can continue the execution adding the option `-resume` to the run command line
+
+ -- Check 'test.log' file for details
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2024-03-01 15:59:39.183441:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 6314035.pbs101
+	Project: 12003580
+	Exit Status: 1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(4), Used(4)
+	CPU Time Used: 00:00:20
+	Memory: Requested(16gb), Used(503312kb)
+	Vmem Used: 9449044kb
+	Walltime: Requested(05:00:00), Used(00:00:50)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (x1001c0s1b0n0:ncpus=4:mem=16777216kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	No GPU-related information available for this job.

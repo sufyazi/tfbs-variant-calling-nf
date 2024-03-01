@@ -1,0 +1,168 @@
+N E X T F L O W  ~  version 23.10.1
+WARN: It appears you have never run this project before -- Option `-resume` is ignored
+Launching `main.nf` [sad_allen] DSL2 - revision: 8d9433e5eb
+Proceeding with workflow...
+Preparing the input data...
+Checking whether the directory of footprint score matrices is valid...
+The footprint matrix provided is valid. Getting a list of the matrix files...
+Total number of matrix files found: 2
+Execution of workflow will proceed...
+[-        ] process > extractTFBSBeds -
+
+[-        ] process > extractTFBSBeds  [  0%] 0 of 2
+[-        ] process > generateBAMPaths [  0%] 0 of 3
+[-        ] process > callVariants     -
+
+executor >  pbspro (4)
+[4a/4f86dd] process > extractTFBSBeds (1)  [  0%] 0 of 2
+[0a/472b38] process > generateBAMPaths (1) [  0%] 0 of 3
+[-        ] process > callVariants         -
+
+executor >  pbspro (5)
+[4a/4f86dd] process > extractTFBSBeds (1)  [  0%] 0 of 2
+[34/6001d4] process > generateBAMPaths (3) [  0%] 0 of 3
+[-        ] process > callVariants         -
+
+executor >  pbspro (5)
+[4a/4f86dd] process > extractTFBSBeds (1)  [  0%] 0 of 2
+[34/6001d4] process > generateBAMPaths (3) [  0%] 0 of 3
+[-        ] process > callVariants         -
+
+executor >  pbspro (5)
+[4a/4f86dd] process > extractTFBSBeds (1)  [  0%] 0 of 2
+[34/6001d4] process > generateBAMPaths (3) [ 33%] 1 of 3
+[-        ] process > callVariants         -
+[D50CS8B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/34/6001d49322faa4a54289f83a0fbdc2/D50CS8B.bamlist.txt]
+
+executor >  pbspro (6)
+[4a/4f86dd] process > extractTFBSBeds (1)  [100%] 2 of 2 ✔
+[0a/472b38] process > generateBAMPaths (1) [100%] 3 of 3 ✔
+[58/4ef377] process > callVariants (1)     [  0%] 0 of 3
+[D50CS8B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/34/6001d49322faa4a54289f83a0fbdc2/D50CS8B.bamlist.txt]
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/5f/bdf03ad123ac15132cd76a6894d55a/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/4a/4f86dd2c630fa3e77706d13611a0aa/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed]
+[Q8P35DS, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/81/053095e10147ace6872bb0c8693f1c/Q8P35DS.bamlist.txt]
+[MAQI84B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0a/472b384762e2967e97083f4445e964/MAQI84B.bamlist.txt]
+
+executor >  pbspro (8)
+[4a/4f86dd] process > extractTFBSBeds (1)  [100%] 2 of 2 ✔
+[0a/472b38] process > generateBAMPaths (1) [100%] 3 of 3 ✔
+[71/6fd5b2] process > callVariants (3)     [  0%] 0 of 3
+[D50CS8B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/34/6001d49322faa4a54289f83a0fbdc2/D50CS8B.bamlist.txt]
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/5f/bdf03ad123ac15132cd76a6894d55a/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/4a/4f86dd2c630fa3e77706d13611a0aa/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed]
+[Q8P35DS, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/81/053095e10147ace6872bb0c8693f1c/Q8P35DS.bamlist.txt]
+[MAQI84B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0a/472b384762e2967e97083f4445e964/MAQI84B.bamlist.txt]
+
+executor >  pbspro (8)
+[4a/4f86dd] process > extractTFBSBeds (1)  [100%] 2 of 2 ✔
+[0a/472b38] process > generateBAMPaths (1) [100%] 3 of 3 ✔
+[71/6fd5b2] process > callVariants (3)     [  0%] 0 of 3
+[D50CS8B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/34/6001d49322faa4a54289f83a0fbdc2/D50CS8B.bamlist.txt]
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/5f/bdf03ad123ac15132cd76a6894d55a/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/4a/4f86dd2c630fa3e77706d13611a0aa/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed]
+[Q8P35DS, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/81/053095e10147ace6872bb0c8693f1c/Q8P35DS.bamlist.txt]
+[MAQI84B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0a/472b384762e2967e97083f4445e964/MAQI84B.bamlist.txt]
+
+executor >  pbspro (8)
+[4a/4f86dd] process > extractTFBSBeds (1)  [100%] 2 of 2 ✔
+[0a/472b38] process > generateBAMPaths (1) [100%] 3 of 3 ✔
+[71/6fd5b2] process > callVariants (3)     [  0%] 0 of 3
+[D50CS8B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/34/6001d49322faa4a54289f83a0fbdc2/D50CS8B.bamlist.txt]
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/5f/bdf03ad123ac15132cd76a6894d55a/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/4a/4f86dd2c630fa3e77706d13611a0aa/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed]
+[Q8P35DS, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/81/053095e10147ace6872bb0c8693f1c/Q8P35DS.bamlist.txt]
+[MAQI84B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0a/472b384762e2967e97083f4445e964/MAQI84B.bamlist.txt]
+ERROR ~ Error executing process > 'callVariants (1)'
+
+Caused by:
+  Process `callVariants (1)` terminated with an error exit status (2)
+
+Command executed:
+
+  echo "list of beds:" [/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/5f/bdf03ad123ac15132cd76a6894d55a/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/4a/4f86dd2c630fa3e77706d13611a0aa/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed]
+  
+  # Convert the list into a string separated by spaces
+  files_str=$(join(" ", [/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/5f/bdf03ad123ac15132cd76a6894d55a/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/4a/4f86dd2c630fa3e77706d13611a0aa/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed]))
+  
+  # Split the string into an array in bash
+  files_arr=($files_str)
+  
+  # Access the elements of the array
+  echo "First file: ${files_arr[0]}"
+  echo "Second file: ${files_arr[1]}"
+
+Command exit status:
+  2
+
+Command output:
+  list of beds: [/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/5f/bdf03ad123ac15132cd76a6894d55a/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/4a/4f86dd2c630fa3e77706d13611a0aa/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed]
+
+Command error:
+  .command.sh: line 5: syntax error near unexpected token `" ",'
+
+Work dir:
+  /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/58/4ef37748c4d2b9dd40ba20a0786b45
+
+Tip: you can try to figure out what's wrong by changing to the process work dir and showing the script file named `.command.sh`
+
+ -- Check 'test.log' file for details
+Pipeline completed at: 2024-03-01T14:56:18.351754104+08:00
+Execution status: failed
+WARN: Killing running tasks (1)
+
+executor >  pbspro (8)
+[4a/4f86dd] process > extractTFBSBeds (1)  [100%] 2 of 2 ✔
+[0a/472b38] process > generateBAMPaths (1) [100%] 3 of 3 ✔
+[71/6fd5b2] process > callVariants (3)     [150%] 3 of 2, failed: 3 ✘
+[D50CS8B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/34/6001d49322faa4a54289f83a0fbdc2/D50CS8B.bamlist.txt]
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/5f/bdf03ad123ac15132cd76a6894d55a/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/4a/4f86dd2c630fa3e77706d13611a0aa/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed]
+[Q8P35DS, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/81/053095e10147ace6872bb0c8693f1c/Q8P35DS.bamlist.txt]
+[MAQI84B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0a/472b384762e2967e97083f4445e964/MAQI84B.bamlist.txt]
+ERROR ~ Error executing process > 'callVariants (1)'
+
+Caused by:
+  Process `callVariants (1)` terminated with an error exit status (2)
+
+Command executed:
+
+  echo "list of beds:" [/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/5f/bdf03ad123ac15132cd76a6894d55a/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/4a/4f86dd2c630fa3e77706d13611a0aa/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed]
+  
+  # Convert the list into a string separated by spaces
+  files_str=$(join(" ", [/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/5f/bdf03ad123ac15132cd76a6894d55a/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/4a/4f86dd2c630fa3e77706d13611a0aa/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed]))
+  
+  # Split the string into an array in bash
+  files_arr=($files_str)
+  
+  # Access the elements of the array
+  echo "First file: ${files_arr[0]}"
+  echo "Second file: ${files_arr[1]}"
+
+Command exit status:
+  2
+
+Command output:
+  list of beds: [/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/5f/bdf03ad123ac15132cd76a6894d55a/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/4a/4f86dd2c630fa3e77706d13611a0aa/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed]
+
+Command error:
+  .command.sh: line 5: syntax error near unexpected token `" ",'
+
+Work dir:
+  /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/58/4ef37748c4d2b9dd40ba20a0786b45
+
+Tip: you can try to figure out what's wrong by changing to the process work dir and showing the script file named `.command.sh`
+
+ -- Check 'test.log' file for details
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2024-03-01 14:56:19.685505:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 6313255.pbs101
+	Project: 12003580
+	Exit Status: 1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(4), Used(4)
+	CPU Time Used: 00:00:17
+	Memory: Requested(16gb), Used(392868kb)
+	Vmem Used: 8953628kb
+	Walltime: Requested(05:00:00), Used(00:00:43)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (x1001c0s0b0n0:ncpus=4:mem=16777216kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	No GPU-related information available for this job.

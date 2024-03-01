@@ -74,10 +74,9 @@ workflow {
         in_matrix = Channel.fromPath(matrixFiles)//.view()
         // Extract the prefix from the input files and return a tuple of the file and the prefix
         motifMatrix_ch = in_matrix.map{ file -> [file.baseName.replaceAll("_tfbs_merged_matrix-full", ""), file] }//.view()
+        // Extract the TF footprint regions (TFBS) from the input fps matrix files as bed files
+        bedFilesList = extractTFBSBeds(motifMatrix_ch).toList()//.view()
 
-        // Run the sub-workflow to extract the TFBS as sorted bed files
-        // Extract the TF footprint regions (TFBS) from the input fps matrix files
-        bedFilesList = extractTFBSBeds(motifMatrix_ch).toList().view()
 
         // Check if run_mode is set
         if (params.run_mode == "subset"){
@@ -108,16 +107,10 @@ workflow {
                                             }//.view()
 
         // Generate a channel for the bam list of a dataset ID
-        bamPaths_ch = generateBAMPaths(datasetIDBams_ch).view()
-
-        //log.info "Setting up combined channels for the variant calling process..."
+        bamPaths_ch = generateBAMPaths(datasetIDBams_ch)//.view()
 
         // Set up a cross product of the bed files and the bam files
         //variantCalling_ch = bedFiles_ch.combine(bamPaths_ch)//.view()   //.map { bed, bam -> [bed, bam] }.view()
-
-
-
-        //log.info "Channels have been set up. Starting the variant calling process..."
 
         // now we can run the variant-calling process
         callVariants(bamPaths_ch, bedFilesList)

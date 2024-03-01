@@ -5,5 +5,5 @@
 work/
 input-dir-local/
 output-dir-local/
-input-dir-cluster/
-output-dir-cluster/
+cluster-input-dir/
+cluster-output-dir/
