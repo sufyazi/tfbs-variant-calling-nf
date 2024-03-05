@@ -1,0 +1,563 @@
+N E X T F L O W  ~  version 23.10.1
+Launching `main.nf` [mighty_morse] DSL2 - revision: a4645388ae
+Proceeding with workflow...
+Preparing the input data...
+Checking whether the directory of footprint score matrices is valid...
+The footprint matrix provided is valid. Getting a list of the matrix files...
+Total number of matrix files found: 1360
+Execution of workflow will proceed...
+[-        ] process > extractTFBSBeds  -
+[-        ] process > generateBAMPaths -
+[-        ] process > callVariants     -
+
+[cc/a9edf5] process > extractTFBSBeds (10) [100%] 9 of 9, cached: 9
+[45/e2929a] process > generateBAMPaths (1) [100%] 2 of 2, cached: 2
+[-        ] process > callVariants         -
+
+[4c/ae376d] process > extractTFBSBeds (47) [100%] 43 of 43, cached: 43
+[67/695cc5] process > generateBAMPaths (8) [100%] 8 of 8, cached: 8
+[-        ] process > callVariants         -
+
+[29/764266] process > extractTFBSBeds (76)  [100%] 78 of 78, cached: 78
+[ef/9d7c75] process > generateBAMPaths (12) [100%] 12 of 12, cached: 12
+[-        ] process > callVariants          -
+
+[87/7c4ab1] process > extractTFBSBeds (118) [100%] 119 of 119, cached: 119
+[25/eb79fe] process > generateBAMPaths (14) [100%] 14 of 14, cached: 14
+[-        ] process > callVariants          -
+
+[fd/dae20c] process > extractTFBSBeds (163) [100%] 156 of 156, cached: 156
+[e4/f9b8ba] process > generateBAMPaths (27) [100%] 25 of 25, cached: 25
+[-        ] process > callVariants          -
+
+[d0/6b8bfe] process > extractTFBSBeds (193) [100%] 193 of 193, cached: 193
+[87/bb47ce] process > generateBAMPaths (30) [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants          -
+
+[c2/50f01d] process > extractTFBSBeds (222) [100%] 225 of 225, cached: 225
+[87/bb47ce] process > generateBAMPaths (30) [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants          -
+
+[e7/4b3d0f] process > extractTFBSBeds (255) [100%] 253 of 253, cached: 253
+[87/bb47ce] process > generateBAMPaths (30) [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants          -
+
+[5f/f1c473] process > extractTFBSBeds (283) [100%] 281 of 281, cached: 281
+[87/bb47ce] process > generateBAMPaths (30) [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants          -
+
+[5b/c58cc8] process > extractTFBSBeds (322) [100%] 321 of 321, cached: 321
+[87/bb47ce] process > generateBAMPaths (30) [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants          -
+
+[5d/2ab803] process > extractTFBSBeds (334) [100%] 361 of 361, cached: 361
+[87/bb47ce] process > generateBAMPaths (30) [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants          -
+
+[f2/e10fab] process > extractTFBSBeds (406) [100%] 407 of 407, cached: 407
+[87/bb47ce] process > generateBAMPaths (30) [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants          -
+
+[0f/929c3b] process > extractTFBSBeds (472) [100%] 470 of 470, cached: 470
+[87/bb47ce] process > generateBAMPaths (30) [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants          -
+
+[22/d3b543] process > extractTFBSBeds (523) [100%] 525 of 525, cached: 525
+[87/bb47ce] process > generateBAMPaths (30) [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants          -
+
+[6e/34d737] process > extractTFBSBeds (580) [100%] 579 of 579, cached: 579
+[87/bb47ce] process > generateBAMPaths (30) [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants          -
+
+[bc/4386f0] process > extractTFBSBeds (625) [100%] 625 of 625, cached: 625
+[87/bb47ce] process > generateBAMPaths (30) [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants          -
+
+[20/372ed2] process > extractTFBSBeds (668) [100%] 668 of 668, cached: 668
+[87/bb47ce] process > generateBAMPaths (30) [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants          -
+
+[4c/9c9308] process > extractTFBSBeds (732) [100%] 726 of 726, cached: 726
+[87/bb47ce] process > generateBAMPaths (30) [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants          -
+
+[25/60ed96] process > extractTFBSBeds (778) [100%] 775 of 775, cached: 775
+[87/bb47ce] process > generateBAMPaths (30) [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants          -
+
+[c8/925331] process > extractTFBSBeds (830) [100%] 826 of 826, cached: 826
+[87/bb47ce] process > generateBAMPaths (30) [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants          -
+
+[7e/3cf904] process > extractTFBSBeds (896) [100%] 892 of 892, cached: 892
+[87/bb47ce] process > generateBAMPaths (30) [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants          -
+
+[d4/821a8d] process > extractTFBSBeds (952) [100%] 955 of 955, cached: 955
+[87/bb47ce] process > generateBAMPaths (30) [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants          -
+
+[bf/b69f18] process > extractTFBSBeds (1031) [100%] 1025 of 1025, cached: 1025
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants           -
+
+[a3/9560ee] process > extractTFBSBeds (1085) [100%] 1080 of 1080, cached: 1080
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants           -
+
+[f5/3584dc] process > extractTFBSBeds (1145) [100%] 1145 of 1145, cached: 1145
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants           -
+
+[09/1b0716] process > extractTFBSBeds (1223) [100%] 1222 of 1222, cached: 1222
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants           -
+
+[55/b40668] process > extractTFBSBeds (1285) [100%] 1286 of 1286, cached: 1286
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants           -
+
+[b4/f044e0] process > extractTFBSBeds (1302) [100%] 1310 of 1310, cached: 1310
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants           -
+
+[51/3dd090] process > extractTFBSBeds (1333) [100%] 1337 of 1337, cached: 1337
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants           -
+
+[37/3db3e2] process > extractTFBSBeds (1360) [100%] 1359 of 1359, cached: 1359
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants           -
+
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants           -
+
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants           [  0%] 0 of 8
+
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[-        ] process > callVariants           [  0%] 0 of 22
+
+executor >  pbspro (1)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[5b/bf84a5] process > callVariants (1)       [  0%] 0 of 30
+
+executor >  pbspro (4)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[e5/3c5090] process > callVariants (8)       [  0%] 0 of 30
+
+executor >  pbspro (6)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[6c/62818c] process > callVariants (2)       [  0%] 0 of 30
+
+executor >  pbspro (9)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[da/1f8205] process > callVariants (10)      [  0%] 0 of 30
+
+executor >  pbspro (11)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[0d/e4b08d] process > callVariants (16)      [  0%] 0 of 30
+
+executor >  pbspro (13)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[1f/98fbba] process > callVariants (15)      [  0%] 0 of 30
+
+executor >  pbspro (15)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[0a/b85bde] process > callVariants (13)      [  0%] 0 of 30
+
+executor >  pbspro (17)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[9c/24f0d0] process > callVariants (9)       [  0%] 0 of 30
+
+executor >  pbspro (19)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[d1/4ccf1e] process > callVariants (19)      [  0%] 0 of 30
+
+executor >  pbspro (21)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[27/159870] process > callVariants (22)      [  0%] 0 of 30
+
+executor >  pbspro (22)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[94/7c727b] process > callVariants (21)      [  0%] 0 of 30
+
+executor >  pbspro (24)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[c3/d2bfe4] process > callVariants (23)      [  0%] 0 of 30
+
+executor >  pbspro (27)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[3e/ae7d32] process > callVariants (25)      [  0%] 0 of 30
+
+executor >  pbspro (29)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[d8/c5c0e3] process > callVariants (29)      [  0%] 0 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[9e/22528e] process > callVariants (30)      [  0%] 0 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[9e/22528e] process > callVariants (30)      [  0%] 0 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[9e/22528e] process > callVariants (30)      [  0%] 0 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[9e/22528e] process > callVariants (30)      [  0%] 0 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[9e/22528e] process > callVariants (30)      [  0%] 0 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[9e/22528e] process > callVariants (30)      [  0%] 0 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[9e/22528e] process > callVariants (30)      [  0%] 0 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[e5/3c5090] process > callVariants (8)       [  3%] 1 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[e5/3c5090] process > callVariants (8)       [  3%] 1 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[f5/91dabb] process > callVariants (7)       [  6%] 2 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[f5/91dabb] process > callVariants (7)       [  6%] 2 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[f9/6ed783] process > callVariants (6)       [ 10%] 3 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[f9/6ed783] process > callVariants (6)       [ 10%] 3 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[6c/62818c] process > callVariants (2)       [ 13%] 4 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[6c/62818c] process > callVariants (2)       [ 13%] 4 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[ff/af7542] process > callVariants (5)       [ 16%] 5 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[ad/bc3a72] process > callVariants (3)       [ 20%] 6 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[ad/bc3a72] process > callVariants (3)       [ 20%] 6 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[ad/bc3a72] process > callVariants (3)       [ 20%] 6 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[da/1f8205] process > callVariants (10)      [ 23%] 7 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[da/1f8205] process > callVariants (10)      [ 23%] 7 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[b4/02c926] process > callVariants (12)      [ 26%] 8 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[b4/02c926] process > callVariants (12)      [ 26%] 8 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[0d/e4b08d] process > callVariants (16)      [ 30%] 9 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[0d/e4b08d] process > callVariants (16)      [ 30%] 9 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[0c/32cc0b] process > callVariants (14)      [ 33%] 10 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[0c/32cc0b] process > callVariants (14)      [ 33%] 10 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[1f/98fbba] process > callVariants (15)      [ 36%] 11 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[1f/98fbba] process > callVariants (15)      [ 36%] 11 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[d4/c102bb] process > callVariants (11)      [ 40%] 12 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[d4/c102bb] process > callVariants (11)      [ 40%] 12 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[4c/4b70d5] process > callVariants (18)      [ 43%] 13 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[4c/4b70d5] process > callVariants (18)      [ 43%] 13 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[9c/24f0d0] process > callVariants (9)       [ 46%] 14 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[9c/24f0d0] process > callVariants (9)       [ 46%] 14 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[d0/57dd81] process > callVariants (17)      [ 50%] 15 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[d0/57dd81] process > callVariants (17)      [ 50%] 15 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[c4/2cbc16] process > callVariants (20)      [ 53%] 16 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[c4/2cbc16] process > callVariants (20)      [ 53%] 16 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[d1/4ccf1e] process > callVariants (19)      [ 56%] 17 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[d1/4ccf1e] process > callVariants (19)      [ 56%] 17 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[27/159870] process > callVariants (22)      [ 60%] 18 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[27/159870] process > callVariants (22)      [ 60%] 18 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[0a/b85bde] process > callVariants (13)      [ 63%] 19 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[0a/b85bde] process > callVariants (13)      [ 63%] 19 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[94/7c727b] process > callVariants (21)      [ 66%] 20 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[94/7c727b] process > callVariants (21)      [ 66%] 20 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[c3/d2bfe4] process > callVariants (23)      [ 70%] 21 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[c3/d2bfe4] process > callVariants (23)      [ 70%] 21 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[1b/ea07e9] process > callVariants (24)      [ 73%] 22 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[1b/ea07e9] process > callVariants (24)      [ 73%] 22 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[3e/ae7d32] process > callVariants (25)      [ 76%] 23 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[3e/ae7d32] process > callVariants (25)      [ 76%] 23 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[1c/05679b] process > callVariants (27)      [ 80%] 24 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[59/861b77] process > callVariants (28)      [ 83%] 25 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[f4/1afea6] process > callVariants (26)      [ 86%] 26 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[d8/c5c0e3] process > callVariants (29)      [ 90%] 27 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[9e/22528e] process > callVariants (30)      [ 93%] 28 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[2e/3e7ad8] process > callVariants (4)       [ 96%] 29 of 30
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[2e/3e7ad8] process > callVariants (4)       [ 96%] 29 of 30 ✔
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[5b/bf84a5] process > callVariants (1)       [100%] 30 of 30 ✔
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[5b/bf84a5] process > callVariants (1)       [100%] 30 of 30 ✔
+Waiting for file transfers to complete (1240 files)
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[5b/bf84a5] process > callVariants (1)       [100%] 30 of 30 ✔
+Pipeline completed at: 2024-03-05T07:43:01.153991615+08:00
+Execution status: OK
+
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[87/bb47ce] process > generateBAMPaths (30)  [100%] 30 of 30, cached: 30 ✔
+[5b/bf84a5] process > callVariants (1)       [100%] 30 of 30 ✔
+Pipeline completed at: 2024-03-05T07:43:01.153991615+08:00
+Execution status: OK
+
+Completed at: 05-Mar-2024 07:43:03
+Duration    : 15h 51m 12s
+CPU hours   : 29.0 (3.5% cached)
+Succeeded   : 30
+Cached      : 1'390
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2024-03-05 07:43:05.502780:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 6331963.pbs101
+	Project: 12003580
+	Exit Status: 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(4), Used(4)
+	CPU Time Used: 00:15:12
+	Memory: Requested(8gb), Used(8388608kb)
+	Vmem Used: 16579908kb
+	Walltime: Requested(115:00:00), Used(15:51:31)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (x1001c0s0b1n0:ncpus=4:mem=8388608kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	No GPU-related information available for this job.

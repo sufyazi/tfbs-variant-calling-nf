@@ -1,0 +1,174 @@
+N E X T F L O W  ~  version 23.10.1
+WARN: It appears you have never run this project before -- Option `-resume` is ignored
+Launching `main.nf` [pedantic_ritchie] DSL2 - revision: 32f0bb85c4
+Proceeding with workflow...
+Preparing the input data...
+Checking whether the directory of footprint score matrices is valid...
+The footprint matrix provided is valid. Getting a list of the matrix files...
+Total number of matrix files found: 2
+Execution of workflow will proceed...
+[-        ] process > extractTFBSBeds  [  0%] 0 of 2
+[-        ] process > generateBAMPaths [  0%] 0 of 3
+[-        ] process > callVariants     -
+
+executor >  pbspro (2)
+[-        ] process > extractTFBSBeds      [  0%] 0 of 2
+[06/9c97f8] process > generateBAMPaths (2) [  0%] 0 of 3
+[-        ] process > callVariants         -
+
+executor >  pbspro (5)
+[06/c1dff7] process > extractTFBSBeds (2)  [  0%] 0 of 2
+[74/0a9696] process > generateBAMPaths (3) [  0%] 0 of 3
+[-        ] process > callVariants         -
+
+executor >  pbspro (5)
+[06/c1dff7] process > extractTFBSBeds (2)  [  0%] 0 of 2
+[74/0a9696] process > generateBAMPaths (3) [  0%] 0 of 3
+[-        ] process > callVariants         -
+
+executor >  pbspro (5)
+[06/c1dff7] process > extractTFBSBeds (2)  [  0%] 0 of 2
+[06/9c97f8] process > generateBAMPaths (2) [ 66%] 2 of 3
+[-        ] process > callVariants         -
+[MAQI84B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1d/d65966c8638bd353cec49f6ff2185a/MAQI84B.bamlist.txt]
+[Q8P35DS, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/06/9c97f8118e745bcbaf385cc56b3b47/Q8P35DS.bamlist.txt]
+
+executor >  pbspro (5)
+[8e/d1d537] process > extractTFBSBeds (1)  [ 50%] 1 of 2
+[06/9c97f8] process > generateBAMPaths (2) [ 66%] 2 of 3
+[-        ] process > callVariants         -
+[MAQI84B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1d/d65966c8638bd353cec49f6ff2185a/MAQI84B.bamlist.txt]
+[Q8P35DS, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/06/9c97f8118e745bcbaf385cc56b3b47/Q8P35DS.bamlist.txt]
+[D50CS8B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/74/0a96961ee6dc83b49c166485895d0b/D50CS8B.bamlist.txt]
+
+executor >  pbspro (5)
+[8e/d1d537] process > extractTFBSBeds (1)  [ 50%] 1 of 2
+[74/0a9696] process > generateBAMPaths (3) [100%] 3 of 3 ✔
+[-        ] process > callVariants         -
+[MAQI84B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1d/d65966c8638bd353cec49f6ff2185a/MAQI84B.bamlist.txt]
+[Q8P35DS, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/06/9c97f8118e745bcbaf385cc56b3b47/Q8P35DS.bamlist.txt]
+[D50CS8B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/74/0a96961ee6dc83b49c166485895d0b/D50CS8B.bamlist.txt]
+
+executor >  pbspro (6)
+[06/c1dff7] process > extractTFBSBeds (2)  [100%] 2 of 2 ✔
+[74/0a9696] process > generateBAMPaths (3) [100%] 3 of 3 ✔
+[8e/e263fc] process > callVariants (2)     [  0%] 0 of 3
+[MAQI84B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1d/d65966c8638bd353cec49f6ff2185a/MAQI84B.bamlist.txt]
+[Q8P35DS, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/06/9c97f8118e745bcbaf385cc56b3b47/Q8P35DS.bamlist.txt]
+[D50CS8B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/74/0a96961ee6dc83b49c166485895d0b/D50CS8B.bamlist.txt]
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8e/d1d53704ed92f262ede79ae7e30344/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/06/c1dff7395b5aea4444214099c4cd72/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed]
+
+executor >  pbspro (8)
+[06/c1dff7] process > extractTFBSBeds (2)  [100%] 2 of 2 ✔
+[74/0a9696] process > generateBAMPaths (3) [100%] 3 of 3 ✔
+[7e/d6e614] process > callVariants (3)     [  0%] 0 of 3
+[MAQI84B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1d/d65966c8638bd353cec49f6ff2185a/MAQI84B.bamlist.txt]
+[Q8P35DS, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/06/9c97f8118e745bcbaf385cc56b3b47/Q8P35DS.bamlist.txt]
+[D50CS8B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/74/0a96961ee6dc83b49c166485895d0b/D50CS8B.bamlist.txt]
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8e/d1d53704ed92f262ede79ae7e30344/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/06/c1dff7395b5aea4444214099c4cd72/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed]
+
+executor >  pbspro (8)
+[06/c1dff7] process > extractTFBSBeds (2)  [100%] 2 of 2 ✔
+[74/0a9696] process > generateBAMPaths (3) [100%] 3 of 3 ✔
+[7e/d6e614] process > callVariants (3)     [  0%] 0 of 3
+[MAQI84B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1d/d65966c8638bd353cec49f6ff2185a/MAQI84B.bamlist.txt]
+[Q8P35DS, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/06/9c97f8118e745bcbaf385cc56b3b47/Q8P35DS.bamlist.txt]
+[D50CS8B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/74/0a96961ee6dc83b49c166485895d0b/D50CS8B.bamlist.txt]
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8e/d1d53704ed92f262ede79ae7e30344/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/06/c1dff7395b5aea4444214099c4cd72/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed]
+ERROR ~ Error executing process > 'callVariants (2)'
+
+Caused by:
+  Process `callVariants (2)` terminated with an error exit status (126)
+
+Command executed:
+
+  echo "list of beds:" [/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8e/d1d53704ed92f262ede79ae7e30344/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/06/c1dff7395b5aea4444214099c4cd72/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed]
+  
+  # Convert the list into a string separated by spaces
+  bedString=/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8e/d1d53704ed92f262ede79ae7e30344/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/06/c1dff7395b5aea4444214099c4cd72/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed
+  
+  # Split the string into an array in bash
+  IFS=' ' read -r -a bedArray <<< "${bedString}"
+  
+  # Access the elements of the array
+  echo "First file: ${bedArray[0]}"
+  echo "Second file: ${bedArray[1]}"
+
+Command exit status:
+  126
+
+Command output:
+  list of beds: [/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8e/d1d53704ed92f262ede79ae7e30344/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/06/c1dff7395b5aea4444214099c4cd72/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed]
+
+Command error:
+  .command.sh: line 5: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/06/c1dff7395b5aea4444214099c4cd72/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed: Permission denied
+
+Work dir:
+  /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8e/e263fc5d93cf6545b9cf152cb656bd
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+
+ -- Check 'test.log' file for details
+Pipeline completed at: 2024-03-01T15:12:44.489734158+08:00
+Execution status: failed
+WARN: Killing running tasks (2)
+
+executor >  pbspro (8)
+[06/c1dff7] process > extractTFBSBeds (2)  [100%] 2 of 2 ✔
+[74/0a9696] process > generateBAMPaths (3) [100%] 3 of 3 ✔
+[7e/d6e614] process > callVariants (3)     [300%] 3 of 1, failed: 3 ✘
+[MAQI84B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1d/d65966c8638bd353cec49f6ff2185a/MAQI84B.bamlist.txt]
+[Q8P35DS, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/06/9c97f8118e745bcbaf385cc56b3b47/Q8P35DS.bamlist.txt]
+[D50CS8B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/74/0a96961ee6dc83b49c166485895d0b/D50CS8B.bamlist.txt]
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8e/d1d53704ed92f262ede79ae7e30344/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/06/c1dff7395b5aea4444214099c4cd72/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed]
+ERROR ~ Error executing process > 'callVariants (2)'
+
+Caused by:
+  Process `callVariants (2)` terminated with an error exit status (126)
+
+Command executed:
+
+  echo "list of beds:" [/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8e/d1d53704ed92f262ede79ae7e30344/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/06/c1dff7395b5aea4444214099c4cd72/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed]
+  
+  # Convert the list into a string separated by spaces
+  bedString=/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8e/d1d53704ed92f262ede79ae7e30344/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/06/c1dff7395b5aea4444214099c4cd72/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed
+  
+  # Split the string into an array in bash
+  IFS=' ' read -r -a bedArray <<< "${bedString}"
+  
+  # Access the elements of the array
+  echo "First file: ${bedArray[0]}"
+  echo "Second file: ${bedArray[1]}"
+
+Command exit status:
+  126
+
+Command output:
+  list of beds: [/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8e/d1d53704ed92f262ede79ae7e30344/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/06/c1dff7395b5aea4444214099c4cd72/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed]
+
+Command error:
+  .command.sh: line 5: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/06/c1dff7395b5aea4444214099c4cd72/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed: Permission denied
+
+Work dir:
+  /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8e/e263fc5d93cf6545b9cf152cb656bd
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+
+ -- Check 'test.log' file for details
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2024-03-01 15:12:45.758466:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 6313357.pbs101
+	Project: 12003580
+	Exit Status: 1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(4), Used(4)
+	CPU Time Used: 00:00:16
+	Memory: Requested(16gb), Used(384636kb)
+	Vmem Used: 8977420kb
+	Walltime: Requested(05:00:00), Used(00:00:38)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (x1001c0s0b0n0:ncpus=4:mem=16777216kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	No GPU-related information available for this job.

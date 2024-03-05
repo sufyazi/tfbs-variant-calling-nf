@@ -1,0 +1,114 @@
+N E X T F L O W  ~  version 23.10.1
+WARN: It appears you have never run this project before -- Option `-resume` is ignored
+Launching `main.nf` [fervent_thompson] DSL2 - revision: 32f0bb85c4
+Proceeding with workflow...
+Preparing the input data...
+Checking whether the directory of footprint score matrices is valid...
+The footprint matrix provided is valid. Getting a list of the matrix files...
+Total number of matrix files found: 2
+Execution of workflow will proceed...
+[-        ] process > extractTFBSBeds  -
+[-        ] process > generateBAMPaths -
+[-        ] process > callVariants     -
+
+executor >  pbspro (1)
+[f0/58bf07] process > extractTFBSBeds (2) [  0%] 0 of 2
+[-        ] process > generateBAMPaths    [  0%] 0 of 3
+[-        ] process > callVariants        -
+
+executor >  pbspro (2)
+[f0/58bf07] process > extractTFBSBeds (2)  [  0%] 0 of 2
+[3c/d3dc24] process > generateBAMPaths (1) [  0%] 0 of 3
+[-        ] process > callVariants         -
+
+executor >  pbspro (5)
+[fd/373745] process > extractTFBSBeds (1)  [  0%] 0 of 2
+[60/b12555] process > generateBAMPaths (3) [  0%] 0 of 3
+[-        ] process > callVariants         -
+
+executor >  pbspro (5)
+[fd/373745] process > extractTFBSBeds (1)  [  0%] 0 of 2
+[60/b12555] process > generateBAMPaths (3) [  0%] 0 of 3
+[-        ] process > callVariants         -
+
+executor >  pbspro (5)
+[fd/373745] process > extractTFBSBeds (1)  [ 50%] 1 of 2
+[a2/2517f4] process > generateBAMPaths (2) [ 66%] 2 of 3
+[-        ] process > callVariants         -
+[MAQI84B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3c/d3dc2417d771d4dd5e821f3b72edcc/MAQI84B.bamlist.txt]
+[Q8P35DS, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a2/2517f475fecd70bfcb789201feb99b/Q8P35DS.bamlist.txt]
+
+executor >  pbspro (7)
+[f0/58bf07] process > extractTFBSBeds (2)  [100%] 2 of 2 ✔
+[60/b12555] process > generateBAMPaths (3) [100%] 3 of 3 ✔
+[f7/86f2cd] process > callVariants (2)     [  0%] 0 of 3
+[MAQI84B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3c/d3dc2417d771d4dd5e821f3b72edcc/MAQI84B.bamlist.txt]
+[Q8P35DS, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a2/2517f475fecd70bfcb789201feb99b/Q8P35DS.bamlist.txt]
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fd/37374588b5acf4ce89e60333900d7e/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f0/58bf070472636a6c425630f11cd1d4/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed]
+[D50CS8B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/60/b125558639fd1259160173df7fb9cd/D50CS8B.bamlist.txt]
+
+executor >  pbspro (8)
+[f0/58bf07] process > extractTFBSBeds (2)  [100%] 2 of 2 ✔
+[60/b12555] process > generateBAMPaths (3) [100%] 3 of 3 ✔
+[97/b186c5] process > callVariants (3)     [  0%] 0 of 3
+[MAQI84B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3c/d3dc2417d771d4dd5e821f3b72edcc/MAQI84B.bamlist.txt]
+[Q8P35DS, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a2/2517f475fecd70bfcb789201feb99b/Q8P35DS.bamlist.txt]
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fd/37374588b5acf4ce89e60333900d7e/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f0/58bf070472636a6c425630f11cd1d4/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed]
+[D50CS8B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/60/b125558639fd1259160173df7fb9cd/D50CS8B.bamlist.txt]
+
+executor >  pbspro (8)
+[f0/58bf07] process > extractTFBSBeds (2)  [100%] 2 of 2 ✔
+[60/b12555] process > generateBAMPaths (3) [100%] 3 of 3 ✔
+[90/9ac1c8] process > callVariants (1)     [ 33%] 1 of 3
+[MAQI84B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3c/d3dc2417d771d4dd5e821f3b72edcc/MAQI84B.bamlist.txt]
+[Q8P35DS, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a2/2517f475fecd70bfcb789201feb99b/Q8P35DS.bamlist.txt]
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fd/37374588b5acf4ce89e60333900d7e/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f0/58bf070472636a6c425630f11cd1d4/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed]
+[D50CS8B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/60/b125558639fd1259160173df7fb9cd/D50CS8B.bamlist.txt]
+
+executor >  pbspro (8)
+[f0/58bf07] process > extractTFBSBeds (2)  [100%] 2 of 2 ✔
+[60/b12555] process > generateBAMPaths (3) [100%] 3 of 3 ✔
+[97/b186c5] process > callVariants (3)     [ 66%] 2 of 3
+[MAQI84B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3c/d3dc2417d771d4dd5e821f3b72edcc/MAQI84B.bamlist.txt]
+[Q8P35DS, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a2/2517f475fecd70bfcb789201feb99b/Q8P35DS.bamlist.txt]
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fd/37374588b5acf4ce89e60333900d7e/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f0/58bf070472636a6c425630f11cd1d4/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed]
+[D50CS8B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/60/b125558639fd1259160173df7fb9cd/D50CS8B.bamlist.txt]
+
+executor >  pbspro (8)
+[f0/58bf07] process > extractTFBSBeds (2)  [100%] 2 of 2 ✔
+[60/b12555] process > generateBAMPaths (3) [100%] 3 of 3 ✔
+[f7/86f2cd] process > callVariants (2)     [100%] 3 of 3 ✔
+[MAQI84B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3c/d3dc2417d771d4dd5e821f3b72edcc/MAQI84B.bamlist.txt]
+[Q8P35DS, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a2/2517f475fecd70bfcb789201feb99b/Q8P35DS.bamlist.txt]
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fd/37374588b5acf4ce89e60333900d7e/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f0/58bf070472636a6c425630f11cd1d4/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed]
+[D50CS8B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/60/b125558639fd1259160173df7fb9cd/D50CS8B.bamlist.txt]
+Pipeline completed at: 2024-03-01T15:17:34.751463170+08:00
+Execution status: OK
+
+executor >  pbspro (8)
+[f0/58bf07] process > extractTFBSBeds (2)  [100%] 2 of 2 ✔
+[60/b12555] process > generateBAMPaths (3) [100%] 3 of 3 ✔
+[f7/86f2cd] process > callVariants (2)     [100%] 3 of 3 ✔
+[MAQI84B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3c/d3dc2417d771d4dd5e821f3b72edcc/MAQI84B.bamlist.txt]
+[Q8P35DS, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a2/2517f475fecd70bfcb789201feb99b/Q8P35DS.bamlist.txt]
+[/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fd/37374588b5acf4ce89e60333900d7e/AHR_AHR_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f0/58bf070472636a6c425630f11cd1d4/AIRE_AIRE_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed]
+[D50CS8B, /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/60/b125558639fd1259160173df7fb9cd/D50CS8B.bamlist.txt]
+Pipeline completed at: 2024-03-01T15:17:34.751463170+08:00
+Execution status: OK
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2024-03-01 15:17:36.199259:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 6313388.pbs101
+	Project: 12003580
+	Exit Status: 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(4), Used(4)
+	CPU Time Used: 00:00:17
+	Memory: Requested(16gb), Used(397300kb)
+	Vmem Used: 8978448kb
+	Walltime: Requested(05:00:00), Used(00:00:38)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (x1001c0s0b0n0:ncpus=4:mem=16777216kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	No GPU-related information available for this job.
