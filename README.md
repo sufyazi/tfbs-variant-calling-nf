@@ -65,4 +65,5 @@ While a workflow could be made in almost any way imaginable, there are some tips
 1. Gather all the FPS matrix files and then extract the footprint regions from the matrix files into sorted BED files.
 2. Find all the BAM files corresponding to dataset ID input list and then extract the file paths into a file.
 3. Call variants using `mpileup` on the BAM files and the footprint regions.
-    - Need to parallelize for each motif ID (1360) per dataset ID (70).
+    - Each `callVariants` process will take the bam list output from step 2 and all the FPS bed files from step 1 as input and use GNU Parallel to execute `mpileup` by iterating through the FPS bed files from step 1. In other words, for each dataset (represented by one sample bam list consumed by `callVariants` process), GNU Parallel will run 1360 instances of this process via multithreading.
+    - This means that Nextflow parallelize the variant calling per dataset ID, as this is the unique input that is fed from step 2 (dataset ID bam list). The output from step 1 is taken as a whole; a set of 1360 bed files. ![Here](workflow-reports/v2/dag-20240304-15.51.html) is the DAG of the workflow.
