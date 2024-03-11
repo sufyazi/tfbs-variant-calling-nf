@@ -18,6 +18,6 @@ nextflow \
     --run_mode "subset" \
     --dataset_id_list "cluster-input-dir/manifests/dataset-manifest-longjobs.txt" \
     -c nextflow_cluster.config \
-    -with-dag workflow-reports/v4/dag-longjob-${timestamp}.html \
-    -with-report workflow-reports/v4/report-longjob-${timestamp}.html \
-    -with-timeline workflow-reports/v4/timeline-longjob-${timestamp}.html
+    -with-dag workflow-reports/longjobs/dag-longjob-${timestamp}.html \
+    -with-report workflow-reports/longjobs/report-longjob-${timestamp}.html \
+    -with-timeline workflow-reports/longjobs/timeline-longjob-${timestamp}.html
