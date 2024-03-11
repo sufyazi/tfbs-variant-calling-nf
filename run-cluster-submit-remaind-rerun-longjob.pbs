@@ -14,7 +14,9 @@ timestamp=$(date +%Y%m%d-%H.%M)
 nextflow \
     run \
     -resume \
-    sufyazi/tfbs-variant-calling-nf -r longjob \
+    main.nf \
+    --run_mode "subset" \
+    --dataset_id_list "cluster-input-dir/manifests/dataset-manifest-longjobs.txt" \
     -c nextflow_cluster.config \
     -with-dag workflow-reports/v4/dag-longjob-${timestamp}.html \
     -with-report workflow-reports/v4/report-longjob-${timestamp}.html \
