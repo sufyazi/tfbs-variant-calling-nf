@@ -2,6 +2,7 @@
 .nextflow/
 .vscode/
 .nextflow.log
+nextflow-logs/
 work/
 input-dir-local/
 output-dir-local/
