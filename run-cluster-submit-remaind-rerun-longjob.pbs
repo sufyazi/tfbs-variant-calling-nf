@@ -12,7 +12,6 @@ timestamp=$(date +%Y%m%d-%H.%M)
 
 # Run the workflow on the test data, and write the output to output/
 nextflow \
-    -log nextflow-logs/.nextflow.log \
     run \
     -resume \
     main.nf \
