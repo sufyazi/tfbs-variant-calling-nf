@@ -10,7 +10,7 @@ process callVariants {
     // Set this for cluster run
     
     clusterOptions '-l select=1:ncpus=64:mem=300GB -l walltime=120:00:00 -P 12003580 -q normal'
-    maxForks 40
+    maxForks 30
     publishDir "${params.output_dir}/raw_vcfs/${datasetID}/", mode: 'copy'
     
 

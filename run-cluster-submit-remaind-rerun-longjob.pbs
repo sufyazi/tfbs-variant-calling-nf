@@ -20,4 +20,5 @@ nextflow \
     -c nextflow_cluster.config \
     -with-dag workflow-reports/v4/dag-longjob-${timestamp}.html \
     -with-report workflow-reports/v4/report-longjob-${timestamp}.html \
-    -with-timeline workflow-reports/v4/timeline-longjob-${timestamp}.html
+    -with-timeline workflow-reports/v4/timeline-longjob-${timestamp}.html \
+    -r longjob
