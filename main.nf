@@ -75,7 +75,7 @@ workflow {
         // Extract the prefix from the input files and return a tuple of the file and the prefix
         motifMatrix_ch = in_matrix.map{ file -> [file.baseName.replaceAll("_tfbs_merged_matrix-full", ""), file] }//.view()
         // Extract the TF footprint regions (TFBS) from the input fps matrix files as bed files, group emitted items into equal sized subsets, and convert these subsets into a list
-        bedFilesList = extractTFBSBeds(motifMatrix_ch).buffer( size: 340, remainder: true ).toList().view()
+        bedFilesList = extractTFBSBeds(motifMatrix_ch).buffer( size: 340, remainder: true ).toList()//.view()
 
 
         // Check if run_mode is set
@@ -109,7 +109,7 @@ workflow {
         bamPaths_ch = generateBAMPaths(datasetIDBams_ch)//.view()
 
         // now we can run the variant-calling process in parallel for each bedFiles subchannel
-        //rawVCFs_ch = callVariants(bamPaths_ch, bedFilesList)//.view()
+        rawVCFs_ch = callVariants(bamPaths_ch, bedFilesList)//.view()
 
     }
 }

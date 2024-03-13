@@ -1,0 +1,109 @@
+N E X T F L O W  ~  version 23.10.1
+Launching `main.nf` [hopeful_volta] DSL2 - revision: 36e54b349c
+Proceeding with workflow...
+Preparing the input data...
+Checking whether the directory of footprint score matrices is valid...
+The footprint matrix provided is valid. Getting a list of the matrix files...
+Total number of matrix files found: 1360
+Execution of workflow will proceed...
+[-        ] process > extractTFBSBeds  -
+[-        ] process > generateBAMPaths -
+[-        ] process > callVariants     -
+
+[aa/58dde7] process > extractTFBSBeds (2)  [100%] 8 of 8, cached: 8
+[12/83d2e1] process > generateBAMPaths (1) [100%] 2 of 2, cached: 2 ✔
+[-        ] process > callVariants         -
+
+[27/74cc7c] process > extractTFBSBeds (142) [100%] 141 of 141, cached: 141
+[12/83d2e1] process > generateBAMPaths (1)  [100%] 2 of 2, cached: 2 ✔
+[-        ] process > callVariants          -
+
+[11/d96d66] process > extractTFBSBeds (341) [100%] 338 of 338, cached: 338
+[12/83d2e1] process > generateBAMPaths (1)  [100%] 2 of 2, cached: 2 ✔
+[-        ] process > callVariants          -
+
+[19/3783e9] process > extractTFBSBeds (570) [100%] 570 of 570, cached: 570
+[12/83d2e1] process > generateBAMPaths (1)  [100%] 2 of 2, cached: 2 ✔
+[-        ] process > callVariants          -
+
+[89/076eb9] process > extractTFBSBeds (843) [100%] 840 of 840, cached: 840
+[12/83d2e1] process > generateBAMPaths (1)  [100%] 2 of 2, cached: 2 ✔
+[-        ] process > callVariants          -
+
+[97/903d39] process > extractTFBSBeds (1105) [100%] 1104 of 1104, cached: 1104
+[12/83d2e1] process > generateBAMPaths (1)   [100%] 2 of 2, cached: 2 ✔
+[-        ] process > callVariants           -
+
+[37/3db3e2] process > extractTFBSBeds (1360) [100%] 1360 of 1360, cached: 1360 ✔
+[12/83d2e1] process > generateBAMPaths (1)   [100%] 2 of 2, cached: 2 ✔
+[-        ] process > callVariants           -
+
+[37/3db3e2] process > extractTFBSBeds (1360) [100%] 1360 of 1360, cached: 1360 ✔
+[12/83d2e1] process > generateBAMPaths (1)   [100%] 2 of 2, cached: 2 ✔
+[-        ] process > callVariants           [  0%] 0 of 8
+
+executor >  pbspro (1)
+[37/3db3e2] process > extractTFBSBeds (1360) [100%] 1360 of 1360, cached: 1360 ✔
+[12/83d2e1] process > generateBAMPaths (1)   [100%] 2 of 2, cached: 2 ✔
+[34/3130d0] process > callVariants (2)       [  0%] 0 of 8
+
+executor >  pbspro (3)
+[37/3db3e2] process > extractTFBSBeds (1360) [100%] 1360 of 1360, cached: 1360 ✔
+[12/83d2e1] process > generateBAMPaths (1)   [100%] 2 of 2, cached: 2 ✔
+[a4/8ff34f] process > callVariants (3)       [  0%] 0 of 8
+
+executor >  pbspro (5)
+[37/3db3e2] process > extractTFBSBeds (1360) [100%] 1360 of 1360, cached: 1360 ✔
+[12/83d2e1] process > generateBAMPaths (1)   [100%] 2 of 2, cached: 2 ✔
+[2c/0af0b4] process > callVariants (8)       [  0%] 0 of 8
+
+executor >  pbspro (7)
+[37/3db3e2] process > extractTFBSBeds (1360) [100%] 1360 of 1360, cached: 1360 ✔
+[12/83d2e1] process > generateBAMPaths (1)   [100%] 2 of 2, cached: 2 ✔
+[8f/3f82a1] process > callVariants (5)       [  0%] 0 of 8
+
+executor >  pbspro (8)
+[37/3db3e2] process > extractTFBSBeds (1360) [100%] 1360 of 1360, cached: 1360 ✔
+[12/83d2e1] process > generateBAMPaths (1)   [100%] 2 of 2, cached: 2 ✔
+[07/099669] process > callVariants (7)       [  0%] 0 of 8
+
+executor >  pbspro (8)
+[37/3db3e2] process > extractTFBSBeds (1360) [100%] 1360 of 1360, cached: 1360 ✔
+[12/83d2e1] process > generateBAMPaths (1)   [100%] 2 of 2, cached: 2 ✔
+[07/099669] process > callVariants (7)       [  0%] 0 of 8
+
+executor >  pbspro (8)
+[37/3db3e2] process > extractTFBSBeds (1360) [100%] 1360 of 1360, cached: 1360 ✔
+[12/83d2e1] process > generateBAMPaths (1)   [100%] 2 of 2, cached: 2 ✔
+[44/42ba0c] process > callVariants (1)       [ 50%] 4 of 8
+
+executor >  pbspro (8)
+[37/3db3e2] process > extractTFBSBeds (1360) [100%] 1360 of 1360, cached: 1360 ✔
+[12/83d2e1] process > generateBAMPaths (1)   [100%] 2 of 2, cached: 2 ✔
+[07/099669] process > callVariants (7)       [100%] 8 of 8 ✔
+Pipeline completed at: 2024-03-13T14:44:12.772873534+08:00
+Execution status: OK
+
+executor >  pbspro (8)
+[37/3db3e2] process > extractTFBSBeds (1360) [100%] 1360 of 1360, cached: 1360 ✔
+[12/83d2e1] process > generateBAMPaths (1)   [100%] 2 of 2, cached: 2 ✔
+[07/099669] process > callVariants (7)       [100%] 8 of 8 ✔
+Pipeline completed at: 2024-03-13T14:44:12.772873534+08:00
+Execution status: OK
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2024-03-13 14:44:14.542510:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 6390114.pbs101
+	Project: 12003580
+	Exit Status: 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(4), Used(4)
+	CPU Time Used: 00:00:30
+	Memory: Requested(8gb), Used(435408kb)
+	Vmem Used: 7892744kb
+	Walltime: Requested(24:00:00), Used(00:00:22)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (x1001c0s0b1n0:ncpus=4:mem=8388608kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	No GPU-related information available for this job.
