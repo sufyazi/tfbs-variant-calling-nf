@@ -1,0 +1,619 @@
+N E X T F L O W  ~  version 23.10.1
+Launching `main.nf` [adoring_bohr] DSL2 - revision: 639dfd5d1c
+Proceeding with workflow...
+Preparing the input data...
+Checking whether the directory of footprint score matrices is valid...
+The footprint matrix provided is valid. Getting a list of the matrix files...
+Total number of matrix files found: 1360
+Execution of workflow will proceed...
+[-        ] process > extractTFBSBeds  -
+[-        ] process > generateBAMPaths -
+[-        ] process > callVariants     -
+
+[52/37ea21] process > extractTFBSBeds (1)  [100%] 8 of 8, cached: 8
+[40/0404b0] process > generateBAMPaths (1) [100%] 1 of 1, cached: 1
+[-        ] process > callVariants         -
+
+[d1/bc9f73] process > extractTFBSBeds (67) [100%] 64 of 64, cached: 64
+[a6/1fa364] process > generateBAMPaths (3) [100%] 3 of 3, cached: 3
+[-        ] process > callVariants         -
+
+[cc/5df8e9] process > extractTFBSBeds (125) [100%] 125 of 125, cached: 125
+[a6/1fa364] process > generateBAMPaths (3)  [100%] 3 of 3, cached: 3
+[-        ] process > callVariants          -
+
+[4a/2b02c7] process > extractTFBSBeds (210) [100%] 203 of 203, cached: 203
+[99/4217b8] process > generateBAMPaths (4)  [100%] 4 of 4, cached: 4
+[-        ] process > callVariants          -
+
+[c8/1476fe] process > extractTFBSBeds (256) [100%] 256 of 256, cached: 256
+[99/4217b8] process > generateBAMPaths (4)  [100%] 4 of 4, cached: 4
+[-        ] process > callVariants          -
+
+[9d/e5bdf8] process > extractTFBSBeds (331) [100%] 326 of 326, cached: 326
+[0d/e7c8d1] process > generateBAMPaths (5)  [100%] 5 of 5, cached: 5
+[-        ] process > callVariants          -
+
+[7e/90f115] process > extractTFBSBeds (439) [100%] 434 of 434, cached: 434
+[d7/f3a5cd] process > generateBAMPaths (6)  [100%] 6 of 6, cached: 6
+[-        ] process > callVariants          -
+
+[f2/22f675] process > extractTFBSBeds (515) [100%] 511 of 511, cached: 511
+[89/e9efd3] process > generateBAMPaths (7)  [100%] 7 of 7, cached: 7
+[-        ] process > callVariants          -
+
+[8a/377d5e] process > extractTFBSBeds (611) [100%] 612 of 612, cached: 612
+[7b/6d0092] process > generateBAMPaths (8)  [100%] 8 of 8, cached: 8
+[-        ] process > callVariants          -
+
+[43/8cac0b] process > extractTFBSBeds (731) [100%] 728 of 728, cached: 728
+[7b/6d0092] process > generateBAMPaths (8)  [100%] 8 of 8, cached: 8
+[-        ] process > callVariants          -
+
+[a3/7735d1] process > extractTFBSBeds (828) [100%] 824 of 824, cached: 824
+[12/83d2e1] process > generateBAMPaths (10) [100%] 10 of 10, cached: 10
+[-        ] process > callVariants          -
+
+[ec/616a2d] process > extractTFBSBeds (922) [100%] 922 of 922, cached: 922
+[4b/809326] process > generateBAMPaths (11) [100%] 12 of 12, cached: 12 ✔
+[-        ] process > callVariants          -
+
+[40/00d6bb] process > extractTFBSBeds (1029) [100%] 1025 of 1025, cached: 1025
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[-        ] process > callVariants           -
+
+[8f/97aeba] process > extractTFBSBeds (1131) [100%] 1129 of 1129, cached: 1129
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[-        ] process > callVariants           -
+
+[c4/e7d30b] process > extractTFBSBeds (1222) [100%] 1224 of 1224, cached: 1224
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[-        ] process > callVariants           -
+
+[fa/2f11a0] process > extractTFBSBeds (1331) [100%] 1324 of 1324, cached: 1324
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[-        ] process > callVariants           -
+
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[-        ] process > callVariants           [  0%] 0 of 4
+
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[-        ] process > callVariants           [  0%] 0 of 54
+
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[-        ] process > callVariants           [  0%] 0 of 120
+
+executor >  pbspro (2)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[00/64323e] process > callVariants (5)       [  0%] 0 of 120
+
+executor >  pbspro (3)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[55/9f0d74] process > callVariants (3)       [  0%] 0 of 120
+
+executor >  pbspro (4)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[75/64b3bd] process > callVariants (1)       [  0%] 0 of 120
+
+executor >  pbspro (7)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[8d/f8cba0] process > callVariants (2)       [  0%] 0 of 120
+
+executor >  pbspro (11)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[77/6c15f4] process > callVariants (10)      [  0%] 0 of 120
+
+executor >  pbspro (14)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[f8/d3bef9] process > callVariants (14)      [  0%] 0 of 120
+
+executor >  pbspro (17)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[04/f01103] process > callVariants (11)      [  0%] 0 of 120
+
+executor >  pbspro (21)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[d6/865a9b] process > callVariants (23)      [  0%] 0 of 120
+
+executor >  pbspro (23)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[02/f835a7] process > callVariants (24)      [  0%] 0 of 120
+
+executor >  pbspro (26)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[fa/be8bbd] process > callVariants (28)      [  0%] 0 of 120
+
+executor >  pbspro (28)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[9f/e89a86] process > callVariants (25)      [  0%] 0 of 120
+
+executor >  pbspro (29)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[49/47c601] process > callVariants (34)      [  0%] 0 of 120
+
+executor >  pbspro (32)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[c1/16ca84] process > callVariants (39)      [  0%] 0 of 120
+
+executor >  pbspro (34)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[3c/57d6cd] process > callVariants (30)      [  0%] 0 of 120
+
+executor >  pbspro (38)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[b2/047ee2] process > callVariants (41)      [  0%] 0 of 120
+
+executor >  pbspro (41)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[0c/d35a97] process > callVariants (38)      [  0%] 0 of 120
+
+executor >  pbspro (45)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[00/75c440] process > callVariants (51)      [  0%] 0 of 120
+
+executor >  pbspro (49)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[a8/8c8130] process > callVariants (53)      [  0%] 0 of 120
+
+executor >  pbspro (52)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[d8/00c765] process > callVariants (58)      [  0%] 0 of 120
+
+executor >  pbspro (56)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[32/0a98fe] process > callVariants (62)      [  0%] 0 of 120
+
+executor >  pbspro (59)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[15/245796] process > callVariants (65)      [  0%] 0 of 120
+
+executor >  pbspro (60)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[7b/8bd39b] process > callVariants (45)      [  0%] 0 of 120
+
+executor >  pbspro (62)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[ec/1aad05] process > callVariants (67)      [  0%] 0 of 120
+
+executor >  pbspro (64)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[97/748e75] process > callVariants (69)      [  0%] 0 of 120
+
+executor >  pbspro (66)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[91/8e0675] process > callVariants (60)      [  0%] 0 of 120
+
+executor >  pbspro (69)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[94/4163c2] process > callVariants (59)      [  0%] 0 of 120
+
+executor >  pbspro (73)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[4d/24c726] process > callVariants (72)      [  0%] 0 of 120
+
+executor >  pbspro (77)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[23/57a2a1] process > callVariants (63)      [  0%] 0 of 120
+
+executor >  pbspro (80)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[c1/305d3a] process > callVariants (85)      [  0%] 0 of 120
+
+executor >  pbspro (84)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[48/b251b9] process > callVariants (81)      [  0%] 0 of 120
+
+executor >  pbspro (87)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[30/7cbdff] process > callVariants (94)      [  0%] 0 of 120
+
+executor >  pbspro (90)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[37/68372e] process > callVariants (86)      [  0%] 0 of 120
+
+executor >  pbspro (90)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[37/68372e] process > callVariants (86)      [  0%] 0 of 120
+
+executor >  pbspro (90)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[37/68372e] process > callVariants (86)      [  0%] 0 of 120
+
+executor >  pbspro (90)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[37/68372e] process > callVariants (86)      [  0%] 0 of 120
+
+executor >  pbspro (90)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[37/68372e] process > callVariants (86)      [  0%] 0 of 120
+
+executor >  pbspro (90)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[37/68372e] process > callVariants (86)      [  0%] 0 of 120
+
+executor >  pbspro (90)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[37/68372e] process > callVariants (86)      [  0%] 0 of 120
+
+executor >  pbspro (90)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[37/68372e] process > callVariants (86)      [  0%] 0 of 120
+
+executor >  pbspro (90)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[37/68372e] process > callVariants (86)      [  0%] 0 of 120
+
+executor >  pbspro (90)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[37/68372e] process > callVariants (86)      [  0%] 0 of 120
+
+executor >  pbspro (91)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[75/64b3bd] process > callVariants (1)       [  0%] 1 of 120
+
+executor >  pbspro (91)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[40/74801c] process > callVariants (89)      [  0%] 1 of 120
+
+executor >  pbspro (92)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[04/173d4b] process > callVariants (9)       [  1%] 2 of 120
+
+executor >  pbspro (92)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[04/173d4b] process > callVariants (9)       [  1%] 2 of 120
+
+executor >  pbspro (92)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[04/f01103] process > callVariants (11)      [  2%] 3 of 120
+
+executor >  pbspro (93)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[ef/274af9] process > callVariants (99)      [  2%] 3 of 120
+
+executor >  pbspro (93)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[ef/274af9] process > callVariants (99)      [  2%] 3 of 120
+
+executor >  pbspro (93)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[ee/1912e3] process > callVariants (15)      [  3%] 4 of 120
+
+executor >  pbspro (93)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[ee/1912e3] process > callVariants (15)      [  3%] 4 of 120
+
+executor >  pbspro (94)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[a1/b111cc] process > callVariants (100)     [  3%] 4 of 120
+
+executor >  pbspro (95)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[92/3e0a76] process > callVariants (101)     [  3%] 4 of 120
+
+executor >  pbspro (95)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[92/3e0a76] process > callVariants (101)     [  3%] 4 of 120
+ERROR ~ Error executing process > 'callVariants (4)'
+
+Caused by:
+  Process `callVariants (4)` terminated with an error exit status (143)
+
+Command executed:
+
+  #!/usr/bin/env bash
+  
+  # Convert the list into a string separated by spaces
+  bedString="/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c1/a99113ba731f6e2252df62b0b4a015/ZNF880_M07764_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b7/535426ced0b9ae430a72cc055f21bb/PRGR_PRGR_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/21/0c9370a459559d011e64fc00752c86/GRHL2_M08129_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/99/afbc97441d59ec053d592bba0abec0/STAT1_M08013_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/91/d21046c67804af637d0e71ebebd212/ZNF543_M08347_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/24/ff782513b7f05429d71dc1d2e180df/KLF4_MA0039.4_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e2/7b1587e757eb77740a2e119431abdf/SIX2_M08133_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d2/4d56ba1851a3ea5d4942943d5d42d2/ZFP69B_M07685_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a8/4a5d8b0072db5d34ddf462d48bdcf9/TCF3_MA0522.3_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6c/1751739c23d7c066f2a3af70989fe0/ZNF76_ZNF76_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/9c/ed236567e41898f8218a99dda4768f/Z324A_Z324A_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a4/8f54bb119eae352f7e1e0dcb1d11ad/ZNF614_M07593_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/cb/556f32225fff26b58ccb52a41c851e/FOXA1_FOXA1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c7/2fc2b92c97c8b15676930be57ecd87/ZNF85_MA1720.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/4e/54634de6757b82afac8feba1a63a2e/ZNF519_M08255_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fa/618230ce85856e4344b6c468a181f4/RUNX1_RUNX1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/80/69b2b3d7e6d57f3b6c4ffd6cafbba2/ZSCAN22_M08261_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/68/24f3ed9ce4d2981ef25aaf9ad1d1ec/HIF1A_HIF1A_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d7/5f4b965b3033e30af0debee5f6e094/ZNF398_M07716_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1e/e6d1d747e67ca0b469aaeb946cc106/ZNF180_M07614_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/32/32582530f7f62bb7774415f8ec82e0/ZNF317_M08242_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8d/5ee9d401d41587ddd92295655557c0/RFX3_RFX3_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7c/931473e053328b43e37015da3ca5f3/ETV1_ETV1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/83/79aeab700c0f6fd2ed1774177ad7c7/LHX3_LHX3_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b2/37a7c17f30eccc5178d028b1424870/CTCF_M07876_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7e/90f11558a152ffafa3a6a3d9fb7230/USF2_M08050_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/85/2935205c60f831baee395f26b37fb5/ZN121_ZN121_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2c/4946b9c6134598bd6d034d79ecd10f/ZN134_ZN134_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/46/c8d8f08c9d62f368ee32961e53fca4/ZNF534_M07751_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/af/7aa2402a1e15199aac544217f07da1/NR1H4_M08152_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/4c/3d1d8b8e90963298e2c61ad8a2d354/ZNF454_M08346_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f9/75f4abdfe07e674cf52f04c6417b92/ZNF675_M08266_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/04/4fac4968e1068abc6659a7f97e87b6/ZBT18_ZBT18_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/9c/5e3e0ef356d12061ce58095ddf1ad3/ZNF573_M07693_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/cd/a9c7d43c7f1363ddc24ffa66e9f8bc/ZN136_ZN136_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/71/b635b1a92999c1d1397760463a284c/ZNF611_M07759_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ea/7a0c71e6db7b4a6174fabac50ab321/ZNF28_M07748_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c9/13522401a4317b5d45869d80adc52a/HNF4G_M08155_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/5b/92763cd7459fd635ed5f2a1c107003/ZNF8_M08401_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d2/6b983a9c46611981c1c0642a756c40/ESR2_M08154_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e1/4da2dbefd3b7b2f9c67a3371b952f8/NR2C2_M08156_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c1/085c86309059615a4359d036a4ec87/ZNF816_MA1719.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/86/0493f645648a09de74dc96e9d5f528/ZNF324_MA1977.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c2/f04c27b00aa31434ff26db46c58181/ETS2_ETS2_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1d/87cb64a09902b15c5ebdb9d431bd81/ZNF260_M08395_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/88/0582fb659538cc380b31316a5b38b5/NR2C2_MA0504.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a7/89a3d8af9180400d8e4e7f69819b13/SNAI1_SNAI1_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b9/ae195b3f507fb53209fd6680661d8a/ZNF384_M08306_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/40/e8183e42d0e3d09d7e65e5e178f314/REL_REL_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3e/cad51da7b7168294d61563a142cb3b/STAT2_STAT2_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/97/c07a0c2b63a29af8f0bf24435d4ed0/MAFB_MAFB_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f1/8261e118796ad19dbe543ae96ddcfe/ZNF322_M08259_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/9f/85b6df15a397714d64ea390c0c1518/CEBPD_CEBPD_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d8/19a3d74505576dae8838c8101dc275/MAZ_M08290_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/cd/3d47413638c6bbc879fabb5776e9ee/RELA_M08005_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/22/d687b0356324977d59780169ad3dbb/JUNB_JUNB_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/07/8d9a6b941247d4ca86c5e8e20eba51/MYC_M07799_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a5/cc541166e40cfc5bb5e595250c0615/BHLHE22_MA1635.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3c/cf968369a12b1cb731b7928c0914b0/NR2F2_M08157_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0b/f3cdcc426e54cd6ffc146e9fe9e678/NR2C2_M08221_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/62/986a3a947b5a641e84350a065c3374/ZNF669_M08262_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6f/f8c60f8155983330de8dec3f46cd5c/STAT3_M08016_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0f/929c3b953a48dcd812c51f4f8f998e/ZNF418_MA1980.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/39/0b97c697743c4347a3adc7e015a204/CREM_CREM_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/05/a7a9a4c36356393dbfc378c028a2ff/MYC_M07802_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e4/908c1f99ed99f27c7772dc87ad0fc8/SOX9_SOX9_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d1/881b5f8c1ea2047c3c0d3fe3a7e72a/ZN563_ZN563_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7c/5acf6d6fb8ae70b63fc92cdb4d5583/OLIG2_OLIG2_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a4/f0bfe156f9a3293b983de0423724b8/REST_M07848_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ef/3d4634758bf154821a89ad207adfa1/ZNF736_M07767_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/21/543e0d2953419f400ca11317181bbe/GABPA_M07954_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b5/fd07cebd2c96f7f992e21244a8c670/NR2C2_M07992_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d6/6135ec3680813ed88f851385741d24/HOXB13_MA0901.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2b/b24c00bac9505a391369a262230dfb/ZNF674_M07771_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6f/a0ad4be0d7f862cf34ba939108a351/CTCF_M07878_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/90/a0576811a31c4ad586424309695755/ZN554_ZN554_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/32/d8631d1cedfe4323c340ccf9cb3a1f/FOSL1_MA0477.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/27/f3d34c916268331f5ca672c663dc2c/SPIB_SPIB_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/74/672a5d7084777e8c20eb4c8ee9ee98/PO3F1_PO3F1_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8f/5db21214ceee1e21b585fbdd01774a/ELF2_ELF2_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b2/775defb9b2af7e62013f86134ea5ce/ZN257_ZN257_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1c/c86f3bf4f0fa17b5adc74dbd1ab5e6/ELF1_M07949_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a8/6ed358e34a900175bd7ac4e6b18c04/ZNF24_MA1124.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/11/d6c1051058836c3390f96a51639c0c/SRBP1_SRBP1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/30/66df1f7ac4c477391acd529f5cc97f/MEIS1_MA1639.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a9/7c09920ef14af6c5ed6822adacdd88/ESR1_M08218_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d0/828fd76fdad5ed8382531d392ac6c4/PBX3_M08132_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/35/968b53c37b11df02286d260bdf1578/ZN322_ZN322_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/20/ccb88a8bca79fffeafa7218c1d0c8a/ZNF879_M07766_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f5/27c710a1ad05188bcda4b00f0a48fb/TWST1_TWST1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/aa/f38faca5e1d1550161ba39cb6925b9/ZNF460_MA1596.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3d/67cc86d395af86ce1f7a8d99494151/FOSL1_M07833_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/43/53e949ccdc0f335ed278c69886d3b1/SPIB_MA0081.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/10/b0c7127fe6a1c366b9fa78709b0869/ZNF552_M07655_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/07/42a3fc14d69a2cbb4b21fddfbe3a20/MAFG_MAFG_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f8/1e56e23528f18e0c875c643cb977d1/CEBPA_M08076_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/eb/0d305d97b4cc8de027245061bca1dc/ZN317_ZN317_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/9c/d64d5548b8b0d8defe2463be98575b/HXA13_HXA13_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/28/3111b3e0e4c41c2970fec7ab02a8ec/PAX5_M08227_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c9/dc123ddfd1f767d3efeeda867e7f34/POU2F2_M07975_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/9b/0db281eb69fb642382d8324cf90267/ZNF141_M07586_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/41/cd26d77c7888fd341b10243ee07150/KLF10_M08246_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f2/22f6757da57306ccd8b35ad86a7f5d/PEBB_PEBB_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b2/a809c705da23fc0b346edc79786561/FOXH1_MA0479.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/76/8e8f08dea2f126847b49a3ad6bfdcd/ZNF169_M07645_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/15/d8e2e545fa227739df6ea94c364259/MYCN_MA0104.4_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/71/2df6c75f403440857596674e117e3e/RUNX2_RUNX2_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3a/9f7531e73ef2fafaa8f43212ab1fad/IRF4_IRF4_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/10/f3b3abc91e199816d4ed58b0afad75/MAFK_M07840_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/31/8efdcfb29621a9fc199f85f7771305/ZNF805_M07753_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/09/0c4ab718f978c19c4f7e572b2ec204/ZNF74_M07675_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a3/3e59f4ab91f57c44427dbe18860dc2/CTCF_M07922_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/22/d3b543ecbb7f670c0b5ae7d56a4aeb/COE1_COE1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7d/d20e7a00ea8a03afae85f637e206e2/RORG_RORG_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/31/cde8ee8eb8dd9026b40dc3132fe615/ZNF479_M07673_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/72/e29796c5954040d3fefde96dffa606/STAT1_M08230_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/94/f0c814f65897dfff2b7b2793fa1af2/E2F1_E2F1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7c/dfb361ec9ccb6d72aeb626b483224c/ZN329_ZN329_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8f/b38b1690564389a6e24c0c0c72230a/ZNF136_MA1588.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/55/07455ae6ee7c9612ccf5696debdb28/MEF2C_MA0497.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/65/3b2a080cfe24b830ec8dfa3da909f3/ZNF669_M08367_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e7/6fdf7b4ca60105604c1f0f806fecf5/ZKSC1_ZKSC1_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f4/c9159b1c2fbcb062fe91d39578cd5d/HXC9_HXC9_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/32/2eaaa3d2060d981c6fe39070f42d69/ZNF81_M07728_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d4/3aa3599fce21a375fabd7db6cfa604/ZN341_ZN341_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ef/fa500843c1aab6ddb839cec2425d46/OZF_OZF_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/79/82009872ff6d0109b1e74253bd2105/ZNF100_M07715_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a5/b5c6d25b42854843eb4ae4c7e9dba7/ZNF669_MA1985.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c9/1389c0bdb32ecd5c7de11850e19d33/ZBTB6_ZBTB6_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/27/30b052abe5419bfc2063255c96ed01/YY1_M08237_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ef/a500b25ca0ad06c2a1a74662a8725b/MYCN_MYCN_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ab/a3bbd840b9d5a2aaff0a52fb8335a6/ZNF528_M08249_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/25/b1e61f504c28b69248ad7ad2520b5d/ZNF182_M07597_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/15/c7bf249226b6bd4fccf152e31807ce/ZNF574_M08294_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/46/6020da44253be9448dd88c2d036dd5/SNAI2_SNAI2_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ba/4bd0bc36049f7520068af319ee311d/CTCF_M07902_2.00_TOBIAS_TF_binding_sites-sorted.bed"
+  
+  # Split the string into an array in bash
+  IFS=' ' read -r -a bedArray <<< "${bedString}"
+  
+  # Count number of elements in array
+  echo "No. of BED files: " "${#bedArray[@]}"
+  echo "First BED: " "${bedArray[0]}"
+  
+  mpileup_module() {
+  local BEDFILES="$1"
+  local BAMLIST="$2"
+  local DATAID="$3"
+  local FASTAFILE="$4"
+  
+  bash /mnt/runParallelMpileup.sh "$BEDFILES" "$BAMLIST" "$DATAID" "$FASTAFILE"
+  }
+  
+  # export function to be used in parallel
+  export -f mpileup_module
+  
+  # determine the number of available CPU cores
+  num_cores=$(nproc)
+  echo "Number of cores: "$num_cores
+  
+  # set arguments
+  bedFileArray="${bedArray[@]}"
+  bamPathList="36GFMD3.bamlist.txt"
+  dataID="36GFMD3"
+  
+  # Use GNU Parallel to run the commands in parallel using all available cores
+  parallel -j "$num_cores" mpileup_module ::: "${bedArray[@]}" ::: "${bamPathList}" ::: "${dataID}" ::: "/refs/GRCh38_no_alt_GCA_000001405.15.fasta"
+
+Command exit status:
+  143
+
+Command output:
+  No. of BED files:  136
+  First BED:  /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c1/a99113ba731f6e2252df62b0b4a015/ZNF880_M07764_2.00_TOBIAS_TF_binding_sites-sorted.bed
+  Number of cores: 128
+
+Command wrapper:
+  No. of BED files:  136
+  First BED:  /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c1/a99113ba731f6e2252df62b0b4a015/ZNF880_M07764_2.00_TOBIAS_TF_binding_sites-sorted.bed
+  Number of cores: 128
+  =>> PBS: job killed: walltime 86518 exceeded limit 86400
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  			Resource Usage on 2024-03-15 18:37:50.269188:
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  	JobId: 6395841.pbs101
+  	Project: 12003580
+  	Exit Status: -29
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  	NCPUs: Requested(64), Used(64)
+  	CPU Time Used: 249:45:25
+  	Memory: Requested(100gb), Used(104857964kb)
+  	Vmem Used: 8749569504kb
+  	Walltime: Requested(24:00:00), Used(24:02:09)
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  	Execution Nodes Used: (x1001c2s1b0n0:ncpus=64:mem=104857600kb)
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  	No GPU-related information available for this job.
+
+Work dir:
+  /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f4/7f279222f36b54ec4dbdfe26d569e7
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+
+ -- Check 'nextflow-logs/.nextflow.log' file for details
+
+executor >  pbspro (95)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[f4/7f2792] process > callVariants (4)       [  4%] 5 of 120, failed: 1
+ERROR ~ Error executing process > 'callVariants (4)'
+
+Caused by:
+  Process `callVariants (4)` terminated with an error exit status (143)
+
+Command executed:
+
+  #!/usr/bin/env bash
+  
+  # Convert the list into a string separated by spaces
+  bedString="/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c1/a99113ba731f6e2252df62b0b4a015/ZNF880_M07764_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b7/535426ced0b9ae430a72cc055f21bb/PRGR_PRGR_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/21/0c9370a459559d011e64fc00752c86/GRHL2_M08129_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/99/afbc97441d59ec053d592bba0abec0/STAT1_M08013_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/91/d21046c67804af637d0e71ebebd212/ZNF543_M08347_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/24/ff782513b7f05429d71dc1d2e180df/KLF4_MA0039.4_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e2/7b1587e757eb77740a2e119431abdf/SIX2_M08133_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d2/4d56ba1851a3ea5d4942943d5d42d2/ZFP69B_M07685_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a8/4a5d8b0072db5d34ddf462d48bdcf9/TCF3_MA0522.3_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6c/1751739c23d7c066f2a3af70989fe0/ZNF76_ZNF76_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/9c/ed236567e41898f8218a99dda4768f/Z324A_Z324A_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a4/8f54bb119eae352f7e1e0dcb1d11ad/ZNF614_M07593_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/cb/556f32225fff26b58ccb52a41c851e/FOXA1_FOXA1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c7/2fc2b92c97c8b15676930be57ecd87/ZNF85_MA1720.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/4e/54634de6757b82afac8feba1a63a2e/ZNF519_M08255_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fa/618230ce85856e4344b6c468a181f4/RUNX1_RUNX1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/80/69b2b3d7e6d57f3b6c4ffd6cafbba2/ZSCAN22_M08261_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/68/24f3ed9ce4d2981ef25aaf9ad1d1ec/HIF1A_HIF1A_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d7/5f4b965b3033e30af0debee5f6e094/ZNF398_M07716_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1e/e6d1d747e67ca0b469aaeb946cc106/ZNF180_M07614_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/32/32582530f7f62bb7774415f8ec82e0/ZNF317_M08242_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8d/5ee9d401d41587ddd92295655557c0/RFX3_RFX3_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7c/931473e053328b43e37015da3ca5f3/ETV1_ETV1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/83/79aeab700c0f6fd2ed1774177ad7c7/LHX3_LHX3_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b2/37a7c17f30eccc5178d028b1424870/CTCF_M07876_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7e/90f11558a152ffafa3a6a3d9fb7230/USF2_M08050_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/85/2935205c60f831baee395f26b37fb5/ZN121_ZN121_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2c/4946b9c6134598bd6d034d79ecd10f/ZN134_ZN134_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/46/c8d8f08c9d62f368ee32961e53fca4/ZNF534_M07751_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/af/7aa2402a1e15199aac544217f07da1/NR1H4_M08152_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/4c/3d1d8b8e90963298e2c61ad8a2d354/ZNF454_M08346_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f9/75f4abdfe07e674cf52f04c6417b92/ZNF675_M08266_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/04/4fac4968e1068abc6659a7f97e87b6/ZBT18_ZBT18_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/9c/5e3e0ef356d12061ce58095ddf1ad3/ZNF573_M07693_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/cd/a9c7d43c7f1363ddc24ffa66e9f8bc/ZN136_ZN136_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/71/b635b1a92999c1d1397760463a284c/ZNF611_M07759_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ea/7a0c71e6db7b4a6174fabac50ab321/ZNF28_M07748_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c9/13522401a4317b5d45869d80adc52a/HNF4G_M08155_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/5b/92763cd7459fd635ed5f2a1c107003/ZNF8_M08401_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d2/6b983a9c46611981c1c0642a756c40/ESR2_M08154_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e1/4da2dbefd3b7b2f9c67a3371b952f8/NR2C2_M08156_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c1/085c86309059615a4359d036a4ec87/ZNF816_MA1719.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/86/0493f645648a09de74dc96e9d5f528/ZNF324_MA1977.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c2/f04c27b00aa31434ff26db46c58181/ETS2_ETS2_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1d/87cb64a09902b15c5ebdb9d431bd81/ZNF260_M08395_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/88/0582fb659538cc380b31316a5b38b5/NR2C2_MA0504.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a7/89a3d8af9180400d8e4e7f69819b13/SNAI1_SNAI1_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b9/ae195b3f507fb53209fd6680661d8a/ZNF384_M08306_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/40/e8183e42d0e3d09d7e65e5e178f314/REL_REL_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3e/cad51da7b7168294d61563a142cb3b/STAT2_STAT2_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/97/c07a0c2b63a29af8f0bf24435d4ed0/MAFB_MAFB_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f1/8261e118796ad19dbe543ae96ddcfe/ZNF322_M08259_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/9f/85b6df15a397714d64ea390c0c1518/CEBPD_CEBPD_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d8/19a3d74505576dae8838c8101dc275/MAZ_M08290_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/cd/3d47413638c6bbc879fabb5776e9ee/RELA_M08005_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/22/d687b0356324977d59780169ad3dbb/JUNB_JUNB_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/07/8d9a6b941247d4ca86c5e8e20eba51/MYC_M07799_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a5/cc541166e40cfc5bb5e595250c0615/BHLHE22_MA1635.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3c/cf968369a12b1cb731b7928c0914b0/NR2F2_M08157_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0b/f3cdcc426e54cd6ffc146e9fe9e678/NR2C2_M08221_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/62/986a3a947b5a641e84350a065c3374/ZNF669_M08262_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6f/f8c60f8155983330de8dec3f46cd5c/STAT3_M08016_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0f/929c3b953a48dcd812c51f4f8f998e/ZNF418_MA1980.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/39/0b97c697743c4347a3adc7e015a204/CREM_CREM_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/05/a7a9a4c36356393dbfc378c028a2ff/MYC_M07802_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e4/908c1f99ed99f27c7772dc87ad0fc8/SOX9_SOX9_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d1/881b5f8c1ea2047c3c0d3fe3a7e72a/ZN563_ZN563_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7c/5acf6d6fb8ae70b63fc92cdb4d5583/OLIG2_OLIG2_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a4/f0bfe156f9a3293b983de0423724b8/REST_M07848_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ef/3d4634758bf154821a89ad207adfa1/ZNF736_M07767_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/21/543e0d2953419f400ca11317181bbe/GABPA_M07954_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b5/fd07cebd2c96f7f992e21244a8c670/NR2C2_M07992_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d6/6135ec3680813ed88f851385741d24/HOXB13_MA0901.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2b/b24c00bac9505a391369a262230dfb/ZNF674_M07771_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6f/a0ad4be0d7f862cf34ba939108a351/CTCF_M07878_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/90/a0576811a31c4ad586424309695755/ZN554_ZN554_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/32/d8631d1cedfe4323c340ccf9cb3a1f/FOSL1_MA0477.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/27/f3d34c916268331f5ca672c663dc2c/SPIB_SPIB_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/74/672a5d7084777e8c20eb4c8ee9ee98/PO3F1_PO3F1_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8f/5db21214ceee1e21b585fbdd01774a/ELF2_ELF2_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b2/775defb9b2af7e62013f86134ea5ce/ZN257_ZN257_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1c/c86f3bf4f0fa17b5adc74dbd1ab5e6/ELF1_M07949_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a8/6ed358e34a900175bd7ac4e6b18c04/ZNF24_MA1124.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/11/d6c1051058836c3390f96a51639c0c/SRBP1_SRBP1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/30/66df1f7ac4c477391acd529f5cc97f/MEIS1_MA1639.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a9/7c09920ef14af6c5ed6822adacdd88/ESR1_M08218_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d0/828fd76fdad5ed8382531d392ac6c4/PBX3_M08132_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/35/968b53c37b11df02286d260bdf1578/ZN322_ZN322_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/20/ccb88a8bca79fffeafa7218c1d0c8a/ZNF879_M07766_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f5/27c710a1ad05188bcda4b00f0a48fb/TWST1_TWST1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/aa/f38faca5e1d1550161ba39cb6925b9/ZNF460_MA1596.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3d/67cc86d395af86ce1f7a8d99494151/FOSL1_M07833_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/43/53e949ccdc0f335ed278c69886d3b1/SPIB_MA0081.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/10/b0c7127fe6a1c366b9fa78709b0869/ZNF552_M07655_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/07/42a3fc14d69a2cbb4b21fddfbe3a20/MAFG_MAFG_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f8/1e56e23528f18e0c875c643cb977d1/CEBPA_M08076_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/eb/0d305d97b4cc8de027245061bca1dc/ZN317_ZN317_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/9c/d64d5548b8b0d8defe2463be98575b/HXA13_HXA13_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/28/3111b3e0e4c41c2970fec7ab02a8ec/PAX5_M08227_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c9/dc123ddfd1f767d3efeeda867e7f34/POU2F2_M07975_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/9b/0db281eb69fb642382d8324cf90267/ZNF141_M07586_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/41/cd26d77c7888fd341b10243ee07150/KLF10_M08246_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f2/22f6757da57306ccd8b35ad86a7f5d/PEBB_PEBB_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b2/a809c705da23fc0b346edc79786561/FOXH1_MA0479.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/76/8e8f08dea2f126847b49a3ad6bfdcd/ZNF169_M07645_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/15/d8e2e545fa227739df6ea94c364259/MYCN_MA0104.4_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/71/2df6c75f403440857596674e117e3e/RUNX2_RUNX2_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3a/9f7531e73ef2fafaa8f43212ab1fad/IRF4_IRF4_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/10/f3b3abc91e199816d4ed58b0afad75/MAFK_M07840_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/31/8efdcfb29621a9fc199f85f7771305/ZNF805_M07753_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/09/0c4ab718f978c19c4f7e572b2ec204/ZNF74_M07675_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a3/3e59f4ab91f57c44427dbe18860dc2/CTCF_M07922_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/22/d3b543ecbb7f670c0b5ae7d56a4aeb/COE1_COE1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7d/d20e7a00ea8a03afae85f637e206e2/RORG_RORG_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/31/cde8ee8eb8dd9026b40dc3132fe615/ZNF479_M07673_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/72/e29796c5954040d3fefde96dffa606/STAT1_M08230_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/94/f0c814f65897dfff2b7b2793fa1af2/E2F1_E2F1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7c/dfb361ec9ccb6d72aeb626b483224c/ZN329_ZN329_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8f/b38b1690564389a6e24c0c0c72230a/ZNF136_MA1588.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/55/07455ae6ee7c9612ccf5696debdb28/MEF2C_MA0497.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/65/3b2a080cfe24b830ec8dfa3da909f3/ZNF669_M08367_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e7/6fdf7b4ca60105604c1f0f806fecf5/ZKSC1_ZKSC1_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f4/c9159b1c2fbcb062fe91d39578cd5d/HXC9_HXC9_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/32/2eaaa3d2060d981c6fe39070f42d69/ZNF81_M07728_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d4/3aa3599fce21a375fabd7db6cfa604/ZN341_ZN341_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ef/fa500843c1aab6ddb839cec2425d46/OZF_OZF_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/79/82009872ff6d0109b1e74253bd2105/ZNF100_M07715_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a5/b5c6d25b42854843eb4ae4c7e9dba7/ZNF669_MA1985.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c9/1389c0bdb32ecd5c7de11850e19d33/ZBTB6_ZBTB6_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/27/30b052abe5419bfc2063255c96ed01/YY1_M08237_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ef/a500b25ca0ad06c2a1a74662a8725b/MYCN_MYCN_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ab/a3bbd840b9d5a2aaff0a52fb8335a6/ZNF528_M08249_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/25/b1e61f504c28b69248ad7ad2520b5d/ZNF182_M07597_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/15/c7bf249226b6bd4fccf152e31807ce/ZNF574_M08294_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/46/6020da44253be9448dd88c2d036dd5/SNAI2_SNAI2_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ba/4bd0bc36049f7520068af319ee311d/CTCF_M07902_2.00_TOBIAS_TF_binding_sites-sorted.bed"
+  
+  # Split the string into an array in bash
+  IFS=' ' read -r -a bedArray <<< "${bedString}"
+  
+  # Count number of elements in array
+  echo "No. of BED files: " "${#bedArray[@]}"
+  echo "First BED: " "${bedArray[0]}"
+  
+  mpileup_module() {
+  local BEDFILES="$1"
+  local BAMLIST="$2"
+  local DATAID="$3"
+  local FASTAFILE="$4"
+  
+  bash /mnt/runParallelMpileup.sh "$BEDFILES" "$BAMLIST" "$DATAID" "$FASTAFILE"
+  }
+  
+  # export function to be used in parallel
+  export -f mpileup_module
+  
+  # determine the number of available CPU cores
+  num_cores=$(nproc)
+  echo "Number of cores: "$num_cores
+  
+  # set arguments
+  bedFileArray="${bedArray[@]}"
+  bamPathList="36GFMD3.bamlist.txt"
+  dataID="36GFMD3"
+  
+  # Use GNU Parallel to run the commands in parallel using all available cores
+  parallel -j "$num_cores" mpileup_module ::: "${bedArray[@]}" ::: "${bamPathList}" ::: "${dataID}" ::: "/refs/GRCh38_no_alt_GCA_000001405.15.fasta"
+
+Command exit status:
+  143
+
+Command output:
+  No. of BED files:  136
+  First BED:  /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c1/a99113ba731f6e2252df62b0b4a015/ZNF880_M07764_2.00_TOBIAS_TF_binding_sites-sorted.bed
+  Number of cores: 128
+
+Command wrapper:
+  No. of BED files:  136
+  First BED:  /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c1/a99113ba731f6e2252df62b0b4a015/ZNF880_M07764_2.00_TOBIAS_TF_binding_sites-sorted.bed
+  Number of cores: 128
+  =>> PBS: job killed: walltime 86518 exceeded limit 86400
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  			Resource Usage on 2024-03-15 18:37:50.269188:
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  	JobId: 6395841.pbs101
+  	Project: 12003580
+  	Exit Status: -29
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  	NCPUs: Requested(64), Used(64)
+  	CPU Time Used: 249:45:25
+  	Memory: Requested(100gb), Used(104857964kb)
+  	Vmem Used: 8749569504kb
+  	Walltime: Requested(24:00:00), Used(24:02:09)
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  	Execution Nodes Used: (x1001c2s1b0n0:ncpus=64:mem=104857600kb)
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  	No GPU-related information available for this job.
+
+Work dir:
+  /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f4/7f279222f36b54ec4dbdfe26d569e7
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+
+ -- Check 'nextflow-logs/.nextflow.log' file for details
+
+executor >  pbspro (95)
+[3d/35700d] process > extractTFBSBeds (1339) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 12 of 12, cached: 12 ✔
+[f4/7f2792] process > callVariants (4)       [  4%] 5 of 120, failed: 1
+ERROR ~ Error executing process > 'callVariants (4)'
+
+Caused by:
+  Process `callVariants (4)` terminated with an error exit status (143)
+
+Command executed:
+
+  #!/usr/bin/env bash
+  
+  # Convert the list into a string separated by spaces
+  bedString="/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c1/a99113ba731f6e2252df62b0b4a015/ZNF880_M07764_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b7/535426ced0b9ae430a72cc055f21bb/PRGR_PRGR_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/21/0c9370a459559d011e64fc00752c86/GRHL2_M08129_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/99/afbc97441d59ec053d592bba0abec0/STAT1_M08013_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/91/d21046c67804af637d0e71ebebd212/ZNF543_M08347_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/24/ff782513b7f05429d71dc1d2e180df/KLF4_MA0039.4_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e2/7b1587e757eb77740a2e119431abdf/SIX2_M08133_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d2/4d56ba1851a3ea5d4942943d5d42d2/ZFP69B_M07685_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a8/4a5d8b0072db5d34ddf462d48bdcf9/TCF3_MA0522.3_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6c/1751739c23d7c066f2a3af70989fe0/ZNF76_ZNF76_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/9c/ed236567e41898f8218a99dda4768f/Z324A_Z324A_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a4/8f54bb119eae352f7e1e0dcb1d11ad/ZNF614_M07593_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/cb/556f32225fff26b58ccb52a41c851e/FOXA1_FOXA1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c7/2fc2b92c97c8b15676930be57ecd87/ZNF85_MA1720.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/4e/54634de6757b82afac8feba1a63a2e/ZNF519_M08255_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fa/618230ce85856e4344b6c468a181f4/RUNX1_RUNX1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/80/69b2b3d7e6d57f3b6c4ffd6cafbba2/ZSCAN22_M08261_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/68/24f3ed9ce4d2981ef25aaf9ad1d1ec/HIF1A_HIF1A_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d7/5f4b965b3033e30af0debee5f6e094/ZNF398_M07716_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1e/e6d1d747e67ca0b469aaeb946cc106/ZNF180_M07614_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/32/32582530f7f62bb7774415f8ec82e0/ZNF317_M08242_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8d/5ee9d401d41587ddd92295655557c0/RFX3_RFX3_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7c/931473e053328b43e37015da3ca5f3/ETV1_ETV1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/83/79aeab700c0f6fd2ed1774177ad7c7/LHX3_LHX3_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b2/37a7c17f30eccc5178d028b1424870/CTCF_M07876_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7e/90f11558a152ffafa3a6a3d9fb7230/USF2_M08050_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/85/2935205c60f831baee395f26b37fb5/ZN121_ZN121_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2c/4946b9c6134598bd6d034d79ecd10f/ZN134_ZN134_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/46/c8d8f08c9d62f368ee32961e53fca4/ZNF534_M07751_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/af/7aa2402a1e15199aac544217f07da1/NR1H4_M08152_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/4c/3d1d8b8e90963298e2c61ad8a2d354/ZNF454_M08346_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f9/75f4abdfe07e674cf52f04c6417b92/ZNF675_M08266_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/04/4fac4968e1068abc6659a7f97e87b6/ZBT18_ZBT18_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/9c/5e3e0ef356d12061ce58095ddf1ad3/ZNF573_M07693_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/cd/a9c7d43c7f1363ddc24ffa66e9f8bc/ZN136_ZN136_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/71/b635b1a92999c1d1397760463a284c/ZNF611_M07759_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ea/7a0c71e6db7b4a6174fabac50ab321/ZNF28_M07748_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c9/13522401a4317b5d45869d80adc52a/HNF4G_M08155_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/5b/92763cd7459fd635ed5f2a1c107003/ZNF8_M08401_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d2/6b983a9c46611981c1c0642a756c40/ESR2_M08154_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e1/4da2dbefd3b7b2f9c67a3371b952f8/NR2C2_M08156_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c1/085c86309059615a4359d036a4ec87/ZNF816_MA1719.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/86/0493f645648a09de74dc96e9d5f528/ZNF324_MA1977.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c2/f04c27b00aa31434ff26db46c58181/ETS2_ETS2_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1d/87cb64a09902b15c5ebdb9d431bd81/ZNF260_M08395_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/88/0582fb659538cc380b31316a5b38b5/NR2C2_MA0504.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a7/89a3d8af9180400d8e4e7f69819b13/SNAI1_SNAI1_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b9/ae195b3f507fb53209fd6680661d8a/ZNF384_M08306_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/40/e8183e42d0e3d09d7e65e5e178f314/REL_REL_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3e/cad51da7b7168294d61563a142cb3b/STAT2_STAT2_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/97/c07a0c2b63a29af8f0bf24435d4ed0/MAFB_MAFB_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f1/8261e118796ad19dbe543ae96ddcfe/ZNF322_M08259_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/9f/85b6df15a397714d64ea390c0c1518/CEBPD_CEBPD_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d8/19a3d74505576dae8838c8101dc275/MAZ_M08290_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/cd/3d47413638c6bbc879fabb5776e9ee/RELA_M08005_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/22/d687b0356324977d59780169ad3dbb/JUNB_JUNB_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/07/8d9a6b941247d4ca86c5e8e20eba51/MYC_M07799_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a5/cc541166e40cfc5bb5e595250c0615/BHLHE22_MA1635.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3c/cf968369a12b1cb731b7928c0914b0/NR2F2_M08157_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0b/f3cdcc426e54cd6ffc146e9fe9e678/NR2C2_M08221_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/62/986a3a947b5a641e84350a065c3374/ZNF669_M08262_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6f/f8c60f8155983330de8dec3f46cd5c/STAT3_M08016_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0f/929c3b953a48dcd812c51f4f8f998e/ZNF418_MA1980.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/39/0b97c697743c4347a3adc7e015a204/CREM_CREM_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/05/a7a9a4c36356393dbfc378c028a2ff/MYC_M07802_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e4/908c1f99ed99f27c7772dc87ad0fc8/SOX9_SOX9_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d1/881b5f8c1ea2047c3c0d3fe3a7e72a/ZN563_ZN563_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7c/5acf6d6fb8ae70b63fc92cdb4d5583/OLIG2_OLIG2_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a4/f0bfe156f9a3293b983de0423724b8/REST_M07848_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ef/3d4634758bf154821a89ad207adfa1/ZNF736_M07767_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/21/543e0d2953419f400ca11317181bbe/GABPA_M07954_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b5/fd07cebd2c96f7f992e21244a8c670/NR2C2_M07992_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d6/6135ec3680813ed88f851385741d24/HOXB13_MA0901.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2b/b24c00bac9505a391369a262230dfb/ZNF674_M07771_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6f/a0ad4be0d7f862cf34ba939108a351/CTCF_M07878_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/90/a0576811a31c4ad586424309695755/ZN554_ZN554_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/32/d8631d1cedfe4323c340ccf9cb3a1f/FOSL1_MA0477.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/27/f3d34c916268331f5ca672c663dc2c/SPIB_SPIB_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/74/672a5d7084777e8c20eb4c8ee9ee98/PO3F1_PO3F1_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8f/5db21214ceee1e21b585fbdd01774a/ELF2_ELF2_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b2/775defb9b2af7e62013f86134ea5ce/ZN257_ZN257_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1c/c86f3bf4f0fa17b5adc74dbd1ab5e6/ELF1_M07949_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a8/6ed358e34a900175bd7ac4e6b18c04/ZNF24_MA1124.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/11/d6c1051058836c3390f96a51639c0c/SRBP1_SRBP1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/30/66df1f7ac4c477391acd529f5cc97f/MEIS1_MA1639.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a9/7c09920ef14af6c5ed6822adacdd88/ESR1_M08218_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d0/828fd76fdad5ed8382531d392ac6c4/PBX3_M08132_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/35/968b53c37b11df02286d260bdf1578/ZN322_ZN322_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/20/ccb88a8bca79fffeafa7218c1d0c8a/ZNF879_M07766_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f5/27c710a1ad05188bcda4b00f0a48fb/TWST1_TWST1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/aa/f38faca5e1d1550161ba39cb6925b9/ZNF460_MA1596.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3d/67cc86d395af86ce1f7a8d99494151/FOSL1_M07833_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/43/53e949ccdc0f335ed278c69886d3b1/SPIB_MA0081.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/10/b0c7127fe6a1c366b9fa78709b0869/ZNF552_M07655_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/07/42a3fc14d69a2cbb4b21fddfbe3a20/MAFG_MAFG_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f8/1e56e23528f18e0c875c643cb977d1/CEBPA_M08076_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/eb/0d305d97b4cc8de027245061bca1dc/ZN317_ZN317_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/9c/d64d5548b8b0d8defe2463be98575b/HXA13_HXA13_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/28/3111b3e0e4c41c2970fec7ab02a8ec/PAX5_M08227_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c9/dc123ddfd1f767d3efeeda867e7f34/POU2F2_M07975_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/9b/0db281eb69fb642382d8324cf90267/ZNF141_M07586_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/41/cd26d77c7888fd341b10243ee07150/KLF10_M08246_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f2/22f6757da57306ccd8b35ad86a7f5d/PEBB_PEBB_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b2/a809c705da23fc0b346edc79786561/FOXH1_MA0479.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/76/8e8f08dea2f126847b49a3ad6bfdcd/ZNF169_M07645_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/15/d8e2e545fa227739df6ea94c364259/MYCN_MA0104.4_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/71/2df6c75f403440857596674e117e3e/RUNX2_RUNX2_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3a/9f7531e73ef2fafaa8f43212ab1fad/IRF4_IRF4_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/10/f3b3abc91e199816d4ed58b0afad75/MAFK_M07840_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/31/8efdcfb29621a9fc199f85f7771305/ZNF805_M07753_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/09/0c4ab718f978c19c4f7e572b2ec204/ZNF74_M07675_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a3/3e59f4ab91f57c44427dbe18860dc2/CTCF_M07922_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/22/d3b543ecbb7f670c0b5ae7d56a4aeb/COE1_COE1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7d/d20e7a00ea8a03afae85f637e206e2/RORG_RORG_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/31/cde8ee8eb8dd9026b40dc3132fe615/ZNF479_M07673_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/72/e29796c5954040d3fefde96dffa606/STAT1_M08230_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/94/f0c814f65897dfff2b7b2793fa1af2/E2F1_E2F1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7c/dfb361ec9ccb6d72aeb626b483224c/ZN329_ZN329_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8f/b38b1690564389a6e24c0c0c72230a/ZNF136_MA1588.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/55/07455ae6ee7c9612ccf5696debdb28/MEF2C_MA0497.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/65/3b2a080cfe24b830ec8dfa3da909f3/ZNF669_M08367_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e7/6fdf7b4ca60105604c1f0f806fecf5/ZKSC1_ZKSC1_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f4/c9159b1c2fbcb062fe91d39578cd5d/HXC9_HXC9_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/32/2eaaa3d2060d981c6fe39070f42d69/ZNF81_M07728_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d4/3aa3599fce21a375fabd7db6cfa604/ZN341_ZN341_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ef/fa500843c1aab6ddb839cec2425d46/OZF_OZF_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/79/82009872ff6d0109b1e74253bd2105/ZNF100_M07715_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a5/b5c6d25b42854843eb4ae4c7e9dba7/ZNF669_MA1985.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c9/1389c0bdb32ecd5c7de11850e19d33/ZBTB6_ZBTB6_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/27/30b052abe5419bfc2063255c96ed01/YY1_M08237_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ef/a500b25ca0ad06c2a1a74662a8725b/MYCN_MYCN_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ab/a3bbd840b9d5a2aaff0a52fb8335a6/ZNF528_M08249_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/25/b1e61f504c28b69248ad7ad2520b5d/ZNF182_M07597_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/15/c7bf249226b6bd4fccf152e31807ce/ZNF574_M08294_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/46/6020da44253be9448dd88c2d036dd5/SNAI2_SNAI2_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ba/4bd0bc36049f7520068af319ee311d/CTCF_M07902_2.00_TOBIAS_TF_binding_sites-sorted.bed"
+  
+  # Split the string into an array in bash
+  IFS=' ' read -r -a bedArray <<< "${bedString}"
+  
+  # Count number of elements in array
+  echo "No. of BED files: " "${#bedArray[@]}"
+  echo "First BED: " "${bedArray[0]}"
+  
+  mpileup_module() {
+  local BEDFILES="$1"
+  local BAMLIST="$2"
+  local DATAID="$3"
+  local FASTAFILE="$4"
+  
+  bash /mnt/runParallelMpileup.sh "$BEDFILES" "$BAMLIST" "$DATAID" "$FASTAFILE"
+  }
+  
+  # export function to be used in parallel
+  export -f mpileup_module
+  
+  # determine the number of available CPU cores
+  num_cores=$(nproc)
+  echo "Number of cores: "$num_cores
+  
+  # set arguments
+  bedFileArray="${bedArray[@]}"
+  bamPathList="36GFMD3.bamlist.txt"
+  dataID="36GFMD3"
+  
+  # Use GNU Parallel to run the commands in parallel using all available cores
+  parallel -j "$num_cores" mpileup_module ::: "${bedArray[@]}" ::: "${bamPathList}" ::: "${dataID}" ::: "/refs/GRCh38_no_alt_GCA_000001405.15.fasta"
+
+Command exit status:
+  143
+
+Command output:
+  No. of BED files:  136
+  First BED:  /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c1/a99113ba731f6e2252df62b0b4a015/ZNF880_M07764_2.00_TOBIAS_TF_binding_sites-sorted.bed
+  Number of cores: 128
+
+Command wrapper:
+  No. of BED files:  136
+  First BED:  /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c1/a99113ba731f6e2252df62b0b4a015/ZNF880_M07764_2.00_TOBIAS_TF_binding_sites-sorted.bed
+  Number of cores: 128
+  =>> PBS: job killed: walltime 86518 exceeded limit 86400
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  			Resource Usage on 2024-03-15 18:37:50.269188:
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  	JobId: 6395841.pbs101
+  	Project: 12003580
+  	Exit Status: -29
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  	NCPUs: Requested(64), Used(64)
+  	CPU Time Used: 249:45:25
+  	Memory: Requested(100gb), Used(104857964kb)
+  	Vmem Used: 8749569504kb
+  	Walltime: Requested(24:00:00), Used(24:02:09)
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  	Execution Nodes Used: (x1001c2s1b0n0:ncpus=64:mem=104857600kb)
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  	No GPU-related information available for this job.
+
+Work dir:
+  /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f4/7f279222f36b54ec4dbdfe26d569e7
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+
+ -- Check 'nextflow-logs/.nextflow.log' file for details
+Pipeline completed at: 2024-03-15T18:38:46.843101059+08:00
+Execution status: failed
+WARN: Killing running tasks (90)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2024-03-15 18:38:58.121130:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 6395838.pbs101
+	Project: 12003580
+	Exit Status: 1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(4), Used(4)
+	CPU Time Used: 00:05:11
+	Memory: Requested(8gb), Used(8388608kb)
+	Vmem Used: 8251476kb
+	Walltime: Requested(120:00:00), Used(24:08:38)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (x1001c0s0b0n1:ncpus=4:mem=8388608kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	No GPU-related information available for this job.
