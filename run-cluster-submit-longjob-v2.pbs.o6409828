@@ -1,0 +1,898 @@
+N E X T F L O W  ~  version 23.10.1
+Launching `main.nf` [ecstatic_wozniak] DSL2 - revision: c5959e5250
+Proceeding with workflow...
+Preparing the input data...
+Checking whether the directory of footprint score matrices is valid...
+The footprint matrix provided is valid. Getting a list of the matrix files...
+Total number of matrix files found: 1360
+Execution of workflow will proceed...
+[-        ] process > extractTFBSBeds  -
+[-        ] process > generateBAMPaths -
+[-        ] process > callVariants     -
+
+[aa/58dde7] process > extractTFBSBeds (2) [100%] 8 of 8, cached: 8
+[-        ] process > generateBAMPaths    -
+[-        ] process > callVariants        -
+
+[76/3d81c2] process > extractTFBSBeds (61) [100%] 70 of 70, cached: 70
+[-        ] process > generateBAMPaths     -
+[-        ] process > callVariants         -
+
+[c1/650113] process > extractTFBSBeds (154) [100%] 155 of 155, cached: 155
+[-        ] process > generateBAMPaths      -
+[-        ] process > callVariants          -
+
+[6c/48e63c] process > extractTFBSBeds (228) [100%] 234 of 234, cached: 234
+[-        ] process > generateBAMPaths      -
+[-        ] process > callVariants          -
+
+[e7/345482] process > extractTFBSBeds (318) [100%] 317 of 317, cached: 317
+[40/0404b0] process > generateBAMPaths (1)  [100%] 1 of 1, cached: 1
+[-        ] process > callVariants          -
+
+[93/34d855] process > extractTFBSBeds (393) [100%] 395 of 395, cached: 395
+[40/0404b0] process > generateBAMPaths (1)  [100%] 1 of 1, cached: 1
+[-        ] process > callVariants          -
+
+[b2/775def] process > extractTFBSBeds (495) [100%] 495 of 495, cached: 495
+[40/0404b0] process > generateBAMPaths (1)  [100%] 1 of 1, cached: 1
+[-        ] process > callVariants          -
+
+[2c/cbad52] process > extractTFBSBeds (600) [100%] 603 of 603, cached: 603
+[40/0404b0] process > generateBAMPaths (1)  [100%] 1 of 1, cached: 1
+[-        ] process > callVariants          -
+
+[2e/212462] process > extractTFBSBeds (714) [100%] 716 of 716, cached: 716
+[03/c8f297] process > generateBAMPaths (2)  [100%] 2 of 2, cached: 2
+[-        ] process > callVariants          -
+
+[24/5c8808] process > extractTFBSBeds (817) [100%] 810 of 810, cached: 810
+[03/c8f297] process > generateBAMPaths (2)  [100%] 2 of 2, cached: 2
+[-        ] process > callVariants          -
+
+[14/b95ce9] process > extractTFBSBeds (927) [100%] 920 of 920, cached: 920
+[a6/1fa364] process > generateBAMPaths (3)  [100%] 3 of 3, cached: 3
+[-        ] process > callVariants          -
+
+[03/2f72e5] process > extractTFBSBeds (1027) [100%] 1024 of 1024, cached: 1024
+[a6/1fa364] process > generateBAMPaths (3)   [100%] 3 of 3, cached: 3
+[-        ] process > callVariants           -
+
+[66/ca6e0f] process > extractTFBSBeds (1128) [100%] 1129 of 1129, cached: 1129
+[99/4217b8] process > generateBAMPaths (4)   [100%] 4 of 4, cached: 4
+[-        ] process > callVariants           -
+
+[a2/4ce6c2] process > extractTFBSBeds (1239) [100%] 1247 of 1247, cached: 1247
+[99/4217b8] process > generateBAMPaths (4)   [100%] 4 of 4, cached: 4
+[-        ] process > callVariants           -
+
+[0e/f35809] process > extractTFBSBeds (1348) [100%] 1359 of 1359, cached: 1359
+[0d/e7c8d1] process > generateBAMPaths (5)   [100%] 5 of 5, cached: 5
+[-        ] process > callVariants           -
+
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[0d/e7c8d1] process > generateBAMPaths (5)   [100%] 5 of 5, cached: 5
+[-        ] process > callVariants           [  0%] 0 of 28
+
+executor >  pbspro (3)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[d7/f3a5cd] process > generateBAMPaths (6)   [100%] 6 of 6, cached: 6
+[31/767e7b] process > callVariants (7)       [  0%] 0 of 78
+
+executor >  pbspro (6)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[89/e9efd3] process > generateBAMPaths (7)   [100%] 7 of 7, cached: 7
+[b9/cf1bbb] process > callVariants (4)       [  0%] 0 of 91
+
+executor >  pbspro (10)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[89/e9efd3] process > generateBAMPaths (7)   [100%] 7 of 7, cached: 7
+[9e/5ea3eb] process > callVariants (10)      [  0%] 0 of 91
+
+executor >  pbspro (13)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[7b/6d0092] process > generateBAMPaths (8)   [100%] 8 of 8, cached: 8
+[a2/f9e1d0] process > callVariants (14)      [  0%] 0 of 104
+
+executor >  pbspro (16)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[7b/6d0092] process > generateBAMPaths (8)   [100%] 8 of 8, cached: 8
+[31/4c185f] process > callVariants (22)      [  0%] 0 of 104
+
+executor >  pbspro (17)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[95/1310db] process > generateBAMPaths (9)   [100%] 9 of 9, cached: 9
+[9e/ddb554] process > callVariants (21)      [  0%] 0 of 113
+
+executor >  pbspro (20)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[95/1310db] process > generateBAMPaths (9)   [100%] 9 of 9, cached: 9
+[4e/bc1b66] process > callVariants (11)      [  0%] 0 of 117
+
+executor >  pbspro (22)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[12/83d2e1] process > generateBAMPaths (10)  [100%] 10 of 10, cached: 10
+[4c/05214f] process > callVariants (27)      [  0%] 0 of 129
+
+executor >  pbspro (25)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[12/83d2e1] process > generateBAMPaths (10)  [100%] 10 of 10, cached: 10
+[76/ca9072] process > callVariants (20)      [  0%] 0 of 130
+
+executor >  pbspro (28)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[12/83d2e1] process > generateBAMPaths (10)  [100%] 10 of 10, cached: 10
+[8e/b9046b] process > callVariants (28)      [  0%] 0 of 130
+
+executor >  pbspro (30)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[4b/809326] process > generateBAMPaths (11)  [100%] 11 of 11, cached: 11
+[e5/813ad0] process > callVariants (31)      [  0%] 0 of 143
+
+executor >  pbspro (34)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[5c/5761d7] process > callVariants (32)      [  0%] 0 of 154
+
+executor >  pbspro (39)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[c5/29d56d] process > callVariants (34)      [  0%] 0 of 156
+
+executor >  pbspro (41)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[49/af4db9] process > callVariants (39)      [  0%] 0 of 156
+
+executor >  pbspro (43)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[a1/6efdfe] process > callVariants (49)      [  0%] 0 of 156
+
+executor >  pbspro (45)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[ab/c6cc83] process > callVariants (47)      [  0%] 0 of 156
+
+executor >  pbspro (49)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[98/9252d8] process > callVariants (44)      [  0%] 0 of 156
+
+executor >  pbspro (51)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[2f/ea05ab] process > callVariants (46)      [  0%] 0 of 156
+
+executor >  pbspro (54)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[40/2e2cf5] process > callVariants (35)      [  0%] 0 of 156
+
+executor >  pbspro (56)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[a8/16c4e4] process > callVariants (60)      [  0%] 0 of 156
+
+executor >  pbspro (58)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[4d/970eae] process > callVariants (64)      [  0%] 0 of 156
+
+executor >  pbspro (61)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[3c/ea6b4e] process > callVariants (57)      [  0%] 0 of 156
+
+executor >  pbspro (65)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[d4/e8ac04] process > callVariants (58)      [  0%] 0 of 156
+
+executor >  pbspro (69)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[c5/a92ff4] process > callVariants (66)      [  0%] 0 of 156
+
+executor >  pbspro (73)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[a1/026945] process > callVariants (71)      [  0%] 0 of 156
+
+executor >  pbspro (77)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[fd/484428] process > callVariants (67)      [  0%] 0 of 156
+
+executor >  pbspro (81)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[4c/af8db3] process > callVariants (79)      [  0%] 0 of 156
+
+executor >  pbspro (84)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[c8/0cd56d] process > callVariants (83)      [  0%] 0 of 156
+
+executor >  pbspro (86)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[58/068ff3] process > callVariants (90)      [  0%] 0 of 156
+
+executor >  pbspro (89)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[fc/0ba0ac] process > callVariants (91)      [  0%] 0 of 156
+
+executor >  pbspro (90)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[ec/f5bd5a] process > callVariants (86)      [  0%] 0 of 156
+
+executor >  pbspro (90)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[ec/f5bd5a] process > callVariants (86)      [  0%] 0 of 156
+
+executor >  pbspro (90)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[ec/f5bd5a] process > callVariants (86)      [  0%] 0 of 156
+
+executor >  pbspro (90)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[ec/f5bd5a] process > callVariants (86)      [  0%] 0 of 156
+
+executor >  pbspro (90)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[ec/f5bd5a] process > callVariants (86)      [  0%] 0 of 156
+
+executor >  pbspro (90)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[ec/f5bd5a] process > callVariants (86)      [  0%] 0 of 156
+
+executor >  pbspro (90)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[ec/f5bd5a] process > callVariants (86)      [  0%] 0 of 156
+
+executor >  pbspro (90)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[ec/f5bd5a] process > callVariants (86)      [  0%] 0 of 156
+
+executor >  pbspro (90)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[ec/f5bd5a] process > callVariants (86)      [  0%] 0 of 156
+
+executor >  pbspro (90)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[ec/f5bd5a] process > callVariants (86)      [  0%] 0 of 156
+
+executor >  pbspro (90)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[ec/f5bd5a] process > callVariants (86)      [  0%] 0 of 156
+
+executor >  pbspro (90)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[ec/f5bd5a] process > callVariants (86)      [  0%] 0 of 156
+
+executor >  pbspro (90)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[ec/f5bd5a] process > callVariants (86)      [  0%] 0 of 156
+
+executor >  pbspro (90)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[ec/f5bd5a] process > callVariants (86)      [  0%] 0 of 156
+
+executor >  pbspro (90)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[ec/f5bd5a] process > callVariants (86)      [  0%] 0 of 156
+
+executor >  pbspro (91)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[63/a56387] process > callVariants (82)      [  0%] 0 of 156
+
+executor >  pbspro (91)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[63/a56387] process > callVariants (82)      [  0%] 0 of 156
+
+executor >  pbspro (91)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[15/c3678f] process > callVariants (5)       [  0%] 1 of 156
+
+executor >  pbspro (91)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[15/c3678f] process > callVariants (5)       [  0%] 1 of 156
+
+executor >  pbspro (92)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[36/e8806f] process > callVariants (9)       [  1%] 2 of 156
+
+executor >  pbspro (92)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[36/e8806f] process > callVariants (9)       [  1%] 2 of 156
+
+executor >  pbspro (92)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[30/6f7177] process > callVariants (3)       [  1%] 3 of 156
+
+executor >  pbspro (92)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[30/6f7177] process > callVariants (3)       [  1%] 3 of 156
+
+executor >  pbspro (93)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[a1/5892b9] process > callVariants (94)      [  1%] 3 of 156
+
+executor >  pbspro (93)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[a1/5892b9] process > callVariants (94)      [  1%] 3 of 156
+
+executor >  pbspro (93)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[9e/ddb554] process > callVariants (21)      [  2%] 4 of 156
+
+executor >  pbspro (93)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[9e/ddb554] process > callVariants (21)      [  2%] 4 of 156
+
+executor >  pbspro (94)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[3e/712ad1] process > callVariants (95)      [  2%] 4 of 156
+
+executor >  pbspro (94)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[3e/712ad1] process > callVariants (95)      [  2%] 4 of 156
+
+executor >  pbspro (94)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[31/4c185f] process > callVariants (22)      [  3%] 5 of 156
+
+executor >  pbspro (94)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[31/4c185f] process > callVariants (22)      [  3%] 5 of 156
+
+executor >  pbspro (95)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[07/e27999] process > callVariants (100)     [  3%] 5 of 156
+
+executor >  pbspro (95)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[07/e27999] process > callVariants (100)     [  3%] 5 of 156
+
+executor >  pbspro (96)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[ba/c7b5f2] process > callVariants (101)     [  3%] 5 of 156
+
+executor >  pbspro (96)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[ba/c7b5f2] process > callVariants (101)     [  3%] 5 of 156
+ERROR ~ Error executing process > 'callVariants (8)'
+
+Caused by:
+  Process `callVariants (8)` terminated with an error exit status (143)
+
+Command executed:
+
+  #!/usr/bin/env bash
+  
+  # Convert the list into a string separated by spaces
+  bedString="/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/45/aa29edacd7b91b1736053666ec38ad/CTCF_M07907_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3f/72190bada5e89de856a1dcbd8f4481/ZNF487_M07782_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a8/b6a944322eab866be633427aeb300d/ZNF263_M08272_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/48/93aa9f6af800e41789158cc2f88d87/PO2F2_PO2F2_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d8/e1d86ea8194aa593987236890879ed/RELB_MA1117.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6e/9cb036820ba91cc6361eee96c511c9/CTCF_M07894_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/25/60ed9665c5e20b16a6e43acda94290/ZNF140_MA1589.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/4d/664826d937bec323d1f6727c0d5c15/CDX2_MA0465.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/da/fc1840c1092bb7eb0120844dba9533/ZNF33A_M08369_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/33/816fc0b54ce14a5aafa13f10204ed0/HNF4G_HNF4G_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a9/13aa140d87b081411641c4c6b47544/FOS_M07828_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/85/a1147d2aa7c5fc83e24f1900e7ff71/PRDM9_M07610_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c2/e12f376e165f32299fd8531ff7765e/REST_M07846_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7e/37f0a4e1dd88070d125b01656c5b25/CEBPD_MA0836.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e4/c623e7e0998d21dcd617e5ca6b51ed/TWIST1_M08052_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ef/3dadf9167af89526a1a8af79424c4c/KLF1_KLF1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2b/c258f23c7b66f0ca144357258e74ae/ZNF823_M07733_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/90/6d1dc833d98d35476444c0e00762ee/ZNF146_M08329_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fe/a5dd174ed1a4c565ae15fcb906de40/ZNF41_M08313_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/24/c9e5452cb246dc89e167ba99ab5a6f/THAP1_M08176_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/01/58460ceec13383148f53e2db165fdb/SMAD2_SMAD2_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e3/8eb24fabd011ae37622a0767911d75/SP4_MA0685.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/41/169e7ba37b4d0253c5327b73310506/ONECUT1_MA0679.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/35/75a9ec39124506a14462e5d08e6f67/ZNF565_M07700_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d7/08c1d10dbf3ad0e4add1bc7f92c89c/PAX5_M08160_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/bf/64604e9f56663a47bc1d576656f40c/ZNF682_M07718_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/72/35f0217a9a14b78d2a2d12b1c710cf/ZNF45_M07579_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/9e/b4db26480ab9982c77dc574143de65/SRF_SRF_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/de/889cdce73a301dacf6c913e1365e65/ZN667_ZN667_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/80/a8107b9e554a937aa9316ab54c771c/FOXH1_FOXH1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a3/86027e118283a81d31557817269d96/ASCL1_MA1631.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/66/7ae80376c10ae992613da000b7053d/THA_THA_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/36/2060cf85de9da4084fa9611606fd57/PBX3_M07971_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/50/1cec93e700f6a302834702826493db/GATA1_M07963_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/15/847eaebe54c1ea6d1b5dcd99bccead/MAFF_MA0495.3_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/53/736800f2457f2ef8b5563fef356747/TEAD2_M08175_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/93/251ef1907cc6e5d4b28be1543c0a51/ATF3_M08188_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a6/a513b015b54f4b8d8adc369e135ab4/AP2A_AP2A_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/38/637b4c381f6142ed36f89acfa14c7a/ZNF266_M07641_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/24/5c8808d33b0309eb038dd0d3845223/DUX4_M08135_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/4c/3a1172a1ea4a8cc9ed2d15ea1ee9ea/NR4A1_NR4A1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/15/56271ebc6bbea3875c5092fd4f864a/ZFX_ZFX_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c0/a670593557297b2150e6359819f3ac/ZNF75D_MA1601.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d9/93db57b71356384efcc24bda3a50d9/PPARG_PPARG_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/92/0b7cb9d07cd2e097225f046603b020/KLF5_M08086_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/48/02b5e2ec38daa6d266a3973e1573d2/ZBTB7A_M07937_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e5/57ece315d4827e854c8ab37ee07e88/RXRG_RXRG_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/44/5ddf8f2aea106d9f02c4c39aa1e4e1/ALX1_ALX1_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0f/17c680960372ae08d31145529811dc/STAT3_M08172_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d6/fb3f8455dbd580ab4b5f0e7b4e492b/ZNF653_M08248_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/66/92eefe074a6eb380cff9474882f26a/ZNF528_M07617_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/61/cc4cf3148b55fc4e6a694b1a807470/MEF2B_MEF2B_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/60/dbe1e369ec3e7ec45e3ef54d59d796/ZNF135_MA1587.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c8/925331c8fbd7f5776c13155e981a75/CTCF_M07901_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3c/d08ebaf1636ad97af82e1f53b73ac6/ZNF891_M07762_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6b/fb316cd04959326c24b28e9dbf845c/ZIM3_MA1709.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a3/7735d11cd51fc88ac3cd8f359ec962/HLF_MA0043.3_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1d/26a73e864c698400bee227a2a90590/ZNF621_M07636_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/35/02c41cec45ecb9536952ea8d05502d/ZFP69_M07686_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e9/105dcb713e290cec359ea7608c48c5/ZNF33A_M07695_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b1/cdb3afc99f3b678cb0634897ea70c4/MXI1_MXI1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/5c/53b1654ad226eb2d3a8b3d65f00d5b/ZNF585A_M07713_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/94/f11445afa57052a50cff1c6c5427cc/SP2_M07932_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/82/69daaa2d154f8f770197c9fe40b538/CTCF_MA1930.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8b/bf4f1fe6ff9665f449fa1192ca8f94/ZFP14_M07592_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3c/bc95be9582a1afc0c1683c1d21a066/GATA3_GATA3_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/24/accfa7e861ac472956b1956eb0ea73/MYC_M07803_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8b/e3bb3e88064830f2428c2497eeb849/DBP_DBP_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e7/d75fa06f3424320cf5022981f85478/ZNF737_M07768_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/02/d2e02d66dce653ccc0e08def6eec53/E2F6_M07939_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1b/86c52425a134b7704ee797913d7cf8/NFYA_NFYA_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/89/076eb99d39c4f4b6a808810cac355a/ZNF667_M07737_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/cf/32d769cd2d59c9de308638aa7b906a/HNF4A_HNF4A_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f6/a6deb984e6d822c83401d0f1404283/ZNF780A_M07729_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/23/7301b3f6f68f9e46b541b0811d4296/FOXO1_FOXO1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3c/67967cac0538b8c0239dc0c91953f5/ZNF595_M08400_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/bf/a714a833de56603e8b4fcc88eeea96/NFYA_MA0060.3_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fc/b42872310c3554208ebc3d4c26fdc1/TBP_M08231_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f3/a70db8cce6520a304d1ecb9a8cf665/REST_M07852_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7a/d46dbb9630cbcfb1a1113df2dbd0e1/GATA2_M08125_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/53/329614faece54eaf86133afc01795a/KLF7_M08298_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/22/ec5aab798966276128923c0d08f37a/USF1_M07811_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/aa/39bdda47d3a3dc6343eefbadbf5194/JUND_M07814_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f5/e1294639c33d39ac948837d6b6028d/ZNF317_MA1593.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c5/72630e67b7a23c15fd5dfd84851795/CDX2_M08131_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e9/0afe26de56d373565de550c50db885/GLIS1_M08345_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2e/ede2a311fea7c963be940074af4192/ZNF692_M08338_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/04/23f00c81768fe70417d57d3d33c4d7/RELA_M08003_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f3/649b18eb0a748b041d67f41dbb52fa/ZNF430_M07575_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/85/034ba31e32928bc30759d39a8f79a0/CEBPA_MA0102.4_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b0/fce151131189b4ed802a59fd46c93a/ZNF566_M07677_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fc/7b1059d08442bfa09b46338199c923/ZNF468_M07754_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b6/8eaf3132cf53b22d9e41335c403f65/ZNF248_M07739_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1b/1297608f6f3ccfb78035a1309ccfdb/CTCF_M07892_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0f/d8ff0c51bb6dda2b83500d80641ceb/E2F3_E2F3_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/aa/1b84f054b5a0866c43aba4b6e219e8/GATA4_MA0482.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1c/b1b5452aab59882eef1c07ef11a383/ZNF8_ZNF8_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c3/6845d8fe62c1e2b553f06c7ccde2c0/SRF_M07984_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a3/961901fc134def3977dde9c8c0d673/ZIM3_M07591_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d1/0e3de9a106d85ea6d9cd9c78ede12e/ZKSCAN2_M07562_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/57/55f0855250e638b764e30929f18982/CREM_MA0609.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c3/489abc5c124c8b55813c1676e169d7/FEZF1_FEZF1_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ee/05592f492cc1b4fff82a5e39414fa4/ZNF382_M08247_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/69/182617114ae6c38625637560e288f6/CTCF_M07875_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/56/509ca0ae5f11dc109ecfc5ae60a386/POU2F2_M07974_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f9/a82be26e5e4781d7fa456000928efe/ELF1_M08198_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2c/41a97dbb0e746aee83e012b64c2fb0/SALL4_SALL4_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e0/2d8d1aa02e2149170c58b6d21f8765/ZNF454_MA1712.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/75/4b6e8c6bcfab0f66e91b3f4470b310/ELK4_M07957_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d0/5a374aaf73884c26b83b3d506b076b/GATA6_M08124_2.00_TOBIAS_TF_binding_sites-sorted.bed"
+  
+  # Split the string into an array in bash
+  IFS=' ' read -r -a bedArray <<< "${bedString}"
+  
+  # Count number of elements in array
+  echo "No. of BED files: " "${#bedArray[@]}"
+  echo "First BED: " "${bedArray[0]}"
+  
+  mpileup_module() {
+  local BEDFILES="$1"
+  local BAMLIST="$2"
+  local DATAID="$3"
+  local FASTAFILE="$4"
+  
+  bash /mnt/runParallelMpileup.sh "$BEDFILES" "$BAMLIST" "$DATAID" "$FASTAFILE"
+  }
+  
+  # export function to be used in parallel
+  export -f mpileup_module
+  
+  # determine the number of available CPU cores
+  num_cores=$(nproc)
+  echo "Number of cores: "$num_cores
+  
+  # set arguments
+  bedFileArray="${bedArray[@]}"
+  bamPathList="36GFMD3.bamlist.txt"
+  dataID="36GFMD3"
+  
+  # Use GNU Parallel to run the commands in parallel using all available cores
+  parallel -j "$num_cores" mpileup_module ::: "${bedArray[@]}" ::: "${bamPathList}" ::: "${dataID}" ::: "/refs/GRCh38_no_alt_GCA_000001405.15.fasta"
+
+Command exit status:
+  143
+
+Command output:
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/aa/1b84f054b5a0866c43aba4b6e219e8/GATA4_MA0482.2_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fc/b42872310c3554208ebc3d4c26fdc1/TBP_M08231_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c0/a670593557297b2150e6359819f3ac/ZNF75D_MA1601.2_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/36/2060cf85de9da4084fa9611606fd57/PBX3_M07971_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/bf/a714a833de56603e8b4fcc88eeea96/NFYA_MA0060.3_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ee/05592f492cc1b4fff82a5e39414fa4/ZNF382_M08247_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6b/fb316cd04959326c24b28e9dbf845c/ZIM3_MA1709.1_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/23/7301b3f6f68f9e46b541b0811d4296/FOXO1_FOXO1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1b/86c52425a134b7704ee797913d7cf8/NFYA_NFYA_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/35/02c41cec45ecb9536952ea8d05502d/ZFP69_M07686_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f5/e1294639c33d39ac948837d6b6028d/ZNF317_MA1593.1_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c5/72630e67b7a23c15fd5dfd84851795/CDX2_M08131_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/93/251ef1907cc6e5d4b28be1543c0a51/ATF3_M08188_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e5/57ece315d4827e854c8ab37ee07e88/RXRG_RXRG_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/da/fc1840c1092bb7eb0120844dba9533/ZNF33A_M08369_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/53/736800f2457f2ef8b5563fef356747/TEAD2_M08175_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1c/b1b5452aab59882eef1c07ef11a383/ZNF8_ZNF8_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/04/23f00c81768fe70417d57d3d33c4d7/RELA_M08003_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/61/cc4cf3148b55fc4e6a694b1a807470/MEF2B_MEF2B_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/35/75a9ec39124506a14462e5d08e6f67/ZNF565_M07700_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e7/d75fa06f3424320cf5022981f85478/ZNF737_M07768_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e4/c623e7e0998d21dcd617e5ca6b51ed/TWIST1_M08052_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f9/a82be26e5e4781d7fa456000928efe/ELF1_M08198_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/01/58460ceec13383148f53e2db165fdb/SMAD2_SMAD2_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/66/92eefe074a6eb380cff9474882f26a/ZNF528_M07617_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c3/489abc5c124c8b55813c1676e169d7/FEZF1_FEZF1_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0f/d8ff0c51bb6dda2b83500d80641ceb/E2F3_E2F3_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f3/649b18eb0a748b041d67f41dbb52fa/ZNF430_M07575_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c2/e12f376e165f32299fd8531ff7765e/REST_M07846_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/75/4b6e8c6bcfab0f66e91b3f4470b310/ELK4_M07957_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c8/925331c8fbd7f5776c13155e981a75/CTCF_M07901_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/24/c9e5452cb246dc89e167ba99ab5a6f/THAP1_M08176_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/89/076eb99d39c4f4b6a808810cac355a/ZNF667_M07737_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a9/13aa140d87b081411641c4c6b47544/FOS_M07828_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/cf/32d769cd2d59c9de308638aa7b906a/HNF4A_HNF4A_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/de/889cdce73a301dacf6c913e1365e65/ZN667_ZN667_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1d/26a73e864c698400bee227a2a90590/ZNF621_M07636_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e9/105dcb713e290cec359ea7608c48c5/ZNF33A_M07695_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/25/60ed9665c5e20b16a6e43acda94290/ZNF140_MA1589.1_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d7/08c1d10dbf3ad0e4add1bc7f92c89c/PAX5_M08160_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/94/f11445afa57052a50cff1c6c5427cc/SP2_M07932_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/33/816fc0b54ce14a5aafa13f10204ed0/HNF4G_HNF4G_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a6/a513b015b54f4b8d8adc369e135ab4/AP2A_AP2A_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1b/1297608f6f3ccfb78035a1309ccfdb/CTCF_M07892_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2b/c258f23c7b66f0ca144357258e74ae/ZNF823_M07733_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f3/a70db8cce6520a304d1ecb9a8cf665/REST_M07852_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8b/bf4f1fe6ff9665f449fa1192ca8f94/ZFP14_M07592_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a3/86027e118283a81d31557817269d96/ASCL1_MA1631.1_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/66/7ae80376c10ae992613da000b7053d/THA_THA_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/15/56271ebc6bbea3875c5092fd4f864a/ZFX_ZFX_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+
+Command error:
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+
+Work dir:
+  /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6a/41195c244a2108f7d09ef65b6fd6f6
+
+Tip: you can try to figure out what's wrong by changing to the process work dir and showing the script file named `.command.sh`
+
+ -- Check 'nextflow-logs/.nextflow.log' file for details
+
+executor >  pbspro (96)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[6a/41195c] process > callVariants (8)       [  3%] 6 of 156, failed: 1
+ERROR ~ Error executing process > 'callVariants (8)'
+
+Caused by:
+  Process `callVariants (8)` terminated with an error exit status (143)
+
+Command executed:
+
+  #!/usr/bin/env bash
+  
+  # Convert the list into a string separated by spaces
+  bedString="/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/45/aa29edacd7b91b1736053666ec38ad/CTCF_M07907_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3f/72190bada5e89de856a1dcbd8f4481/ZNF487_M07782_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a8/b6a944322eab866be633427aeb300d/ZNF263_M08272_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/48/93aa9f6af800e41789158cc2f88d87/PO2F2_PO2F2_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d8/e1d86ea8194aa593987236890879ed/RELB_MA1117.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6e/9cb036820ba91cc6361eee96c511c9/CTCF_M07894_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/25/60ed9665c5e20b16a6e43acda94290/ZNF140_MA1589.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/4d/664826d937bec323d1f6727c0d5c15/CDX2_MA0465.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/da/fc1840c1092bb7eb0120844dba9533/ZNF33A_M08369_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/33/816fc0b54ce14a5aafa13f10204ed0/HNF4G_HNF4G_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a9/13aa140d87b081411641c4c6b47544/FOS_M07828_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/85/a1147d2aa7c5fc83e24f1900e7ff71/PRDM9_M07610_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c2/e12f376e165f32299fd8531ff7765e/REST_M07846_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7e/37f0a4e1dd88070d125b01656c5b25/CEBPD_MA0836.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e4/c623e7e0998d21dcd617e5ca6b51ed/TWIST1_M08052_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ef/3dadf9167af89526a1a8af79424c4c/KLF1_KLF1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2b/c258f23c7b66f0ca144357258e74ae/ZNF823_M07733_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/90/6d1dc833d98d35476444c0e00762ee/ZNF146_M08329_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fe/a5dd174ed1a4c565ae15fcb906de40/ZNF41_M08313_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/24/c9e5452cb246dc89e167ba99ab5a6f/THAP1_M08176_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/01/58460ceec13383148f53e2db165fdb/SMAD2_SMAD2_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e3/8eb24fabd011ae37622a0767911d75/SP4_MA0685.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/41/169e7ba37b4d0253c5327b73310506/ONECUT1_MA0679.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/35/75a9ec39124506a14462e5d08e6f67/ZNF565_M07700_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d7/08c1d10dbf3ad0e4add1bc7f92c89c/PAX5_M08160_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/bf/64604e9f56663a47bc1d576656f40c/ZNF682_M07718_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/72/35f0217a9a14b78d2a2d12b1c710cf/ZNF45_M07579_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/9e/b4db26480ab9982c77dc574143de65/SRF_SRF_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/de/889cdce73a301dacf6c913e1365e65/ZN667_ZN667_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/80/a8107b9e554a937aa9316ab54c771c/FOXH1_FOXH1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a3/86027e118283a81d31557817269d96/ASCL1_MA1631.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/66/7ae80376c10ae992613da000b7053d/THA_THA_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/36/2060cf85de9da4084fa9611606fd57/PBX3_M07971_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/50/1cec93e700f6a302834702826493db/GATA1_M07963_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/15/847eaebe54c1ea6d1b5dcd99bccead/MAFF_MA0495.3_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/53/736800f2457f2ef8b5563fef356747/TEAD2_M08175_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/93/251ef1907cc6e5d4b28be1543c0a51/ATF3_M08188_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a6/a513b015b54f4b8d8adc369e135ab4/AP2A_AP2A_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/38/637b4c381f6142ed36f89acfa14c7a/ZNF266_M07641_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/24/5c8808d33b0309eb038dd0d3845223/DUX4_M08135_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/4c/3a1172a1ea4a8cc9ed2d15ea1ee9ea/NR4A1_NR4A1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/15/56271ebc6bbea3875c5092fd4f864a/ZFX_ZFX_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c0/a670593557297b2150e6359819f3ac/ZNF75D_MA1601.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d9/93db57b71356384efcc24bda3a50d9/PPARG_PPARG_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/92/0b7cb9d07cd2e097225f046603b020/KLF5_M08086_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/48/02b5e2ec38daa6d266a3973e1573d2/ZBTB7A_M07937_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e5/57ece315d4827e854c8ab37ee07e88/RXRG_RXRG_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/44/5ddf8f2aea106d9f02c4c39aa1e4e1/ALX1_ALX1_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0f/17c680960372ae08d31145529811dc/STAT3_M08172_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d6/fb3f8455dbd580ab4b5f0e7b4e492b/ZNF653_M08248_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/66/92eefe074a6eb380cff9474882f26a/ZNF528_M07617_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/61/cc4cf3148b55fc4e6a694b1a807470/MEF2B_MEF2B_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/60/dbe1e369ec3e7ec45e3ef54d59d796/ZNF135_MA1587.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c8/925331c8fbd7f5776c13155e981a75/CTCF_M07901_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3c/d08ebaf1636ad97af82e1f53b73ac6/ZNF891_M07762_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6b/fb316cd04959326c24b28e9dbf845c/ZIM3_MA1709.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a3/7735d11cd51fc88ac3cd8f359ec962/HLF_MA0043.3_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1d/26a73e864c698400bee227a2a90590/ZNF621_M07636_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/35/02c41cec45ecb9536952ea8d05502d/ZFP69_M07686_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e9/105dcb713e290cec359ea7608c48c5/ZNF33A_M07695_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b1/cdb3afc99f3b678cb0634897ea70c4/MXI1_MXI1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/5c/53b1654ad226eb2d3a8b3d65f00d5b/ZNF585A_M07713_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/94/f11445afa57052a50cff1c6c5427cc/SP2_M07932_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/82/69daaa2d154f8f770197c9fe40b538/CTCF_MA1930.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8b/bf4f1fe6ff9665f449fa1192ca8f94/ZFP14_M07592_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3c/bc95be9582a1afc0c1683c1d21a066/GATA3_GATA3_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/24/accfa7e861ac472956b1956eb0ea73/MYC_M07803_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8b/e3bb3e88064830f2428c2497eeb849/DBP_DBP_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e7/d75fa06f3424320cf5022981f85478/ZNF737_M07768_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/02/d2e02d66dce653ccc0e08def6eec53/E2F6_M07939_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1b/86c52425a134b7704ee797913d7cf8/NFYA_NFYA_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/89/076eb99d39c4f4b6a808810cac355a/ZNF667_M07737_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/cf/32d769cd2d59c9de308638aa7b906a/HNF4A_HNF4A_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f6/a6deb984e6d822c83401d0f1404283/ZNF780A_M07729_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/23/7301b3f6f68f9e46b541b0811d4296/FOXO1_FOXO1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3c/67967cac0538b8c0239dc0c91953f5/ZNF595_M08400_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/bf/a714a833de56603e8b4fcc88eeea96/NFYA_MA0060.3_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fc/b42872310c3554208ebc3d4c26fdc1/TBP_M08231_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f3/a70db8cce6520a304d1ecb9a8cf665/REST_M07852_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7a/d46dbb9630cbcfb1a1113df2dbd0e1/GATA2_M08125_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/53/329614faece54eaf86133afc01795a/KLF7_M08298_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/22/ec5aab798966276128923c0d08f37a/USF1_M07811_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/aa/39bdda47d3a3dc6343eefbadbf5194/JUND_M07814_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f5/e1294639c33d39ac948837d6b6028d/ZNF317_MA1593.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c5/72630e67b7a23c15fd5dfd84851795/CDX2_M08131_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e9/0afe26de56d373565de550c50db885/GLIS1_M08345_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2e/ede2a311fea7c963be940074af4192/ZNF692_M08338_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/04/23f00c81768fe70417d57d3d33c4d7/RELA_M08003_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f3/649b18eb0a748b041d67f41dbb52fa/ZNF430_M07575_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/85/034ba31e32928bc30759d39a8f79a0/CEBPA_MA0102.4_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b0/fce151131189b4ed802a59fd46c93a/ZNF566_M07677_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fc/7b1059d08442bfa09b46338199c923/ZNF468_M07754_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b6/8eaf3132cf53b22d9e41335c403f65/ZNF248_M07739_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1b/1297608f6f3ccfb78035a1309ccfdb/CTCF_M07892_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0f/d8ff0c51bb6dda2b83500d80641ceb/E2F3_E2F3_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/aa/1b84f054b5a0866c43aba4b6e219e8/GATA4_MA0482.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1c/b1b5452aab59882eef1c07ef11a383/ZNF8_ZNF8_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c3/6845d8fe62c1e2b553f06c7ccde2c0/SRF_M07984_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a3/961901fc134def3977dde9c8c0d673/ZIM3_M07591_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d1/0e3de9a106d85ea6d9cd9c78ede12e/ZKSCAN2_M07562_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/57/55f0855250e638b764e30929f18982/CREM_MA0609.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c3/489abc5c124c8b55813c1676e169d7/FEZF1_FEZF1_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ee/05592f492cc1b4fff82a5e39414fa4/ZNF382_M08247_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/69/182617114ae6c38625637560e288f6/CTCF_M07875_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/56/509ca0ae5f11dc109ecfc5ae60a386/POU2F2_M07974_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f9/a82be26e5e4781d7fa456000928efe/ELF1_M08198_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2c/41a97dbb0e746aee83e012b64c2fb0/SALL4_SALL4_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e0/2d8d1aa02e2149170c58b6d21f8765/ZNF454_MA1712.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/75/4b6e8c6bcfab0f66e91b3f4470b310/ELK4_M07957_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d0/5a374aaf73884c26b83b3d506b076b/GATA6_M08124_2.00_TOBIAS_TF_binding_sites-sorted.bed"
+  
+  # Split the string into an array in bash
+  IFS=' ' read -r -a bedArray <<< "${bedString}"
+  
+  # Count number of elements in array
+  echo "No. of BED files: " "${#bedArray[@]}"
+  echo "First BED: " "${bedArray[0]}"
+  
+  mpileup_module() {
+  local BEDFILES="$1"
+  local BAMLIST="$2"
+  local DATAID="$3"
+  local FASTAFILE="$4"
+  
+  bash /mnt/runParallelMpileup.sh "$BEDFILES" "$BAMLIST" "$DATAID" "$FASTAFILE"
+  }
+  
+  # export function to be used in parallel
+  export -f mpileup_module
+  
+  # determine the number of available CPU cores
+  num_cores=$(nproc)
+  echo "Number of cores: "$num_cores
+  
+  # set arguments
+  bedFileArray="${bedArray[@]}"
+  bamPathList="36GFMD3.bamlist.txt"
+  dataID="36GFMD3"
+  
+  # Use GNU Parallel to run the commands in parallel using all available cores
+  parallel -j "$num_cores" mpileup_module ::: "${bedArray[@]}" ::: "${bamPathList}" ::: "${dataID}" ::: "/refs/GRCh38_no_alt_GCA_000001405.15.fasta"
+
+Command exit status:
+  143
+
+Command output:
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/aa/1b84f054b5a0866c43aba4b6e219e8/GATA4_MA0482.2_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fc/b42872310c3554208ebc3d4c26fdc1/TBP_M08231_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c0/a670593557297b2150e6359819f3ac/ZNF75D_MA1601.2_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/36/2060cf85de9da4084fa9611606fd57/PBX3_M07971_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/bf/a714a833de56603e8b4fcc88eeea96/NFYA_MA0060.3_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ee/05592f492cc1b4fff82a5e39414fa4/ZNF382_M08247_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6b/fb316cd04959326c24b28e9dbf845c/ZIM3_MA1709.1_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/23/7301b3f6f68f9e46b541b0811d4296/FOXO1_FOXO1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1b/86c52425a134b7704ee797913d7cf8/NFYA_NFYA_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/35/02c41cec45ecb9536952ea8d05502d/ZFP69_M07686_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f5/e1294639c33d39ac948837d6b6028d/ZNF317_MA1593.1_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c5/72630e67b7a23c15fd5dfd84851795/CDX2_M08131_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/93/251ef1907cc6e5d4b28be1543c0a51/ATF3_M08188_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e5/57ece315d4827e854c8ab37ee07e88/RXRG_RXRG_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/da/fc1840c1092bb7eb0120844dba9533/ZNF33A_M08369_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/53/736800f2457f2ef8b5563fef356747/TEAD2_M08175_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1c/b1b5452aab59882eef1c07ef11a383/ZNF8_ZNF8_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/04/23f00c81768fe70417d57d3d33c4d7/RELA_M08003_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/61/cc4cf3148b55fc4e6a694b1a807470/MEF2B_MEF2B_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/35/75a9ec39124506a14462e5d08e6f67/ZNF565_M07700_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e7/d75fa06f3424320cf5022981f85478/ZNF737_M07768_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e4/c623e7e0998d21dcd617e5ca6b51ed/TWIST1_M08052_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f9/a82be26e5e4781d7fa456000928efe/ELF1_M08198_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/01/58460ceec13383148f53e2db165fdb/SMAD2_SMAD2_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/66/92eefe074a6eb380cff9474882f26a/ZNF528_M07617_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c3/489abc5c124c8b55813c1676e169d7/FEZF1_FEZF1_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0f/d8ff0c51bb6dda2b83500d80641ceb/E2F3_E2F3_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f3/649b18eb0a748b041d67f41dbb52fa/ZNF430_M07575_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c2/e12f376e165f32299fd8531ff7765e/REST_M07846_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/75/4b6e8c6bcfab0f66e91b3f4470b310/ELK4_M07957_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c8/925331c8fbd7f5776c13155e981a75/CTCF_M07901_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/24/c9e5452cb246dc89e167ba99ab5a6f/THAP1_M08176_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/89/076eb99d39c4f4b6a808810cac355a/ZNF667_M07737_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a9/13aa140d87b081411641c4c6b47544/FOS_M07828_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/cf/32d769cd2d59c9de308638aa7b906a/HNF4A_HNF4A_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/de/889cdce73a301dacf6c913e1365e65/ZN667_ZN667_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1d/26a73e864c698400bee227a2a90590/ZNF621_M07636_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e9/105dcb713e290cec359ea7608c48c5/ZNF33A_M07695_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/25/60ed9665c5e20b16a6e43acda94290/ZNF140_MA1589.1_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d7/08c1d10dbf3ad0e4add1bc7f92c89c/PAX5_M08160_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/94/f11445afa57052a50cff1c6c5427cc/SP2_M07932_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/33/816fc0b54ce14a5aafa13f10204ed0/HNF4G_HNF4G_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a6/a513b015b54f4b8d8adc369e135ab4/AP2A_AP2A_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1b/1297608f6f3ccfb78035a1309ccfdb/CTCF_M07892_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2b/c258f23c7b66f0ca144357258e74ae/ZNF823_M07733_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f3/a70db8cce6520a304d1ecb9a8cf665/REST_M07852_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8b/bf4f1fe6ff9665f449fa1192ca8f94/ZFP14_M07592_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a3/86027e118283a81d31557817269d96/ASCL1_MA1631.1_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/66/7ae80376c10ae992613da000b7053d/THA_THA_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/15/56271ebc6bbea3875c5092fd4f864a/ZFX_ZFX_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+
+Command error:
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+
+Work dir:
+  /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6a/41195c244a2108f7d09ef65b6fd6f6
+
+Tip: you can try to figure out what's wrong by changing to the process work dir and showing the script file named `.command.sh`
+
+ -- Check 'nextflow-logs/.nextflow.log' file for details
+
+executor >  pbspro (96)
+[c1/6065ed] process > extractTFBSBeds (1359) [100%] 1360 of 1360, cached: 1360 ✔
+[b0/35a94d] process > generateBAMPaths (12)  [100%] 12 of 12, cached: 12 ✔
+[6a/41195c] process > callVariants (8)       [  3%] 6 of 156, failed: 1
+ERROR ~ Error executing process > 'callVariants (8)'
+
+Caused by:
+  Process `callVariants (8)` terminated with an error exit status (143)
+
+Command executed:
+
+  #!/usr/bin/env bash
+  
+  # Convert the list into a string separated by spaces
+  bedString="/scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/45/aa29edacd7b91b1736053666ec38ad/CTCF_M07907_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3f/72190bada5e89de856a1dcbd8f4481/ZNF487_M07782_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a8/b6a944322eab866be633427aeb300d/ZNF263_M08272_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/48/93aa9f6af800e41789158cc2f88d87/PO2F2_PO2F2_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d8/e1d86ea8194aa593987236890879ed/RELB_MA1117.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6e/9cb036820ba91cc6361eee96c511c9/CTCF_M07894_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/25/60ed9665c5e20b16a6e43acda94290/ZNF140_MA1589.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/4d/664826d937bec323d1f6727c0d5c15/CDX2_MA0465.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/da/fc1840c1092bb7eb0120844dba9533/ZNF33A_M08369_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/33/816fc0b54ce14a5aafa13f10204ed0/HNF4G_HNF4G_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a9/13aa140d87b081411641c4c6b47544/FOS_M07828_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/85/a1147d2aa7c5fc83e24f1900e7ff71/PRDM9_M07610_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c2/e12f376e165f32299fd8531ff7765e/REST_M07846_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7e/37f0a4e1dd88070d125b01656c5b25/CEBPD_MA0836.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e4/c623e7e0998d21dcd617e5ca6b51ed/TWIST1_M08052_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ef/3dadf9167af89526a1a8af79424c4c/KLF1_KLF1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2b/c258f23c7b66f0ca144357258e74ae/ZNF823_M07733_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/90/6d1dc833d98d35476444c0e00762ee/ZNF146_M08329_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fe/a5dd174ed1a4c565ae15fcb906de40/ZNF41_M08313_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/24/c9e5452cb246dc89e167ba99ab5a6f/THAP1_M08176_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/01/58460ceec13383148f53e2db165fdb/SMAD2_SMAD2_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e3/8eb24fabd011ae37622a0767911d75/SP4_MA0685.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/41/169e7ba37b4d0253c5327b73310506/ONECUT1_MA0679.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/35/75a9ec39124506a14462e5d08e6f67/ZNF565_M07700_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d7/08c1d10dbf3ad0e4add1bc7f92c89c/PAX5_M08160_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/bf/64604e9f56663a47bc1d576656f40c/ZNF682_M07718_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/72/35f0217a9a14b78d2a2d12b1c710cf/ZNF45_M07579_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/9e/b4db26480ab9982c77dc574143de65/SRF_SRF_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/de/889cdce73a301dacf6c913e1365e65/ZN667_ZN667_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/80/a8107b9e554a937aa9316ab54c771c/FOXH1_FOXH1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a3/86027e118283a81d31557817269d96/ASCL1_MA1631.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/66/7ae80376c10ae992613da000b7053d/THA_THA_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/36/2060cf85de9da4084fa9611606fd57/PBX3_M07971_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/50/1cec93e700f6a302834702826493db/GATA1_M07963_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/15/847eaebe54c1ea6d1b5dcd99bccead/MAFF_MA0495.3_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/53/736800f2457f2ef8b5563fef356747/TEAD2_M08175_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/93/251ef1907cc6e5d4b28be1543c0a51/ATF3_M08188_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a6/a513b015b54f4b8d8adc369e135ab4/AP2A_AP2A_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/38/637b4c381f6142ed36f89acfa14c7a/ZNF266_M07641_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/24/5c8808d33b0309eb038dd0d3845223/DUX4_M08135_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/4c/3a1172a1ea4a8cc9ed2d15ea1ee9ea/NR4A1_NR4A1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/15/56271ebc6bbea3875c5092fd4f864a/ZFX_ZFX_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c0/a670593557297b2150e6359819f3ac/ZNF75D_MA1601.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d9/93db57b71356384efcc24bda3a50d9/PPARG_PPARG_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/92/0b7cb9d07cd2e097225f046603b020/KLF5_M08086_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/48/02b5e2ec38daa6d266a3973e1573d2/ZBTB7A_M07937_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e5/57ece315d4827e854c8ab37ee07e88/RXRG_RXRG_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/44/5ddf8f2aea106d9f02c4c39aa1e4e1/ALX1_ALX1_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0f/17c680960372ae08d31145529811dc/STAT3_M08172_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d6/fb3f8455dbd580ab4b5f0e7b4e492b/ZNF653_M08248_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/66/92eefe074a6eb380cff9474882f26a/ZNF528_M07617_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/61/cc4cf3148b55fc4e6a694b1a807470/MEF2B_MEF2B_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/60/dbe1e369ec3e7ec45e3ef54d59d796/ZNF135_MA1587.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c8/925331c8fbd7f5776c13155e981a75/CTCF_M07901_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3c/d08ebaf1636ad97af82e1f53b73ac6/ZNF891_M07762_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6b/fb316cd04959326c24b28e9dbf845c/ZIM3_MA1709.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a3/7735d11cd51fc88ac3cd8f359ec962/HLF_MA0043.3_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1d/26a73e864c698400bee227a2a90590/ZNF621_M07636_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/35/02c41cec45ecb9536952ea8d05502d/ZFP69_M07686_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e9/105dcb713e290cec359ea7608c48c5/ZNF33A_M07695_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b1/cdb3afc99f3b678cb0634897ea70c4/MXI1_MXI1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/5c/53b1654ad226eb2d3a8b3d65f00d5b/ZNF585A_M07713_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/94/f11445afa57052a50cff1c6c5427cc/SP2_M07932_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/82/69daaa2d154f8f770197c9fe40b538/CTCF_MA1930.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8b/bf4f1fe6ff9665f449fa1192ca8f94/ZFP14_M07592_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3c/bc95be9582a1afc0c1683c1d21a066/GATA3_GATA3_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/24/accfa7e861ac472956b1956eb0ea73/MYC_M07803_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8b/e3bb3e88064830f2428c2497eeb849/DBP_DBP_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e7/d75fa06f3424320cf5022981f85478/ZNF737_M07768_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/02/d2e02d66dce653ccc0e08def6eec53/E2F6_M07939_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1b/86c52425a134b7704ee797913d7cf8/NFYA_NFYA_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/89/076eb99d39c4f4b6a808810cac355a/ZNF667_M07737_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/cf/32d769cd2d59c9de308638aa7b906a/HNF4A_HNF4A_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f6/a6deb984e6d822c83401d0f1404283/ZNF780A_M07729_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/23/7301b3f6f68f9e46b541b0811d4296/FOXO1_FOXO1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/3c/67967cac0538b8c0239dc0c91953f5/ZNF595_M08400_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/bf/a714a833de56603e8b4fcc88eeea96/NFYA_MA0060.3_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fc/b42872310c3554208ebc3d4c26fdc1/TBP_M08231_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f3/a70db8cce6520a304d1ecb9a8cf665/REST_M07852_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/7a/d46dbb9630cbcfb1a1113df2dbd0e1/GATA2_M08125_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/53/329614faece54eaf86133afc01795a/KLF7_M08298_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/22/ec5aab798966276128923c0d08f37a/USF1_M07811_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/aa/39bdda47d3a3dc6343eefbadbf5194/JUND_M07814_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f5/e1294639c33d39ac948837d6b6028d/ZNF317_MA1593.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c5/72630e67b7a23c15fd5dfd84851795/CDX2_M08131_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e9/0afe26de56d373565de550c50db885/GLIS1_M08345_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2e/ede2a311fea7c963be940074af4192/ZNF692_M08338_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/04/23f00c81768fe70417d57d3d33c4d7/RELA_M08003_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f3/649b18eb0a748b041d67f41dbb52fa/ZNF430_M07575_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/85/034ba31e32928bc30759d39a8f79a0/CEBPA_MA0102.4_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b0/fce151131189b4ed802a59fd46c93a/ZNF566_M07677_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fc/7b1059d08442bfa09b46338199c923/ZNF468_M07754_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/b6/8eaf3132cf53b22d9e41335c403f65/ZNF248_M07739_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1b/1297608f6f3ccfb78035a1309ccfdb/CTCF_M07892_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0f/d8ff0c51bb6dda2b83500d80641ceb/E2F3_E2F3_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/aa/1b84f054b5a0866c43aba4b6e219e8/GATA4_MA0482.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1c/b1b5452aab59882eef1c07ef11a383/ZNF8_ZNF8_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c3/6845d8fe62c1e2b553f06c7ccde2c0/SRF_M07984_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a3/961901fc134def3977dde9c8c0d673/ZIM3_M07591_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d1/0e3de9a106d85ea6d9cd9c78ede12e/ZKSCAN2_M07562_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/57/55f0855250e638b764e30929f18982/CREM_MA0609.2_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c3/489abc5c124c8b55813c1676e169d7/FEZF1_FEZF1_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ee/05592f492cc1b4fff82a5e39414fa4/ZNF382_M08247_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/69/182617114ae6c38625637560e288f6/CTCF_M07875_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/56/509ca0ae5f11dc109ecfc5ae60a386/POU2F2_M07974_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f9/a82be26e5e4781d7fa456000928efe/ELF1_M08198_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2c/41a97dbb0e746aee83e012b64c2fb0/SALL4_SALL4_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e0/2d8d1aa02e2149170c58b6d21f8765/ZNF454_MA1712.1_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/75/4b6e8c6bcfab0f66e91b3f4470b310/ELK4_M07957_2.00_TOBIAS_TF_binding_sites-sorted.bed /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d0/5a374aaf73884c26b83b3d506b076b/GATA6_M08124_2.00_TOBIAS_TF_binding_sites-sorted.bed"
+  
+  # Split the string into an array in bash
+  IFS=' ' read -r -a bedArray <<< "${bedString}"
+  
+  # Count number of elements in array
+  echo "No. of BED files: " "${#bedArray[@]}"
+  echo "First BED: " "${bedArray[0]}"
+  
+  mpileup_module() {
+  local BEDFILES="$1"
+  local BAMLIST="$2"
+  local DATAID="$3"
+  local FASTAFILE="$4"
+  
+  bash /mnt/runParallelMpileup.sh "$BEDFILES" "$BAMLIST" "$DATAID" "$FASTAFILE"
+  }
+  
+  # export function to be used in parallel
+  export -f mpileup_module
+  
+  # determine the number of available CPU cores
+  num_cores=$(nproc)
+  echo "Number of cores: "$num_cores
+  
+  # set arguments
+  bedFileArray="${bedArray[@]}"
+  bamPathList="36GFMD3.bamlist.txt"
+  dataID="36GFMD3"
+  
+  # Use GNU Parallel to run the commands in parallel using all available cores
+  parallel -j "$num_cores" mpileup_module ::: "${bedArray[@]}" ::: "${bamPathList}" ::: "${dataID}" ::: "/refs/GRCh38_no_alt_GCA_000001405.15.fasta"
+
+Command exit status:
+  143
+
+Command output:
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/aa/1b84f054b5a0866c43aba4b6e219e8/GATA4_MA0482.2_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/fc/b42872310c3554208ebc3d4c26fdc1/TBP_M08231_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c0/a670593557297b2150e6359819f3ac/ZNF75D_MA1601.2_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/36/2060cf85de9da4084fa9611606fd57/PBX3_M07971_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/bf/a714a833de56603e8b4fcc88eeea96/NFYA_MA0060.3_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/ee/05592f492cc1b4fff82a5e39414fa4/ZNF382_M08247_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6b/fb316cd04959326c24b28e9dbf845c/ZIM3_MA1709.1_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/23/7301b3f6f68f9e46b541b0811d4296/FOXO1_FOXO1_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1b/86c52425a134b7704ee797913d7cf8/NFYA_NFYA_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/35/02c41cec45ecb9536952ea8d05502d/ZFP69_M07686_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f5/e1294639c33d39ac948837d6b6028d/ZNF317_MA1593.1_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c5/72630e67b7a23c15fd5dfd84851795/CDX2_M08131_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/93/251ef1907cc6e5d4b28be1543c0a51/ATF3_M08188_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e5/57ece315d4827e854c8ab37ee07e88/RXRG_RXRG_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/da/fc1840c1092bb7eb0120844dba9533/ZNF33A_M08369_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/53/736800f2457f2ef8b5563fef356747/TEAD2_M08175_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1c/b1b5452aab59882eef1c07ef11a383/ZNF8_ZNF8_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/04/23f00c81768fe70417d57d3d33c4d7/RELA_M08003_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/61/cc4cf3148b55fc4e6a694b1a807470/MEF2B_MEF2B_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/35/75a9ec39124506a14462e5d08e6f67/ZNF565_M07700_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e7/d75fa06f3424320cf5022981f85478/ZNF737_M07768_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e4/c623e7e0998d21dcd617e5ca6b51ed/TWIST1_M08052_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f9/a82be26e5e4781d7fa456000928efe/ELF1_M08198_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/01/58460ceec13383148f53e2db165fdb/SMAD2_SMAD2_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/66/92eefe074a6eb380cff9474882f26a/ZNF528_M07617_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c3/489abc5c124c8b55813c1676e169d7/FEZF1_FEZF1_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/0f/d8ff0c51bb6dda2b83500d80641ceb/E2F3_E2F3_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f3/649b18eb0a748b041d67f41dbb52fa/ZNF430_M07575_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c2/e12f376e165f32299fd8531ff7765e/REST_M07846_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/75/4b6e8c6bcfab0f66e91b3f4470b310/ELK4_M07957_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/c8/925331c8fbd7f5776c13155e981a75/CTCF_M07901_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/24/c9e5452cb246dc89e167ba99ab5a6f/THAP1_M08176_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/89/076eb99d39c4f4b6a808810cac355a/ZNF667_M07737_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a9/13aa140d87b081411641c4c6b47544/FOS_M07828_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/cf/32d769cd2d59c9de308638aa7b906a/HNF4A_HNF4A_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/de/889cdce73a301dacf6c913e1365e65/ZN667_ZN667_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1d/26a73e864c698400bee227a2a90590/ZNF621_M07636_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/e9/105dcb713e290cec359ea7608c48c5/ZNF33A_M07695_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/25/60ed9665c5e20b16a6e43acda94290/ZNF140_MA1589.1_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/d7/08c1d10dbf3ad0e4add1bc7f92c89c/PAX5_M08160_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/94/f11445afa57052a50cff1c6c5427cc/SP2_M07932_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/33/816fc0b54ce14a5aafa13f10204ed0/HNF4G_HNF4G_HUMAN.H11MO.0.B_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a6/a513b015b54f4b8d8adc369e135ab4/AP2A_AP2A_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/1b/1297608f6f3ccfb78035a1309ccfdb/CTCF_M07892_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/2b/c258f23c7b66f0ca144357258e74ae/ZNF823_M07733_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/f3/a70db8cce6520a304d1ecb9a8cf665/REST_M07852_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/8b/bf4f1fe6ff9665f449fa1192ca8f94/ZFP14_M07592_2.00_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/a3/86027e118283a81d31557817269d96/ASCL1_MA1631.1_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/66/7ae80376c10ae992613da000b7053d/THA_THA_HUMAN.H11MO.0.C_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+  Parallel job to execute with mpileup: /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/15/56271ebc6bbea3875c5092fd4f864a/ZFX_ZFX_HUMAN.H11MO.0.A_TOBIAS_TF_binding_sites-sorted.bed 36GFMD3.bamlist.txt 36GFMD3 /refs/GRCh38_no_alt_GCA_000001405.15.fasta
+
+Command error:
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+  Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+  [mpileup] 40 samples in 37 input files
+  [mpileup] maximum number of reads per input file set to -d 250
+  Note: The maximum per-sample depth with -d 250 is 231.2x
+
+Work dir:
+  /scratch/users/ntu/suffiazi/tfbs-variant-calling-nf/work/6a/41195c244a2108f7d09ef65b6fd6f6
+
+Tip: you can try to figure out what's wrong by changing to the process work dir and showing the script file named `.command.sh`
+
+ -- Check 'nextflow-logs/.nextflow.log' file for details
+Pipeline completed at: 2024-03-19T14:16:55.939821665+08:00
+Execution status: failed
+WARN: Killing running tasks (90)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2024-03-19 14:17:05.174354:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 6409828.pbs101
+	Project: 12003580
+	Exit Status: 1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(4), Used(4)
+	CPU Time Used: 00:04:46
+	Memory: Requested(8gb), Used(8388608kb)
+	Vmem Used: 16321224kb
+	Walltime: Requested(120:00:00), Used(24:06:46)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (x1001c0s0b0n0:ncpus=4:mem=8388608kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	No GPU-related information available for this job.
